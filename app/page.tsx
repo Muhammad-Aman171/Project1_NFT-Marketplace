@@ -7,6 +7,7 @@ import RocketSvg from './components/svgs/rocket'
 import TopCreatorsCards from './components/topCreatorsCards/topCreatorsCard'
 import TrendingCards from './components/trendingCards/trendingCards'
 import BrowseCategories from './components/browseCategories/browseCategories'
+import MoreNfts from './components/moreNFT\'s/moreNfts'
 
 import Img1 from '@/public/assets/img1.png'
 import Img2 from '@/public/assets/Avatar Placeholder.png'
@@ -130,7 +131,7 @@ const Page: React.FC = () => {
       </div>
       <div className="  flex flex-col justify-between relative top-[80vh] h-[140vh] ">
         <h1 className="text-[3vw] font-bold ">Browse Categories</h1>
-        <div className="grid grid-cols-4 gap-[4vw] ">
+        <div className="grid grid-cols-4 gap-[2vw] ">
           <BrowseCategories srcImg={Img27} name="Art"/>
           <BrowseCategories srcImg={Img28} name="Collectibles"/>
           <BrowseCategories srcImg={Img29} name="Music"/>
@@ -141,8 +142,22 @@ const Page: React.FC = () => {
           <BrowseCategories srcImg={Img34} name="Virtual Worlds"/>
         </div>
       </div>
-      <div className="h-[100vh] ">
+      <div className="border w-[80vw] h-[100vh] relative top-[100vh]  ">
+        <div className="flex justify-between ">
+        <span>
+          <  h1>Discover More NFTs</h1>
+            <p>Explore new trending NFTs</p>
+          </span>
+          <span>
 
+            <button>See All</button>
+          </span>
+        </div>
+        <div className="grid grid-cols-3">
+          <MoreNfts/>
+          <MoreNfts/>
+          <MoreNfts/>
+        </div>
       </div>
     </div>
   )

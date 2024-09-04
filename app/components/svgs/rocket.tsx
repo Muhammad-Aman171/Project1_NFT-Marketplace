@@ -10,7 +10,7 @@ const RocketSvg: React.FC<SvgsTypes> = ({ style }) => {
         fill="white"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 32 32"
-        enable-background="new 0 0 32 32" >
+        enableBackground="new 0 0 32 32" >
         <g>
           <path 
             d="M10.243,11.992c-3.463-0.443-6.97,0.737-9.439,3.206c-0.128,0.128-0.253,0.26-0.374,0.392
