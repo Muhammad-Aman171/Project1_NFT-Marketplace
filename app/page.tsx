@@ -5,10 +5,10 @@ import { Space_Mono } from "next/font/google";
 import RocketSvg from "./components/svgs/rocket";
 import EyeSvg from "./components/svgs/eye";
 
-import TopCreatorsCards from "./components/topCreatorsCards/topCreatorsCard";
-import TrendingCards from "./components/trendingCards/trendingCards";
-import BrowseCategories from "./components/browseCategories/browseCategories";
-import MoreNfts from "./components/moreNFT's/moreNfts";
+import TopCreatorsCards from "./components/pageComponents/topCreatorsCards/topCreatorsCard";
+import TrendingCards from "./components/pageComponents/trendingCards/trendingCards";
+import BrowseCategories from "./components/pageComponents/browseCategories/browseCategories";
+import MoreNfts from "./components/pageComponents/moreNFT's/moreNfts";
 
 import Img1 from "@/public/assets/img1.png";
 import Img2 from "@/public/assets/Avatar Placeholder.png";
@@ -207,8 +207,12 @@ const Page: React.FC = () => {
 
       {/* discover more nfts is completed */}
 
+      {/* how its work section is started */}
+
       <div className="h-[300vh]">
-        nkj
+        <h1>How It Works</h1>
+        <p>Find out how to get started</p>
+        <div></div>
       </div>
 
 
