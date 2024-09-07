@@ -10,6 +10,8 @@ import TrendingCards from "./components/homePageComponents/trendingCards/trendin
 import BrowseCategories from "./components/homePageComponents/browseCategories/browseCategories";
 import MoreNfts from "./components/homePageComponents/moreNFT's/moreNfts";
 import HowItWorks from "./components/homePageComponents/how it works/howItWorks";
+import JoinDigest from "./components/homePageComponents/joinDigest/joinDigest";
+
 
 import Img1 from "@/public/assets/img1.png";
 import Img2 from "@/public/assets/Avatar Placeholder.png";
@@ -54,6 +56,7 @@ import Img40 from "@/public/assets/home page assets/more nfts/6.png";
 import Img41 from "@/public/assets/home page assets/how it works/1.png";
 import Img42 from "@/public/assets/home page assets/how it works/2.png";
 import Img43 from "@/public/assets/home page assets/how it works/3.png";
+import Img44 from "@/public/assets/Photo.png"
 
 const spaceMono = Space_Mono({
   subsets: ["latin"],
@@ -227,7 +230,7 @@ const Page: React.FC = () => {
 
       {/* how its work section is started */}
 
-      <div className="border h-[100vh] flex flex-col justify-between relative bottom-0 top-[110vh] w-[80%] ">
+      <div className=" h-[100vh] flex flex-col justify-between relative bottom-0 top-[110vh] w-[80%] ">
         <div>
           <h1 className="text-[4vw] font-semibold ">How It Works</h1>
           <p className="text-[2.5vw] font-extralight ">
@@ -252,8 +255,13 @@ const Page: React.FC = () => {
           />
         </div>
       </div>
-      <div>
-        
+      <div className="rounded-[2vw] bg-[#3B3B3B] w-[80%] h-[70vh] relative top-[130vh] flex justify-evenly items-center " >
+        <Image
+          src={Img44}
+          alt="img does not show"
+          className="bg-[#3B3B3B] w-[35vw] h-[55vh] "
+        />
+        <JoinDigest/>
       </div>
     </div>
   );

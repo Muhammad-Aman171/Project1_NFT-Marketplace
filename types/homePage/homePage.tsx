@@ -31,3 +31,4 @@ export interface HowItWorksTypes {
   heading?: string;
   para?: string;
 }
+
