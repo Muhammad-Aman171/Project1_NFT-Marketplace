@@ -5,52 +5,55 @@ import { Space_Mono } from "next/font/google";
 import RocketSvg from "./components/svgs/rocket";
 import EyeSvg from "./components/svgs/eye";
 
-import TopCreatorsCards from "./components/pageComponents/topCreatorsCards/topCreatorsCard";
-import TrendingCards from "./components/pageComponents/trendingCards/trendingCards";
-import BrowseCategories from "./components/pageComponents/browseCategories/browseCategories";
-import MoreNfts from "./components/pageComponents/moreNFT's/moreNfts";
+import TopCreatorsCards from "./components/homePageComponents/topCreatorsCards/topCreatorsCard";
+import TrendingCards from "./components/homePageComponents/trendingCards/trendingCards";
+import BrowseCategories from "./components/homePageComponents/browseCategories/browseCategories";
+import MoreNfts from "./components/homePageComponents/moreNFT's/moreNfts";
+import HowItWorks from "./components/homePageComponents/how it works/howItWorks";
 
 import Img1 from "@/public/assets/img1.png";
 import Img2 from "@/public/assets/Avatar Placeholder.png";
-import Img3 from "@/public/assets/trending collection/trending collection img1.png";
-import Img4 from "@/public/assets/trending collection/trending collection img5.png";
-import Img5 from "@/public/assets/trending collection/trending collection img7.png";
-import Img6 from "@/public/assets/trending collection/trending collection img2.png";
-import Img7 from "@/public/assets/trending collection/trending collection img4.png";
-import Img8 from "@/public/assets/trending collection/trending collection img8.png";
-import Img9 from "@/public/assets/trending collection/trending collection img3.png";
-import Img10 from "@/public/assets/trending collection/trending collection img6.png";
-import Img11 from "@/public/assets/trending collection/trending collection img9.png";
-import Img12 from "@/public/assets/trending collection/Avatar Placeholder.png";
-import Img13 from "@/public/assets/trending collection/Avatar Placeholder (1).png";
-import Img14 from "@/public/assets/trending collection/Avatar Placeholder (2).png";
-import Img15 from "@/public/assets/top creators/1.png";
-import Img16 from "@/public/assets/top creators/2.png";
-import Img17 from "@/public/assets/top creators/3.png";
-import Img18 from "@/public/assets/top creators/4.png";
-import Img19 from "@/public/assets/top creators/5.png";
-import Img20 from "@/public/assets/top creators/6.png";
-import Img21 from "@/public/assets/top creators/7.png";
-import Img22 from "@/public/assets/top creators/8.png";
-import Img23 from "@/public/assets/top creators/9.png";
-import Img24 from "@/public/assets/top creators/10.png";
-import Img25 from "@/public/assets/top creators/11.png";
-import Img26 from "@/public/assets/top creators/12.png";
-import Img27 from "@/public/assets/browse cate/1.png";
-import Img28 from "@/public/assets/browse cate/2.png";
-import Img29 from "@/public/assets/browse cate/3.png";
-import Img30 from "@/public/assets/browse cate/4.png";
-import Img31 from "@/public/assets/browse cate/5.png";
-import Img32 from "@/public/assets/browse cate/6.png";
-import Img33 from "@/public/assets/browse cate/7.png";
-import Img34 from "@/public/assets/browse cate/8.png";
-import Img35 from '@/public/assets/more nfts/1.png';
-import Img36 from '@/public/assets/more nfts/2.png';
-import Img37 from '@/public/assets/more nfts/3.png';
-import Img38 from '@/public/assets/more nfts/4.png';
-import Img39 from '@/public/assets/more nfts/5.png';
-import Img40 from '@/public/assets/more nfts/6.png';
-
+import Img3 from "@/public/assets/home page assets/trending collection/trending collection img1.png";
+import Img4 from "@/public/assets/home page assets/trending collection/trending collection img5.png";
+import Img5 from "@/public/assets/home page assets/trending collection/trending collection img7.png";
+import Img6 from "@/public/assets/home page assets/trending collection/trending collection img2.png";
+import Img7 from "@/public/assets/home page assets/trending collection/trending collection img4.png";
+import Img8 from "@/public/assets/home page assets/trending collection/trending collection img8.png";
+import Img9 from "@/public/assets/home page assets/trending collection/trending collection img3.png";
+import Img10 from "@/public/assets/home page assets/trending collection/trending collection img6.png";
+import Img11 from "@/public/assets/home page assets/trending collection/trending collection img9.png";
+import Img12 from "@/public/assets/home page assets/trending collection/Avatar Placeholder.png";
+import Img13 from "@/public/assets/home page assets/trending collection/Avatar Placeholder (1).png";
+import Img14 from "@/public/assets/home page assets/trending collection/Avatar Placeholder (2).png";
+import Img15 from "@/public/assets/home page assets/top creators/1.png";
+import Img16 from "@/public/assets/home page assets/top creators/2.png";
+import Img17 from "@/public/assets/home page assets/top creators/3.png";
+import Img18 from "@/public/assets/home page assets/top creators/4.png";
+import Img19 from "@/public/assets/home page assets/top creators/5.png";
+import Img20 from "@/public/assets/home page assets/top creators/6.png";
+import Img21 from "@/public/assets/home page assets/top creators/7.png";
+import Img22 from "@/public/assets/home page assets/top creators/8.png";
+import Img23 from "@/public/assets/home page assets/top creators/9.png";
+import Img24 from "@/public/assets/home page assets/top creators/10.png";
+import Img25 from "@/public/assets/home page assets/top creators/11.png";
+import Img26 from "@/public/assets/home page assets/top creators/12.png";
+import Img27 from "@/public/assets/home page assets/browse cate/1.png";
+import Img28 from "@/public/assets/home page assets/browse cate/2.png";
+import Img29 from "@/public/assets/home page assets/browse cate/3.png";
+import Img30 from "@/public/assets/home page assets/browse cate/4.png";
+import Img31 from "@/public/assets/home page assets/browse cate/5.png";
+import Img32 from "@/public/assets/home page assets/browse cate/6.png";
+import Img33 from "@/public/assets/home page assets/browse cate/7.png";
+import Img34 from "@/public/assets/home page assets/browse cate/8.png";
+import Img35 from "@/public/assets/home page assets/more nfts/1.png";
+import Img36 from "@/public/assets/home page assets/more nfts/2.png";
+import Img37 from "@/public/assets/home page assets/more nfts/3.png";
+import Img38 from "@/public/assets/home page assets/more nfts/4.png";
+import Img39 from "@/public/assets/home page assets/more nfts/5.png";
+import Img40 from "@/public/assets/home page assets/more nfts/6.png";
+import Img41 from "@/public/assets/home page assets/how it works/1.png";
+import Img42 from "@/public/assets/home page assets/how it works/2.png";
+import Img43 from "@/public/assets/home page assets/how it works/3.png";
 
 const spaceMono = Space_Mono({
   subsets: ["latin"],
@@ -199,9 +202,24 @@ const Page: React.FC = () => {
           </span>
         </div>
         <div className="grid grid-cols-3 gap-[2vw] ">
-          <MoreNfts srcImg1={Img35} srcImg2={Img38} name="Distant Galaxy" imgName="MoonDancer" />
-          <MoreNfts srcImg1={Img36} srcImg2={Img39} name="Life On Edena" imgName="NebulaKid" />
-          <MoreNfts srcImg1={Img37} srcImg2={Img40} name="AstroFiction" imgName="Spaceone" />
+          <MoreNfts
+            srcImg1={Img35}
+            srcImg2={Img38}
+            name="Distant Galaxy"
+            imgName="MoonDancer"
+          />
+          <MoreNfts
+            srcImg1={Img36}
+            srcImg2={Img39}
+            name="Life On Edena"
+            imgName="NebulaKid"
+          />
+          <MoreNfts
+            srcImg1={Img37}
+            srcImg2={Img40}
+            name="AstroFiction"
+            imgName="Spaceone"
+          />
         </div>
       </div>
 
@@ -209,13 +227,34 @@ const Page: React.FC = () => {
 
       {/* how its work section is started */}
 
-      <div className="h-[300vh]">
-        <h1>How It Works</h1>
-        <p>Find out how to get started</p>
-        <div></div>
+      <div className="border h-[100vh] flex flex-col justify-between relative bottom-0 top-[110vh] w-[80%] ">
+        <div>
+          <h1 className="text-[4vw] font-semibold ">How It Works</h1>
+          <p className="text-[2.5vw] font-extralight ">
+            Find out how to get started
+          </p>
+        </div>
+        <div className="grid grid-cols-3 gap-[2vw]   ">
+          <HowItWorks
+            srcImg={Img41}
+            heading="Setup Your wallet"
+            para="Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner."
+          />
+          <HowItWorks
+            srcImg={Img42}
+            heading="Create Collection"
+            para="Upload your work and setup your collection. Add a description, social links and floor price."
+          />
+          <HowItWorks
+            srcImg={Img43}
+            heading="Start Earning"
+            para="Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
+          />
+        </div>
       </div>
-
-
+      <div>
+        
+      </div>
     </div>
   );
 };

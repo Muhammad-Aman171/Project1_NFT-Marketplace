@@ -25,3 +25,9 @@ export interface MoreNftsTypes {
   name?: string;
   imgName?: string;
 }
+
+export interface HowItWorksTypes {
+  srcImg?: string | StaticImageData;
+  heading?: string;
+  para?: string;
+}
