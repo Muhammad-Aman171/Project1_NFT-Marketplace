@@ -8,7 +8,7 @@ import {TopCreatorsTypes} from '@/types/homePage/homePage'
 
 const TopCreatorsCards: React.FC<TopCreatorsTypes> = ({srcImg,name}) => {
   return (
-    <div className=" rounded-[1vw] bg-[#3B3B3B] w-[18vw] h-[30vh] flex flex-col  items-center justify-evenly ">
+    <div className=" rounded-[1vw] bg-[#3B3B3B] w-[18vw] h-[40vh] flex flex-col  items-center justify-evenly ">
       <Image 
         src={srcImg!}
         alt="Img does note show"

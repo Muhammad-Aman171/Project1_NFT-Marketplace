@@ -14,7 +14,7 @@ const spaceMono = Space_Mono({
 
 const Footer: React.FC = () => {
   return (
-    <div className=" mt-[150vh] bg-[#3B3B3B] h-[40vh] w-[98.5vw] flex justify-evenly items-center ">
+    <div className="  bg-[#3B3B3B] h-[40vh] w-[98.5vw] flex justify-evenly items-center ">
       <div className=" h-[30vh] w-[20vw] bg-[#3B3B3B] flex flex-col justify-between ">
         <span className="flex items-center bg-[#3B3B3B]  ">
           <StoreSvg style="w-[3vw] bg-[#3B3B3B]  " />

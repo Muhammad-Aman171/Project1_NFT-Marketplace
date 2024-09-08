@@ -12,7 +12,6 @@ import MoreNfts from "./components/homePageComponents/moreNFT's/moreNfts";
 import HowItWorks from "./components/homePageComponents/how it works/howItWorks";
 import JoinDigest from "./components/homePageComponents/joinDigest/joinDigest";
 
-
 import Img1 from "@/public/assets/img1.png";
 import Img2 from "@/public/assets/Avatar Placeholder.png";
 import Img3 from "@/public/assets/home page assets/trending collection/trending collection img1.png";
@@ -56,7 +55,7 @@ import Img40 from "@/public/assets/home page assets/more nfts/6.png";
 import Img41 from "@/public/assets/home page assets/how it works/1.png";
 import Img42 from "@/public/assets/home page assets/how it works/2.png";
 import Img43 from "@/public/assets/home page assets/how it works/3.png";
-import Img44 from "@/public/assets/Photo.png"
+import Img44 from "@/public/assets/Photo.png";
 
 const spaceMono = Space_Mono({
   subsets: ["latin"],
@@ -65,8 +64,8 @@ const spaceMono = Space_Mono({
 
 const Page: React.FC = () => {
   return (
-    <div className="flex items-center flex-col">
-      <div className="flex justify-center gap-x-[4vw] relative top-[15vh] ">
+    <div className="flex items-center flex-col gap-y-[20vh] ">
+      <div className=" flex justify-center gap-x-[4vw]  w-[80vw]   mt-[15vh] ">
         <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly  ">
           <h1 className="text-[6vw] font-semibold leading-[12vh] ">
             Discover Digital Art & Collect NFTs
@@ -115,7 +114,7 @@ const Page: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className=" relative top-[30vh]  ">
+      <div className="  my-[10vh]  ">
         <h1 className="text-[2.5vw] font-semibold  ">Trending Collection</h1>
         <p className="text-[1.5vw] font-light h-[12vh] ">
           Checkout our weekly updated trending collection.
@@ -147,7 +146,7 @@ const Page: React.FC = () => {
           />
         </div>
       </div>
-      <div className="relative top-[40vh]  w-[80vw] ">
+      <div className=" my-[10vh] h-[153vh]  w-[80vw] ">
         <div className=" grid grid-cols-[62vw_2fr] justify-center items-end  ">
           <span>
             <h1 className=" text-[2.5vw] font-semibold ">Top Creators</h1>
@@ -160,7 +159,7 @@ const Page: React.FC = () => {
             <button className="text-[1vw] font-medium">View Rankings</button>
           </span>
         </div>
-        <div className="relative top-[10vh]  grid grid-cols-4 gap-y-[2vw]">
+        <div className=" mt-[10vh]  grid grid-cols-4 gap-y-[2vw]">
           <TopCreatorsCards srcImg={Img15} name="Keepitreal" />
           <TopCreatorsCards srcImg={Img16} name="DigiLab" />
           <TopCreatorsCards srcImg={Img17} name="GravityOne" />
@@ -175,7 +174,7 @@ const Page: React.FC = () => {
           <TopCreatorsCards srcImg={Img26} name="Ghiblier" />
         </div>
       </div>
-      <div className="  flex flex-col justify-between relative top-[80vh] h-[140vh] ">
+      <div className="  flex flex-col justify-between   h-[140vh] ">
         <h1 className="text-[3vw] font-bold ">Browse Categories</h1>
         <div className="grid grid-cols-4 gap-[2vw] ">
           <BrowseCategories srcImg={Img27} name="Art" />
@@ -191,7 +190,7 @@ const Page: React.FC = () => {
 
       {/* discover more nfts is started */}
 
-      <div className=" w-[80vw] h-[115vh] relative top-[100vh] flex flex-col justify-between ">
+      <div className=" w-[80vw] h-[115vh]   flex flex-col justify-between ">
         <div className=" flex justify-between items-center ">
           <span>
             <h1 className="text-[4vw] font-medium ">Discover More NFTs</h1>
@@ -230,7 +229,7 @@ const Page: React.FC = () => {
 
       {/* how its work section is started */}
 
-      <div className=" h-[100vh] flex flex-col justify-between relative bottom-0 top-[110vh] w-[80%] ">
+      <div className=" h-[100vh] flex flex-col justify-between w-[80%] ">
         <div>
           <h1 className="text-[4vw] font-semibold ">How It Works</h1>
           <p className="text-[2.5vw] font-extralight ">
@@ -255,13 +254,13 @@ const Page: React.FC = () => {
           />
         </div>
       </div>
-      <div className="rounded-[2vw] bg-[#3B3B3B] w-[80%] h-[70vh] relative top-[130vh] flex justify-evenly items-center " >
+      <div className="rounded-[2vw] bg-[#3B3B3B] w-[80%] h-[70vh] mb-[20vh]  flex justify-evenly items-center ">
         <Image
           src={Img44}
           alt="img does not show"
           className="bg-[#3B3B3B] w-[35vw] h-[55vh] "
         />
-        <JoinDigest/>
+        <JoinDigest />
       </div>
     </div>
   );
