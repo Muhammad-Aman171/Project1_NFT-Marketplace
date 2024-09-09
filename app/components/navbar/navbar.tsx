@@ -11,7 +11,7 @@ const spaceMone = Space_Mono({
 })
 const Navbar: React.FC = () => {
   return (
-    <div className=" flex justify-between h-[9vh] w-[98vw] ">
+    <div className="flex justify-between items-center h-[12vh] w-[98vw] ">
       <div className="flex items-center relative left-[2vw]  ">
         <StoreSvg style="w-[3vw]  " />
         <h1 className={`${spaceMone.className} text-[1.5vw]`} ><Link href={"/"} className="font-bold" >NFT Makrketplace</Link></h1>
