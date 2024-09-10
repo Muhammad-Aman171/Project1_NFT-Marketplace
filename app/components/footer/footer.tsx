@@ -10,6 +10,7 @@ import InstagramSvg from "../svgs/instagram";
 const spaceMono = Space_Mono({
   subsets:["latin"],
   weight:"400",
+  display: "swap",
 })
 
 const Footer: React.FC = () => {
