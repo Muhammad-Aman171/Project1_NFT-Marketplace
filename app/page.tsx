@@ -67,10 +67,10 @@ const Page: React.FC = () => {
     <div className="flex items-center flex-col gap-y-[20vh] ">
       <div className=" flex justify-center gap-x-[4vw]  w-[80vw]   mt-[15vh] ">
         <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly  ">
-          <h1 className="text-[6vw] font-semibold leading-[12vh] ">
+          <h1 className="text-[6vw] font-semibold leading-[15vh] ">
             Discover Digital Art & Collect NFTs
           </h1>
-          <p className="text-[1.9vw] font-light ">
+          <p className="text-[1.9vw] font-light  ">
             NFT marketplace UI created with Anima for Figma. Collect, buy and
             sell art from more than 20k NFT artists.
           </p>
