@@ -1,13 +1,20 @@
+import { StaticImageData } from "next/image";
 import React from "react";
 import Image from "next/image";
 import { Space_Mono } from "next/font/google";
 
-import { TopCreatorsTypes } from "@/types/homePage/homePage";
 
 const spaceMono = Space_Mono({
     subsets:["latin"],
     weight: "400",
 })
+
+export type TopCreatorsTypes= {
+  para?: string;
+  srcImg?: string | StaticImageData | undefined;
+  name?: string;
+}
+
 
 const TopCreators:React.FC<TopCreatorsTypes> = ({srcImg,name,para}) => {
   return (
