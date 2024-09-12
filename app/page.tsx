@@ -66,7 +66,7 @@ const Page: React.FC = () => {
   return (
     <div className="flex items-center flex-col gap-y-[20vh] ">
       <div className=" flex justify-center gap-x-[4vw]  w-[80vw]   mt-[15vh] ">
-        <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly  ">
+        <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly md:hidden ">
           <h1 className="text-[6vw] font-semibold leading-[15vh] ">
             Discover Digital Art & Collect NFTs
           </h1>
