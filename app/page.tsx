@@ -65,18 +65,18 @@ const spaceMono = Space_Mono({
 const Page: React.FC = () => {
   return (
     <div className="flex items-center flex-col gap-y-[20vh] ">
-      <div className=" flex justify-center gap-x-[4vw]  w-[80vw]   mt-[15vh] ">
-        <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly md:hidden ">
-          <h1 className="text-[6vw] font-semibold leading-[15vh] ">
+      <div className=" flex justify-center gap-x-[4vw] w-[80vw] mt-[15vh] max-md:border max-md:h-[70vh] max-md:w-[95vw]  ">
+        <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly  max-md:h-[65vh]   ">
+          <h1 className="text-[6vw] font-semibold leading-[15vh] max-md:text-[4.5vw] max-md:leading-9 ">
             Discover Digital Art & Collect NFTs
           </h1>
-          <p className="text-[1.9vw] font-light  ">
+          <p className="text-[1.9vw] font-light max-md:text-[2vw] max-md:h-[]  ">
             NFT marketplace UI created with Anima for Figma. Collect, buy and
             sell art from more than 20k NFT artists.
           </p>
-          <div className=" rounded-[1vw] cursor-pointer bg-[#A259FF] h-[7vh] w-[12vw] flex items-center justify-evenly text-[1vw] ">
-            <RocketSvg style="  h-[6vh] font-bold bg-[#A259FF] w-[1.5vw] text-[#ffffff] " />{" "}
-            <button>Get Started</button>
+          <div className=" rounded-[1vw] cursor-pointer bg-[#A259FF] h-[7vh] w-[12vw] flex items-center justify-evenly text-[1vw] max-md:w-[20vw] ">
+            <RocketSvg style="  h-[6vh] font-bold bg-[#A259FF] w-[1.5vw] text-[#ffffff] max-md:w-[2.5vw]  " />
+            <button className="max-md:text-[2vw]">Get Started</button>
           </div>
           <div className=" w-[100%] flex justify-between  ">
             <div className="text-[2vw] ">
@@ -93,27 +93,28 @@ const Page: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className=" rounded-[2vw] h-[70vh]  ">
+        <div className=" rounded-[2vw] h-[70vh] max-md:h-[30vh]  ">
           <Image
             src={Img1}
             alt="img1 does not show"
-            className="w-[40vw] h-[65vh]  "
+            className="w-[40vw] h-[65vh] max-md:h-[50vh] "
           />
-          <div className="rounded-b-[2vw]  bg-[#3B3B3B] h-[10vh] flex flex-col justify-around ">
-            <p className="  relative left-[1vw] w-[10vw] text-[1.2vw] font-semibold  bg-[#3B3B3B] ">
+          <div className="rounded-b-[2vw]  bg-[#3B3B3B] h-[10vh] flex flex-col justify-around max-md:h-[10vh] max-md:leading-3 ">
+            <p className="  relative left-[1vw] w-[10vw] text-[1.2vw] font-semibold  bg-[#3B3B3B] max-md:text-[3vw] max-md:w-[30vw] max-md:ml-[2vw]  ">
               Space Walking
             </p>
-            <div className=" flex relative left-[1vw] bg-[#3B3B3B]  w-[7vw] justify-between ">
+            <div className=" flex relative left-[1vw] bg-[#3B3B3B]  w-[7vw] justify-between max-md:items-center  max-md:ml-[2vw]   ">
               <Image
                 src={Img2}
                 alt="img2 does not show"
-                className="bg-[#3B3B3B] w-[1.5vw] "
+                className="bg-[#3B3B3B] w-[1.5vw]  max-md:w-[5vw] "
               />
-              <p className="bg-[#3B3B3B] text-[1vw] font-light ">Animakid</p>
+              <p className="bg-[#3B3B3B] text-[1vw] font-light max-md:text-[2vw] ">Animakid</p>
             </div>
           </div>
         </div>
       </div>
+
       <div className="  my-[10vh]  ">
         <h1 className="text-[2.5vw] font-semibold  ">Trending Collection</h1>
         <p className="text-[1.5vw] font-light h-[12vh] ">
