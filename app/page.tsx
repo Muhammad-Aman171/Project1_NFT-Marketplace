@@ -59,45 +59,47 @@ import Img44 from "@/public/assets/Photo.png";
 
 const spaceMono = Space_Mono({
   subsets: ["latin"],
-  weight: "400",
+  weight: "700",
 });
 
 const Page: React.FC = () => {
   return (
     <div className="flex items-center flex-col gap-y-[20vh] ">
-      <div className=" flex justify-center gap-x-[4vw] w-[80vw] mt-[15vh] max-md:border max-md:h-[70vh] max-md:w-[95vw]  ">
-        <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly  max-md:h-[65vh]   ">
-          <h1 className="text-[6vw] font-semibold leading-[15vh] max-md:text-[4.5vw] max-md:leading-9 ">
+      {/* section1 is started */}
+      <div className=" flex justify-center gap-x-[4vw] w-[80vw] mt-[15vh]    max-sm:grid max-sm:grid-cols-1 max-sm:w-[90vw]        max-md:border   max-md:h-[60vh] max-md:w-[95vw]  ">
+        <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly max-sm:w-[85vw] max-md:border   max-md:h-[58vh] max-md:w-[45%]  ">
+          <h1 className="text-[6vw] font-semibold leading-[15vh]    max-sm:text-[8vw] max-sm:leading-[5vh]  max-md:text-[5vw] max-md:leading-9 ">
             Discover Digital Art & Collect NFTs
           </h1>
-          <p className="text-[1.9vw] font-light max-md:text-[2vw] max-md:h-[]  ">
+          <p className="text-[1.9vw] font-light max-md:text-[2.2vw]   ">
             NFT marketplace UI created with Anima for Figma. Collect, buy and
             sell art from more than 20k NFT artists.
           </p>
-          <div className=" rounded-[1vw] cursor-pointer bg-[#A259FF] h-[7vh] w-[12vw] flex items-center justify-evenly text-[1vw] max-md:w-[20vw] ">
-            <RocketSvg style="  h-[6vh] font-bold bg-[#A259FF] w-[1.5vw] text-[#ffffff] max-md:w-[2.5vw]  " />
-            <button className="max-md:text-[2vw]">Get Started</button>
+          <div className=" rounded-[1vw] cursor-pointer bg-[#A259FF] h-[7vh] w-[12vw] flex items-center justify-evenly text-[1vw]   max-md:rounded-[3vw] max-md:w-[25vw] ">
+            <RocketSvg style="  h-[6vh] font-bold bg-[#A259FF] w-[1.5vw] text-[#ffffff] max-md:w-[3vw]  " />
+            <button className="max-md:text-[2.5vw]">Get Started</button>
           </div>
           <div className=" w-[100%] flex justify-between  ">
             <div className="text-[2vw] ">
-              <h1 className={`${spaceMono.className} font-ligth `}>240k+ </h1>
+              <h1 className={`${spaceMono.className} font-extrabold  max-md:text-[3vw]  `}>240k+ </h1>
               <p className="font-light">Total Sale</p>
             </div>
             <div className="text-[2vw] ">
-              <h1 className={`${spaceMono.className}`}>100k+</h1>
+              <h1 className={`${spaceMono.className} max-md:text-[3vw]`}>100k+</h1>
               <p className="font-light">Auctions</p>
             </div>
             <div className="text-[2vw] ">
-              <h1 className={`${spaceMono.className}`}>240k+</h1>
+              <h1 className={`${spaceMono.className} max-md:text-[3vw]`}>240k+</h1>
               <p className="font-light">Artists</p>
             </div>
           </div>
         </div>
-        <div className=" rounded-[2vw] h-[70vh] max-md:h-[30vh]  ">
+        
+        <div className=" rounded-[2vw] h-[70vh] max-md:h-[30vh] max-md:w-[50%]    ">
           <Image
             src={Img1}
             alt="img1 does not show"
-            className="w-[40vw] h-[65vh] max-md:h-[50vh] "
+            className="w-[40vw] h-[65vh] max-md:h-[45vh] max-md:w-[100%] "
           />
           <div className="rounded-b-[2vw]  bg-[#3B3B3B] h-[10vh] flex flex-col justify-around max-md:h-[10vh] max-md:leading-3 ">
             <p className="  relative left-[1vw] w-[10vw] text-[1.2vw] font-semibold  bg-[#3B3B3B] max-md:text-[3vw] max-md:w-[30vw] max-md:ml-[2vw]  ">
@@ -109,19 +111,24 @@ const Page: React.FC = () => {
                 alt="img2 does not show"
                 className="bg-[#3B3B3B] w-[1.5vw]  max-md:w-[5vw] "
               />
-              <p className="bg-[#3B3B3B] text-[1vw] font-light max-md:text-[2vw] ">Animakid</p>
+              <p className="bg-[#3B3B3B] text-[1vw] font-light max-md:text-[2vw] ">
+                Animakid
+              </p>
             </div>
           </div>
         </div>
       </div>
+      {/* section1 is completed */}
 
+      {/* section2 is started */}
       <div className="  my-[10vh]  ">
-        <h1 className="text-[2.5vw] font-semibold  ">Trending Collection</h1>
-        <p className="text-[1.5vw] font-light h-[12vh] ">
+        <h1 className="text-[2.5vw] font-semibold max-md:text-[4.5vw] ">Trending Collection</h1>
+        <p className="text-[1.5vw] font-light h-[12vh] max-md:text-[2.5vw]  ">
           Checkout our weekly updated trending collection.
         </p>
-        <div className=" grid grid-cols-3 gap-[5vw] justify-items-center ">
+        <div className=" grid grid-cols-3 gap-[5vw] justify-items-center  max-md:grid-cols-2 max-md:w-[90vw] ">
           <TrendingCards
+            style="max-md:border"
             srcImg1={Img3}
             srcImg2={Img6}
             srcImg3={Img9}
@@ -138,6 +145,7 @@ const Page: React.FC = () => {
             personName="Shroomie"
           />
           <TrendingCards
+            style="max-md:hidden  "
             srcImg1={Img5}
             srcImg2={Img8}
             srcImg3={Img11}
@@ -147,6 +155,9 @@ const Page: React.FC = () => {
           />
         </div>
       </div>
+      {/* section2 is completed */}
+
+      {/* section3 is started */}
       <div className=" my-[10vh] h-[153vh]  w-[80vw] ">
         <div className=" grid grid-cols-[62vw_2fr] justify-center items-end  ">
           <span>
@@ -175,6 +186,9 @@ const Page: React.FC = () => {
           <TopCreatorsCards srcImg={Img26} name="Ghiblier" />
         </div>
       </div>
+      {/* section4 is completed */}
+
+      {/* section5 is started */}
       <div className="  flex flex-col justify-between   h-[140vh] ">
         <h1 className="text-[3vw] font-bold ">Browse Categories</h1>
         <div className="grid grid-cols-4 gap-[2vw] ">

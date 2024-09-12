@@ -9,9 +9,9 @@ const spaceMono = Space_Mono({
   weight: "400",
 })
 
-const TrendingCards: React.FC<TrendingCollectionTypes> = ({heading,personName,srcImg1,srcImg2,srcImg3,srcImg4 }) => {
+const TrendingCards: React.FC<TrendingCollectionTypes> = ({style,heading,personName,srcImg1,srcImg2,srcImg3,srcImg4 }) => {
   return (
-    <div className=" h-[75vh] flex flex-col justify-between " >
+    <div className={` ${style}  h-[75vh] flex flex-col justify-between max-md:w-[90vw] `} >
       <Image
         src={srcImg1!}
         alt="img1 does not show"

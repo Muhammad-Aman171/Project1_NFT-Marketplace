@@ -1,6 +1,7 @@
 import { StaticImageData } from "next/image";
 
 export interface TrendingCollectionTypes {
+  style?:string;
   srcImg1?: string | StaticImageData;
   srcImg2?: string | StaticImageData;
   srcImg3?: string | StaticImageData;
