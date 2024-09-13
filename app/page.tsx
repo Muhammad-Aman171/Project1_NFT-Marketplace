@@ -81,20 +81,28 @@ const Page: React.FC = () => {
           </div>
           <div className=" w-[100%] flex justify-between  ">
             <div className="text-[2vw] ">
-              <h1 className={`${spaceMono.className} font-extrabold  max-md:text-[3vw]  `}>240k+ </h1>
+              <h1
+                className={`${spaceMono.className} font-extrabold  max-md:text-[3vw]  `}
+              >
+                240k+{" "}
+              </h1>
               <p className="font-light">Total Sale</p>
             </div>
             <div className="text-[2vw] ">
-              <h1 className={`${spaceMono.className} max-md:text-[3vw]`}>100k+</h1>
+              <h1 className={`${spaceMono.className} max-md:text-[3vw]`}>
+                100k+
+              </h1>
               <p className="font-light">Auctions</p>
             </div>
             <div className="text-[2vw] ">
-              <h1 className={`${spaceMono.className} max-md:text-[3vw]`}>240k+</h1>
+              <h1 className={`${spaceMono.className} max-md:text-[3vw]`}>
+                240k+
+              </h1>
               <p className="font-light">Artists</p>
             </div>
           </div>
         </div>
-        
+
         <div className=" rounded-[2vw] h-[70vh] max-md:h-[30vh] max-md:w-[50%]    ">
           <Image
             src={Img1}
@@ -121,14 +129,16 @@ const Page: React.FC = () => {
       {/* section1 is completed */}
 
       {/* section2 is started */}
-      <div className="  my-[10vh]  ">
-        <h1 className="text-[2.5vw] font-semibold max-md:text-[4.5vw] ">Trending Collection</h1>
+      <div className="  my-[10vh] max-md:border ">
+        <h1 className="text-[2.5vw] font-semibold max-md:text-[4.5vw] ">
+          Trending Collection
+        </h1>
         <p className="text-[1.5vw] font-light h-[12vh] max-md:text-[2.5vw]  ">
           Checkout our weekly updated trending collection.
         </p>
-        <div className=" grid grid-cols-3 gap-[5vw] justify-items-center  max-md:grid-cols-2 max-md:w-[90vw] ">
+        <div className=" grid grid-cols-3 gap-[5vw] justify-items-center    max-md:border   max-md:grid-cols-2 max-md:w-[90vw]  ">
           <TrendingCards
-            style="max-md:border"
+            style="max-md:w-[42vw] max-md:h-[78vh]  "
             srcImg1={Img3}
             srcImg2={Img6}
             srcImg3={Img9}
@@ -137,6 +147,7 @@ const Page: React.FC = () => {
             personName="MrFox"
           />
           <TrendingCards
+            style="max-md:w-[42vw]  max-md:h-[78vh] "
             srcImg1={Img4}
             srcImg2={Img7}
             srcImg3={Img10}
@@ -159,19 +170,19 @@ const Page: React.FC = () => {
 
       {/* section3 is started */}
       <div className=" my-[10vh] h-[153vh]  w-[80vw] ">
-        <div className=" grid grid-cols-[62vw_2fr] justify-center items-end  ">
-          <span>
-            <h1 className=" text-[2.5vw] font-semibold ">Top Creators</h1>
-            <p className=" text-[1.5vw] font-light ">
+        <div className=" grid grid-cols-[62vw_2fr] justify-center items-end   ">
+          <span className=" max-md:w-[50vw]  ">
+            <h1 className=" text-[2.5vw] font-semibold   max-md:text-[4vw] ">Top Creators</h1>
+            <p className=" text-[1.5vw] font-light max-md:text-[2.5vw]  ">
               Checkout Top Rated Creators on the NFT Marketplace
             </p>
           </span>
-          <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[15vw] h-[7vh] ">
-            <RocketSvg style="  h-[5vh] font-bold  w-[1.2vw] " />
-            <button className="text-[1vw] font-medium">View Rankings</button>
+          <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[15vw] h-[7vh]  max-md:w-[25vw]  max-md:h-[9vh]  ">
+            <RocketSvg style="  h-[5vh] font-bold w-[1.2vw]  max-md:w-[3vw] " />
+            <button className="text-[1vw] font-medium  max-md:text-[2vw] ">View Rankings</button>
           </span>
         </div>
-        <div className=" mt-[10vh]  grid grid-cols-4 gap-y-[2vw]">
+        <div className=" mt-[10vh]  grid grid-cols-4 gap-y-[2vw] max-md:grid-cols-2    ">
           <TopCreatorsCards srcImg={Img15} name="Keepitreal" />
           <TopCreatorsCards srcImg={Img16} name="DigiLab" />
           <TopCreatorsCards srcImg={Img17} name="GravityOne" />
@@ -186,9 +197,9 @@ const Page: React.FC = () => {
           <TopCreatorsCards srcImg={Img26} name="Ghiblier" />
         </div>
       </div>
-      {/* section4 is completed */}
+      {/* section3 is completed */}
 
-      {/* section5 is started */}
+      {/* section4 is started */}
       <div className="  flex flex-col justify-between   h-[140vh] ">
         <h1 className="text-[3vw] font-bold ">Browse Categories</h1>
         <div className="grid grid-cols-4 gap-[2vw] ">
