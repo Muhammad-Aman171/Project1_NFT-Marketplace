@@ -12,24 +12,24 @@ const spaceMono = Space_Mono({
   weight: "400",
 });
 
-const MoreNfts: React.FC<MoreNftsTypes> = ({srcImg1,srcImg2,name,imgName}) => {
+const MoreNfts: React.FC<MoreNftsTypes> = ({ style,srcImg1,srcImg2,name,imgName}) => {
   return (
-    <div className=" rounded-[1.5vw] bg-[#3B3B3B]  w-[25vw] h-[80vh] flex flex-col items-center justify-between ">
+    <div className={`${style} rounded-[1.5vw] bg-[#3B3B3B]  w-[25vw] h-[80vh] flex flex-col items-center justify-between   max-md:w-[43vw] max-md:h-[70vh] max-md:rounded-[3.5vw]   `}>
       <Image
         src={srcImg1!}
         alt="img does not show"
-        className="w-[40vw] h-[50vh] "
+        className="w-[40vw] h-[50vh]  max-md:w-[43vw] max-md:h-[45vh] "
       />
-      <div className=" relative bottom-[2vh] bg-[#3B3B3B] w-[80%] h-[30%] flex flex-col justify-between ">
+      <div className=" relative bottom-[2vh] bg-[#3B3B3B] w-[80%] h-[30%] flex flex-col justify-between max-md:h-[22vh]  ">
         <div>
-          <p className="bg-[#3B3B3B] text-[1.7vw] font-semibold ">{name}</p>
-          <span className=" flex  bg-[#3B3B3B] ">
+          <p className="bg-[#3B3B3B] text-[1.7vw] font-semibold  max-md:text-[3vw] ">{name}</p>
+          <span className=" flex items-center  bg-[#3B3B3B]  ">
             <Image
               src={srcImg2!}
               alt="img does not show"
-              className="bg-[#3B3B3B]"
+              className="bg-[#3B3B3B] max-md:w-[4vw]"
             />
-            <p className={`  bg-[#3B3B3B] relative left-[1vw]  ${spaceMono.className}`}>{imgName}</p>
+            <p className={`  bg-[#3B3B3B] relative left-[1vw]  max-md:text-[2vw]  ${spaceMono.className}`}>{imgName}</p>
           </span>
         </div>
         <div className=" bg-[#3B3B3B] flex justify-between">

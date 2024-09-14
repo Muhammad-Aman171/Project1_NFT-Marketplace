@@ -11,6 +11,7 @@ export interface TrendingCollectionTypes {
 }
 
 export interface TopCreatorsTypes {
+  style?:string;
   srcImg?: string | StaticImageData;
   name?: string;
 }
@@ -21,6 +22,7 @@ export interface BrowseCategoriesTypes {
 }
 
 export interface MoreNftsTypes {
+  style?:string;
   srcImg1?: string | StaticImageData;
   srcImg2?: string | StaticImageData;
   name?: string;

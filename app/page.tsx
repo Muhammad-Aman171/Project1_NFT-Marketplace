@@ -189,12 +189,12 @@ const Page: React.FC = () => {
           <TopCreatorsCards srcImg={Img18} name="Juanie" />
           <TopCreatorsCards srcImg={Img19} name="BlueWhale" />
           <TopCreatorsCards srcImg={Img20} name="mr fox" />
-          <TopCreatorsCards srcImg={Img21} name="Shroomie" />
-          <TopCreatorsCards srcImg={Img22} name="robotica" />
-          <TopCreatorsCards srcImg={Img23} name="RustyRobot" />
-          <TopCreatorsCards srcImg={Img24} name="animakid" />
-          <TopCreatorsCards srcImg={Img25} name="Dotgu" />
-          <TopCreatorsCards srcImg={Img26} name="Ghiblier" />
+          <TopCreatorsCards style="max-md:hidden" srcImg={Img21} name="Shroomie" />
+          <TopCreatorsCards style="max-md:hidden" srcImg={Img22} name="robotica" />
+          <TopCreatorsCards style="max-md:hidden" srcImg={Img23} name="RustyRobot" />
+          <TopCreatorsCards style="max-md:hidden" srcImg={Img24} name="animakid" />
+          <TopCreatorsCards style="max-md:hidden" srcImg={Img25} name="Dotgu" />
+          <TopCreatorsCards style="max-md:hidden" srcImg={Img26} name="Ghiblier" />
         </div>
       </div>
       {/* section3 is completed */}
@@ -219,17 +219,17 @@ const Page: React.FC = () => {
       <div className=" w-[80vw] h-[115vh]   flex flex-col justify-between ">
         <div className=" flex justify-between items-center ">
           <span>
-            <h1 className="text-[4vw] font-medium ">Discover More NFTs</h1>
-            <p className="text-[2.3vw] font-light ">
+            <h1 className="text-[4vw] font-medium  max-md:text-[4.5vw] ">Discover More NFTs</h1>
+            <p className="text-[2.3vw] font-light  max-md:text-[2.7vw] ">
               Explore new trending NFTs
             </p>
           </span>
-          <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[10vw] h-[8vh] ">
-            <EyeSvg style="  h-[5vh] font-bold  w-[1.2vw] " />
-            <button className="text-[1vw] font-medium">See All</button>
+          <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[10vw] h-[8vh]   max-md:w-[18vw] ">
+            <EyeSvg style="  h-[5vh] font-bold  w-[1.2vw]  max-md:w-[3vw] " />
+            <button className="text-[1vw] font-medium max-md:text-[2vw] ">See All</button>
           </span>
         </div>
-        <div className="grid grid-cols-3 gap-[2vw] ">
+        <div className="grid grid-cols-3 gap-[2vw]  max-md:grid-cols-2  max-md:gap-x-[12vw] ">
           <MoreNfts
             srcImg1={Img35}
             srcImg2={Img38}
@@ -243,6 +243,7 @@ const Page: React.FC = () => {
             imgName="NebulaKid"
           />
           <MoreNfts
+            style="max-md:hidden"
             srcImg1={Img37}
             srcImg2={Img40}
             name="AstroFiction"
@@ -262,7 +263,7 @@ const Page: React.FC = () => {
             Find out how to get started
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-[2vw]   ">
+        <div className="grid grid-cols-3 gap-[2vw]  max-md:gap-x-[10vw]   ">
           <HowItWorks
             srcImg={Img41}
             heading="Setup Your wallet"
