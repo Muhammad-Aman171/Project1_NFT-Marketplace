@@ -11,7 +11,7 @@ const HowItWorks: React.FC<HowItWorksTypes> = ({ srcImg, heading, para }) => {
       <h1 className=" bg-[#3B3B3B] text-[2vw] font-semibold ">
         {heading}
       </h1>
-      <p className=" bg-[#3B3B3B] w-[90%] text-[1.5vw] ">
+      <p className=" bg-[#3B3B3B] w-[90%] text-[1.3vw] ">
         {para}
       </p>
     </div>
