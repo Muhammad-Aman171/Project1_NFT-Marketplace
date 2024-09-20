@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import Image from "next/image";
 import { Space_Mono } from "next/font/google";
@@ -63,6 +64,9 @@ const spaceMono = Space_Mono({
 });
 
 const Page: React.FC = () => {
+  const onclick =()=> {
+    alert("clicked");
+  }
   return (
     <div className="flex items-center flex-col gap-y-[20vh] ">
       {/* section1 is started */}
@@ -179,7 +183,7 @@ const Page: React.FC = () => {
           </span>
           <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[15vw] h-[7vh]  max-md:w-[25vw]  max-md:h-[9vh]  ">
             <RocketSvg style="  h-[5vh] font-bold w-[1.2vw]  max-md:w-[3vw] " />
-            <button className="text-[1vw] font-medium  max-md:text-[2vw] ">View Rankings</button>
+            <button onClick={onclick} className="text-[1vw] font-medium  max-md:text-[2vw] ">View Rankings</button>
           </span>
         </div>
         <div className=" mt-[10vh]  grid grid-cols-4 gap-y-[2vw] max-md:grid-cols-2    ">

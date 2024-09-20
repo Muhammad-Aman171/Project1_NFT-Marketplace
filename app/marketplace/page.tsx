@@ -1,3 +1,4 @@
+
 import React from "react";
 import SearchSvg from "../components/svgs/search";
 import MoreNfts from "../components/homePageComponents/moreNFT's/moreNfts";
