@@ -182,7 +182,7 @@ const Page: React.FC = () => {
             </p>
           </span>
           <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[15vw] h-[7vh]  max-md:w-[25vw]  max-md:h-[9vh]  ">
-            <RocketSvg style="  h-[5vh] font-bold w-[1.2vw]  max-md:w-[3vw] " />
+            <RocketSvg style="  h-[4.6vh] font-bold w-[1.2vw]  max-md:w-[3vw] " />
             <button onClick={onclick} className="text-[1vw] font-medium  max-md:text-[2vw] ">View Rankings</button>
           </span>
         </div>
