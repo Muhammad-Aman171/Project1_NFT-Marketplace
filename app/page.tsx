@@ -133,7 +133,7 @@ const Page: React.FC = () => {
       {/* section1 is completed */}
 
       {/* section2 is started */}
-      <div className="  my-[10vh] max-md:border ">
+      <div className="  my-[9.9vh] max-md:border ">
         <h1 className="text-[2.5vw] font-semibold max-md:text-[4.5vw] ">
           Trending Collection
         </h1>
