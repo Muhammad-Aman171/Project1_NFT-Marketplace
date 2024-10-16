@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { Space_Mono } from "next/font/google";
 
+import "./homePage.scss"
+
 import RocketSvg from "./components/svgs/rocket";
 import EyeSvg from "./components/svgs/eye";
 
