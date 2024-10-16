@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
     <div className=" main-div border border-white">
       <div className="navbar">
         <div className=" navbar-heading ">
-          <StoreSvg style="w-16" />
+          <StoreSvg style="w-14" />
           <h1 className={`${spaceMone.className} `}>
             <Link href={"/"} className="font-bold">
               NFT Makrketplace
@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
                 {" "}
                 <div className=" bg-[#A259FF] ">
                   {" "}
-                  <UserSvg style=" h-4 bg-[#A259FF]" />{" "}
+                  <UserSvg style="  h-12 bg-[#A259FF]" />{" "}
                   <p className="bg-[#A259FF] ">Sign Up</p>{" "}
                 </div>
               </Link>{" "}
