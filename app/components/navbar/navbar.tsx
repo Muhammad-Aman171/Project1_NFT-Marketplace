@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
                 {" "}
                 <div className=" bg-[#A259FF] ">
                   {" "}
-                  <UserSvg style=" bg-[#A259FF]" />{" "}
+                  <UserSvg style=" border h-12 bg-[#A259FF]" />{" "}
                   <p className="bg-[#A259FF] ">Sign Up</p>{" "}
                 </div>
               </Link>{" "}
