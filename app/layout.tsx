@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </head>
-      <body className={`flex flex-col items-center  ${work_Sans.className}`}>
+      <body className={` ${work_Sans.className}`}>
         <Navbar/>
         {children}
         <Footer/>

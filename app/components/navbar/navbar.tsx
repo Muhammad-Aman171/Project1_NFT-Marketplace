@@ -26,27 +26,22 @@ const Navbar: React.FC = () => {
         <div className="navbar-pages">
           <ul>
             <li>
-              {" "}
               <Link href={"/ranking"}>Rankings</Link>{" "}
             </li>
             <li>
-              {" "}
               <Link href={"/marketplace"}>Marketplace </Link>
             </li>
             <li>
-              {" "}
               <Link href={"/connect-wallet"}>Connect a wallet </Link>
             </li>
             <li>
-              {" "}
               <Link href={"/sign-up"}>
-                {" "}
                 <div className=" bg-[#A259FF] ">
-                  {" "}
-                  <UserSvg style=" h-12 bg-[#A259FF]" />{" "}
-                  <p className="bg-[#A259FF] ">Sign Up</p>{" "}
+          
+                  <UserSvg style=" h-6 bg-[#A259FF] text-[#A259FF] " />
+                  <button className="bg-[#A259FF] ">Sign Up</button>
                 </div>
-              </Link>{" "}
+              </Link>
             </li>
           </ul>
         </div>

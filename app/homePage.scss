@@ -1,0 +1,25 @@
+.container1 {
+    border: 1px solid;
+    width: 100%; 
+    .section1 {
+        border: 1px solid;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        margin: 20px 0;
+        .header-heading{
+            border: 1px solid;
+            h1{
+                border: 1px solid;
+                font-size: 67px;
+                font-weight: 500;
+                line-height: 70px;
+            }
+        }
+        .header-card1{
+            border: 1px solid;
+        }
+    }
+
+}

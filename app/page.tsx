@@ -1,9 +1,9 @@
-"use client"
+// "use client";
 import React from "react";
 import Image from "next/image";
 import { Space_Mono } from "next/font/google";
 
-import "./homePage.scss"
+import "./homePage.scss";
 
 import RocketSvg from "./components/svgs/rocket";
 import EyeSvg from "./components/svgs/eye";
@@ -66,71 +66,72 @@ const spaceMono = Space_Mono({
 });
 
 const Page: React.FC = () => {
-  const onclick =()=> {
-    alert("clicked");
-  }
   return (
-    <div className="flex items-center flex-col gap-y-[20vh] ">
+    <div className=" ">
       {/* section1 is started */}
-      <div className=" flex justify-center gap-x-[4vw] w-[80vw] mt-[15vh]    max-sm:grid max-sm:grid-cols-1 max-sm:w-[90vw]        max-md:border   max-md:h-[60vh] max-md:w-[95vw]  ">
-        <div className="  w-[40vw] h-[90vh] flex flex-col items-start justify-evenly max-sm:w-[85vw] max-md:border   max-md:h-[58vh] max-md:w-[45%]  ">
-          <h1 className="text-[6vw] font-semibold leading-[15vh]    max-sm:text-[8vw] max-sm:leading-[5vh]  max-md:text-[5vw] max-md:leading-9 ">
-            Discover Digital Art & Collect NFTs
-          </h1>
-          <p className="text-[1.9vw] font-light max-md:text-[2.2vw]   ">
-            NFT marketplace UI created with Anima for Figma. Collect, buy and
-            sell art from more than 20k NFT artists.
-          </p>
-          <div className=" rounded-[1vw] cursor-pointer bg-[#A259FF] h-[7vh] w-[12vw] flex items-center justify-evenly text-[1vw]   max-md:rounded-[3vw] max-md:w-[25vw] ">
-            <RocketSvg style="  h-[6vh] font-bold bg-[#A259FF] w-[1.5vw] text-[#ffffff] max-md:w-[3vw]  " />
-            <button className="max-md:text-[2.5vw]">Get Started</button>
-          </div>
-          <div className=" w-[100%] flex justify-between  ">
-            <div className="text-[2vw] ">
-              <h1
-                className={`${spaceMono.className} font-extrabold  max-md:text-[3vw]  `}
-              >
-                240k+{" "}
-              </h1>
-              <p className="font-light">Total Sale</p>
-            </div>
-            <div className="text-[2vw] ">
-              <h1 className={`${spaceMono.className} max-md:text-[3vw]`}>
-                100k+
-              </h1>
-              <p className="font-light">Auctions</p>
-            </div>
-            <div className="text-[2vw] ">
-              <h1 className={`${spaceMono.className} max-md:text-[3vw]`}>
-                240k+
-              </h1>
-              <p className="font-light">Artists</p>
-            </div>
-          </div>
-        </div>
-
-        <div className=" rounded-[2vw] h-[70vh] max-md:h-[30vh] max-md:w-[50%]    ">
-          <Image
-            src={Img1}
-            alt="img1 does not show"
-            className="w-[40vw] h-[65vh] max-md:h-[45vh] max-md:w-[100%] "
-          />
-          <div className="rounded-b-[2vw]  bg-[#3B3B3B] h-[10vh] flex flex-col justify-around max-md:h-[10vh] max-md:leading-3 ">
-            <p className="  relative left-[1vw] w-[10vw] text-[1.2vw] font-semibold  bg-[#3B3B3B] max-md:text-[3vw] max-md:w-[30vw] max-md:ml-[2vw]  ">
-              Space Walking
+      <div className="container1">
+        <section className="section1">
+          <div className="header-heading">
+            <h1>
+              Discover Digital Art & Collect NFTs
+            </h1>
+            <p className="text-[1.9vw] font-light max-md:text-[2.2vw]   ">
+              NFT marketplace UI created with Anima for Figma. Collect, buy and
+              sell art from more than 20k NFT artists.
             </p>
-            <div className=" flex relative left-[1vw] bg-[#3B3B3B]  w-[7vw] justify-between max-md:items-center  max-md:ml-[2vw]   ">
-              <Image
-                src={Img2}
-                alt="img2 does not show"
-                className="bg-[#3B3B3B] w-[1.5vw]  max-md:w-[5vw] "
-              />
-              <p className="bg-[#3B3B3B] text-[1vw] font-light max-md:text-[2vw] ">
-                Animakid
-              </p>
+            <div className=" rounded-[1vw] cursor-pointer bg-[#A259FF] h-[7vh] w-[12vw] flex items-center justify-evenly text-[1vw]   max-md:rounded-[3vw] max-md:w-[25vw] ">
+              <RocketSvg style="  h-[6vh] font-bold bg-[#A259FF] w-[1.5vw] text-[#ffffff] max-md:w-[3vw]  " />
+              <button className="max-md:text-[2.5vw]">Get Started</button>
+            </div>
+            <div className=" w-[100%] flex justify-between  ">
+              <div className="text-[2vw] ">
+                <h2
+                  className={`${spaceMono.className} font-extrabold  max-md:text-[3vw]  `}
+                >
+                  240k+{" "}
+                </h2>
+                <p className="font-light">Total Sale</p>
+              </div>
+              <div className="text-[2vw] ">
+                <h2 className={`${spaceMono.className} max-md:text-[3vw]`}>
+                  100k+
+                </h2>
+                <p className="font-light">Auctions</p>
+              </div>
+              <div className="text-[2vw] ">
+                <h2 className={`${spaceMono.className} max-md:text-[3vw]`}>
+                  240k+
+                </h2>
+                <p className="font-light">Artists</p>
+              </div>
             </div>
           </div>
-        </div>
+
+          <div className="header-card1 rounded-[2vw] h-[70vh] max-md:h-[30vh] max-md:w-[50%]    ">
+            <div className="header-card">
+              <Image
+                src={Img1}
+                alt="img1 does not show"
+                className="w-[40vw] h-[65vh] max-md:h-[45vh] max-md:w-[100%] "
+              />
+              <div className="rounded-b-[2vw]  bg-[#3B3B3B] h-[10vh] flex flex-col justify-around max-md:h-[10vh] max-md:leading-3 ">
+                <p className="  relative left-[1vw] w-[10vw] text-[1.2vw] font-semibold  bg-[#3B3B3B] max-md:text-[3vw] max-md:w-[30vw] max-md:ml-[2vw]  ">
+                  Space Walking
+                </p>
+                <div className=" flex relative left-[1vw] bg-[#3B3B3B]  w-[7vw] justify-between max-md:items-center  max-md:ml-[2vw]   ">
+                  <Image
+                    src={Img2}
+                    alt="img2 does not show"
+                    className="bg-[#3B3B3B] w-[1.5vw]  max-md:w-[5vw] "
+                  />
+                  <p className="bg-[#3B3B3B] text-[1vw] font-light max-md:text-[2vw] ">
+                    Animakid
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
       {/* section1 is completed */}
 
@@ -178,14 +179,18 @@ const Page: React.FC = () => {
       <div className=" my-[10vh] h-[153vh]  w-[80vw] ">
         <div className=" grid grid-cols-[62vw_2fr] justify-center items-end   ">
           <span className=" max-md:w-[50vw]  ">
-            <h1 className=" text-[2.5vw] font-semibold   max-md:text-[4vw] ">Top Creators</h1>
+            <h1 className=" text-[2.5vw] font-semibold   max-md:text-[4vw] ">
+              Top Creators
+            </h1>
             <p className=" text-[1.5vw] font-light max-md:text-[2.5vw]  ">
               Checkout Top Rated Creators on the NFT Marketplace
             </p>
           </span>
           <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[15vw] h-[7vh]  max-md:w-[25vw]  max-md:h-[9vh]  ">
             <RocketSvg style="  h-[5vh] font-bold w-[1.2vw]  max-md:w-[3vw] " />
-            <button onClick={onclick} className="text-[1vw] font-medium  max-md:text-[2vw] ">View Rankings</button>
+            <button className="text-[1vw] font-medium  max-md:text-[2vw] ">
+              View Rankings
+            </button>
           </span>
         </div>
         <div className=" mt-[10vh]  grid grid-cols-4 gap-y-[2vw] max-md:grid-cols-2    ">
@@ -195,12 +200,32 @@ const Page: React.FC = () => {
           <TopCreatorsCards srcImg={Img18} name="Juanie" />
           <TopCreatorsCards srcImg={Img19} name="BlueWhale" />
           <TopCreatorsCards srcImg={Img20} name="mr fox" />
-          <TopCreatorsCards style="max-md:hidden" srcImg={Img21} name="Shroomie" />
-          <TopCreatorsCards style="max-md:hidden" srcImg={Img22} name="robotica" />
-          <TopCreatorsCards style="max-md:hidden" srcImg={Img23} name="RustyRobot" />
-          <TopCreatorsCards style="max-md:hidden" srcImg={Img24} name="animakid" />
+          <TopCreatorsCards
+            style="max-md:hidden"
+            srcImg={Img21}
+            name="Shroomie"
+          />
+          <TopCreatorsCards
+            style="max-md:hidden"
+            srcImg={Img22}
+            name="robotica"
+          />
+          <TopCreatorsCards
+            style="max-md:hidden"
+            srcImg={Img23}
+            name="RustyRobot"
+          />
+          <TopCreatorsCards
+            style="max-md:hidden"
+            srcImg={Img24}
+            name="animakid"
+          />
           <TopCreatorsCards style="max-md:hidden" srcImg={Img25} name="Dotgu" />
-          <TopCreatorsCards style="max-md:hidden" srcImg={Img26} name="Ghiblier" />
+          <TopCreatorsCards
+            style="max-md:hidden"
+            srcImg={Img26}
+            name="Ghiblier"
+          />
         </div>
       </div>
       {/* section3 is completed */}
@@ -225,14 +250,18 @@ const Page: React.FC = () => {
       <div className=" w-[80vw] h-[115vh]   flex flex-col justify-between ">
         <div className=" flex justify-between items-center ">
           <span>
-            <h1 className="text-[4vw] font-medium  max-md:text-[4.5vw] ">Discover More NFTs</h1>
+            <h1 className="text-[4vw] font-medium  max-md:text-[4.5vw] ">
+              Discover More NFTs
+            </h1>
             <p className="text-[2.3vw] font-light  max-md:text-[2.7vw] ">
               Explore new trending NFTs
             </p>
           </span>
           <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[10vw] h-[8vh]   max-md:w-[18vw] ">
             <EyeSvg style="  h-[5vh] font-bold  w-[1.2vw]  max-md:w-[3vw] " />
-            <button className="text-[1vw] font-medium max-md:text-[2vw] ">See All</button>
+            <button className="text-[1vw] font-medium max-md:text-[2vw] ">
+              See All
+            </button>
           </span>
         </div>
         <div className="grid grid-cols-3 gap-[2vw]  max-md:grid-cols-2  max-md:gap-x-[12vw] ">
