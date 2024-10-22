@@ -75,11 +75,11 @@ const Page: React.FC = () => {
             <h1>
               Discover Digital Art & Collect NFTs
             </h1>
-            <p className="text-[1.9vw] font-light max-md:text-[2.2vw]   ">
+            <h3>
               NFT marketplace UI created with Anima for Figma. Collect, buy and
               sell art from more than 20k NFT artists.
-            </p>
-            <div className=" rounded-[1vw] cursor-pointer bg-[#A259FF] h-[7vh] w-[12vw] flex items-center justify-evenly text-[1vw]   max-md:rounded-[3vw] max-md:w-[25vw] ">
+            </h3>
+            <div className="button2">
               <RocketSvg style="  h-[6vh] font-bold bg-[#A259FF] w-[1.5vw] text-[#ffffff] max-md:w-[3vw]  " />
               <button className="max-md:text-[2.5vw]">Get Started</button>
             </div>
@@ -90,19 +90,19 @@ const Page: React.FC = () => {
                 >
                   240k+{" "}
                 </h2>
-                <p className="font-light">Total Sale</p>
+                <p className="font-light text-[23.99px]">Total Sale</p>
               </div>
               <div className="text-[2vw] ">
                 <h2 className={`${spaceMono.className} max-md:text-[3vw]`}>
                   100k+
                 </h2>
-                <p className="font-light">Auctions</p>
+                <p className="font-light text-[23.99px]">Auctions</p>
               </div>
               <div className="text-[2vw] ">
                 <h2 className={`${spaceMono.className} max-md:text-[3vw]`}>
                   240k+
                 </h2>
-                <p className="font-light">Artists</p>
+                <p className="font-light text-[23.99px]">Artists</p>
               </div>
             </div>
           </div>

@@ -36,9 +36,8 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <Link href={"/sign-up"}>
-                <div className=" bg-[#A259FF] ">
-          
-                  <UserSvg style=" h-6 bg-[#A259FF] text-[#A259FF] " />
+                <div className="button1 flex items-center justify-center  bg-[#A259FF] ">
+                  <UserSvg style=" h-[20px] w-[20px] bg-[#A259FF] text-[#A259FF] " />
                   <button className="bg-[#A259FF] ">Sign Up</button>
                 </div>
               </Link>

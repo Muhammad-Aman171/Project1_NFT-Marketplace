@@ -1,20 +1,44 @@
 .container1 {
     border: 1px solid;
-    width: 100%; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .section1 {
         border: 1px solid;
-        padding: 30px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         place-items: center;
-        margin: 20px 0;
+        column-gap: 30px;
+        width: 1050px;
+        margin: 80px 0;
         .header-heading{
             border: 1px solid;
+            // text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-evenly;
+
             h1{
                 border: 1px solid;
                 font-size: 67px;
-                font-weight: 500;
-                line-height: 70px;
+                font-weight: 600;
+                line-height: 110%;
+                // margin-right: 350px;
+            }
+            h3{
+                font-size: 22px;
+                line-height: 160%;
+                font-weight: 400;
+            }
+            .button2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #A259FF;
+                color: white;
+                padding: 30px;
             }
         }
         .header-card1{
