@@ -72,9 +72,7 @@ const Page: React.FC = () => {
       <div className="container1">
         <section className="section1">
           <div className="header-heading">
-            <h1>
-              Discover Digital Art & Collect NFTs
-            </h1>
+            <h1>Discover Digital Art & Collect NFTs</h1>
             <h3>
               NFT marketplace UI created with Anima for Figma. Collect, buy and
               sell art from more than 20k NFT artists.
@@ -109,20 +107,14 @@ const Page: React.FC = () => {
 
           <div className="header-card1 rounded-[2vw] h-[70vh] max-md:h-[30vh] max-md:w-[50%]    ">
             <div className="header-card">
-              <Image
-                src={Img1}
-                alt="img1 does not show"
-                className="w-[40vw] h-[65vh] max-md:h-[45vh] max-md:w-[100%] "
-              />
-              <div className="rounded-b-[2vw]  bg-[#3B3B3B] h-[10vh] flex flex-col justify-around max-md:h-[10vh] max-md:leading-3 ">
-                <p className="  relative left-[1vw] w-[10vw] text-[1.2vw] font-semibold  bg-[#3B3B3B] max-md:text-[3vw] max-md:w-[30vw] max-md:ml-[2vw]  ">
-                  Space Walking
-                </p>
-                <div className=" flex relative left-[1vw] bg-[#3B3B3B]  w-[7vw] justify-between max-md:items-center  max-md:ml-[2vw]   ">
+              <div className="img1-div"><Image src={Img1} alt="img1 does not show" className="img1" /></div>
+              <div className=" img1-bottom bg-[#3B3B3B] ">
+                <p>Space Walking</p>
+                <div>
                   <Image
                     src={Img2}
                     alt="img2 does not show"
-                    className="bg-[#3B3B3B] w-[1.5vw]  max-md:w-[5vw] "
+                    className="bg-[#3B3B3B] w-[24px] h-[24px]"
                   />
                   <p className="bg-[#3B3B3B] text-[1vw] font-light max-md:text-[2vw] ">
                     Animakid

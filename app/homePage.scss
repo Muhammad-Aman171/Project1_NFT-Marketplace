@@ -4,15 +4,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     .section1 {
         border: 1px solid;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        place-items: center;
         column-gap: 30px;
         width: 1050px;
         margin: 80px 30px;
-        .header-heading{
+
+        .header-heading {
             border: 1px solid;
             // text-align: left;
             display: flex;
@@ -20,20 +21,22 @@
             align-items: start;
             justify-content: space-evenly;
 
-            h1{
+            h1 {
                 border: 1px solid;
                 font-size: 67px;
                 font-weight: 600;
                 line-height: 110%;
                 margin-bottom: 20px;
             }
-            h3{
+
+            h3 {
                 font-size: 22px;
                 line-height: 160%;
                 font-weight: 400;
                 margin-bottom: 30px;
             }
-            .button2{
+
+            .button2 {
                 border-radius: 20px;
                 display: flex;
                 align-items: center;
@@ -42,30 +45,81 @@
                 color: white;
                 padding: 19px 56px;
                 margin-bottom: 30px;
-                button{
+
+                button {
                     font-size: 16px;
                     line-height: 140%;
                     font-weight: 600;
                 }
             }
-            .total-sales{
+
+            .total-sales {
                 display: flex;
                 justify-content: space-between;
                 width: 100%;
-                div{
-                    h2{
+
+                div {
+                    h2 {
                         font-size: 28px;
                         line-height: 140%;
                     }
-                    p{
+
+                    p {
                         font-size: 23.99px;
                         line-height: 160%;
                     }
                 }
             }
         }
-        .header-card1{
+
+        .header-card1 {
             border: 1px solid;
+
+            .header-card {
+                border: 1px solid;
+                background-color: #3B3B3B;
+                border-radius: 0px 0px 20px 20px;
+                width: 100%;
+
+                .img1-div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .img1 {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                }
+                
+
+                .img1-bottom {
+                    margin: 23px 0;
+                    width: 100%;
+                    margin-left: 20px;
+                    width: 90%;
+
+                    p {
+                        border: 1px solid;
+                        background-color: #3B3B3B;
+                        font-size: 22px;
+                        line-height: 140%;
+                    }
+
+                    div {
+                        margin-top: 10px;
+                        display: flex;
+                        background-color: #3B3B3B;
+
+                        p {
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 140%;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
         }
     }
 
