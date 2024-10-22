@@ -11,7 +11,7 @@
         place-items: center;
         column-gap: 30px;
         width: 1050px;
-        margin: 80px 0;
+        margin: 80px 30px;
         .header-heading{
             border: 1px solid;
             // text-align: left;
@@ -25,20 +25,43 @@
                 font-size: 67px;
                 font-weight: 600;
                 line-height: 110%;
-                // margin-right: 350px;
+                margin-bottom: 20px;
             }
             h3{
                 font-size: 22px;
                 line-height: 160%;
                 font-weight: 400;
+                margin-bottom: 30px;
             }
             .button2{
+                border-radius: 20px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 background-color: #A259FF;
                 color: white;
-                padding: 30px;
+                padding: 19px 56px;
+                margin-bottom: 30px;
+                button{
+                    font-size: 16px;
+                    line-height: 140%;
+                    font-weight: 600;
+                }
+            }
+            .total-sales{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                div{
+                    h2{
+                        font-size: 28px;
+                        line-height: 140%;
+                    }
+                    p{
+                        font-size: 23.99px;
+                        line-height: 160%;
+                    }
+                }
             }
         }
         .header-card1{

@@ -80,11 +80,11 @@ const Page: React.FC = () => {
               sell art from more than 20k NFT artists.
             </h3>
             <div className="button2">
-              <RocketSvg style="  h-[6vh] font-bold bg-[#A259FF] w-[1.5vw] text-[#ffffff] max-md:w-[3vw]  " />
-              <button className="max-md:text-[2.5vw]">Get Started</button>
+              <RocketSvg style=" h-[20px] w-[20px]   bg-[#A259FF] " />
+              <button className="">Get Started</button>
             </div>
-            <div className=" w-[100%] flex justify-between  ">
-              <div className="text-[2vw] ">
+            <div className=" total-sales ">
+              <div className=" text-[2vw] ">
                 <h2
                   className={`${spaceMono.className} font-extrabold  max-md:text-[3vw]  `}
                 >
@@ -92,7 +92,7 @@ const Page: React.FC = () => {
                 </h2>
                 <p className="font-light text-[23.99px]">Total Sale</p>
               </div>
-              <div className="text-[2vw] ">
+              <div className="  text-[2vw] ">
                 <h2 className={`${spaceMono.className} max-md:text-[3vw]`}>
                   100k+
                 </h2>
