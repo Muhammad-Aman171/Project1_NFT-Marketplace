@@ -36,7 +36,7 @@ const Ranking: React.FC = () => {
         Check out top ranking NFT artists on the NFT Marketplace.
       </p>
 
-      <div className="my-[12vh] flex flex-col gap-[2vw] ">
+      <div className="my-[13vh] flex flex-col gap-[2vw] ">
         <div className="border rounded-[1vw] border-[rgb(59,59,59)] h-[8vh] flex justify-between items-center ">
           <span className=" w-[10vw] flex justify-around items-center ">
             <p className={` ${spaceMono.className} text-[#858584] text-[1vw] `}>
