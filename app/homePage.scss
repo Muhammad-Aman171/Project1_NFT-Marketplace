@@ -72,7 +72,53 @@
             }
         }
 
-        
+        .header-card1 {
+            border: 1px solid;
+
+            .header-card {
+                // border: 1px solid;
+                background-color: #3B3B3B;
+                border-radius: 0 0 20px 20px;
+
+                // height: 95%;
+                .img1-div {
+                    width: 100%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                }
+
+                .img1-bottom {
+                    background-color: #3B3B3B;
+                    margin: 22px 20px;
+
+                    h2 {
+                        background-color: #3B3B3B;
+                        font-size: 22px;
+                        font-weight: 600;
+                        line-height: 140%;
+                    }
+
+                    div {
+                        background-color: #3B3B3B;
+                        margin-top: 10px;
+                        display: flex;
+
+                        p {
+                            background-color: #3B3B3B;
+                            font-size: 16px;
+                            font-weight: 400;
+                            margin-left: 12px;
+                            line-height: 140%;
+                        }
+                    }
+                }
+
+            }
+        }
+
     }
 
 }
