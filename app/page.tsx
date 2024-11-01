@@ -105,18 +105,20 @@ const Page: React.FC = () => {
             </div>
           </div>
 
-          <div className="header-card1 rounded-[2vw] h-[70vh] max-md:h-[30vh] max-md:w-[50%]    ">
+          <div className="header-card1   ">
             <div className="header-card">
-              <div className="img1-div"><Image src={Img1} alt="img1 does not show" className="img1" /></div>
-              <div className=" img1-bottom bg-[#3B3B3B] ">
-                <p>Space Walking</p>
+              <div className="img1-div">
+                <Image src={Img1} alt="img1 does not show" className="img1" />
+              </div>
+              <div className=" img1-bottom  ">
+                <h2>Space Walking</h2>
                 <div>
                   <Image
                     src={Img2}
                     alt="img2 does not show"
                     className="bg-[#3B3B3B] w-[24px] h-[24px]"
                   />
-                  <p className="bg-[#3B3B3B] text-[1vw] font-light max-md:text-[2vw] ">
+                  <p>
                     Animakid
                   </p>
                 </div>
