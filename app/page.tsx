@@ -170,56 +170,58 @@ const Page: React.FC = () => {
       {/* section2 is completed */}
 
       {/* section3 is started */}
-      <div className=" my-[10vh] h-[153vh]  w-[80vw] ">
-        <div className=" grid grid-cols-[62vw_2fr] justify-center items-end   ">
-          <span className=" max-md:w-[50vw]  ">
-            <h1 className=" text-[2.5vw] font-semibold   max-md:text-[4vw] ">
-              Top Creators
-            </h1>
-            <p className=" text-[1.5vw] font-light max-md:text-[2.5vw]  ">
-              Checkout Top Rated Creators on the NFT Marketplace
-            </p>
-          </span>
-          <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[15vw] h-[7vh]  max-md:w-[25vw]  max-md:h-[9vh]  ">
-            <RocketSvg style="  h-[5vh] font-bold w-[1.2vw]  max-md:w-[3vw] " />
-            <button className="text-[1vw] font-medium  max-md:text-[2vw] ">
-              View Rankings
-            </button>
-          </span>
-        </div>
-        <div className=" mt-[10vh]  grid grid-cols-4 gap-y-[2vw] max-md:grid-cols-2    ">
-          <TopCreatorsCards srcImg={Img15} name="Keepitreal" />
-          <TopCreatorsCards srcImg={Img16} name="DigiLab" />
-          <TopCreatorsCards srcImg={Img17} name="GravityOne" />
-          <TopCreatorsCards srcImg={Img18} name="Juanie" />
-          <TopCreatorsCards srcImg={Img19} name="BlueWhale" />
-          <TopCreatorsCards srcImg={Img20} name="mr fox" />
-          <TopCreatorsCards
-            style="max-md:hidden"
-            srcImg={Img21}
-            name="Shroomie"
-          />
-          <TopCreatorsCards
-            style="max-md:hidden"
-            srcImg={Img22}
-            name="robotica"
-          />
-          <TopCreatorsCards
-            style="max-md:hidden"
-            srcImg={Img23}
-            name="RustyRobot"
-          />
-          <TopCreatorsCards
-            style="max-md:hidden"
-            srcImg={Img24}
-            name="animakid"
-          />
-          <TopCreatorsCards style="max-md:hidden" srcImg={Img25} name="Dotgu" />
-          <TopCreatorsCards
-            style="max-md:hidden"
-            srcImg={Img26}
-            name="Ghiblier"
-          />
+      <div className=" container3">
+        <div className="section3">
+          <div className=" grid grid-cols-[62vw_2fr] justify-center items-end   ">
+            <span className=" max-md:w-[50vw]  ">
+              <h1 className=" text-[2.5vw] font-semibold   max-md:text-[4vw] ">
+                Top Creators
+              </h1>
+              <p className=" text-[1.5vw] font-light max-md:text-[2.5vw]  ">
+                Checkout Top Rated Creators on the NFT Marketplace
+              </p>
+            </span>
+            <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[15vw] h-[7vh]  max-md:w-[25vw]  max-md:h-[9vh]  ">
+              <RocketSvg style="  h-[5vh] font-bold w-[1.2vw]  max-md:w-[3vw] " />
+              <button className="text-[1vw] font-medium  max-md:text-[2vw] ">
+                View Rankings
+              </button>
+            </span>
+          </div>
+          <div className=" mt-[10vh]  grid grid-cols-4 gap-y-[2vw] max-md:grid-cols-2    ">
+            <TopCreatorsCards srcImg={Img15} name="Keepitreal" />
+            <TopCreatorsCards srcImg={Img16} name="DigiLab" />
+            <TopCreatorsCards srcImg={Img17} name="GravityOne" />
+            <TopCreatorsCards srcImg={Img18} name="Juanie" />
+            <TopCreatorsCards srcImg={Img19} name="BlueWhale" />
+            <TopCreatorsCards srcImg={Img20} name="mr fox" />
+            <TopCreatorsCards
+              style="max-md:hidden"
+              srcImg={Img21}
+              name="Shroomie"
+            />
+            <TopCreatorsCards
+              style="max-md:hidden"
+              srcImg={Img22}
+              name="robotica"
+            />
+            <TopCreatorsCards
+              style="max-md:hidden"
+              srcImg={Img23}
+              name="RustyRobot"
+            />
+            <TopCreatorsCards
+              style="max-md:hidden"
+              srcImg={Img24}
+              name="animakid"
+            />
+            <TopCreatorsCards style="max-md:hidden" srcImg={Img25} name="Dotgu" />
+            <TopCreatorsCards
+              style="max-md:hidden"
+              srcImg={Img26}
+              name="Ghiblier"
+            />
+          </div>
         </div>
       </div>
       {/* section3 is completed */}

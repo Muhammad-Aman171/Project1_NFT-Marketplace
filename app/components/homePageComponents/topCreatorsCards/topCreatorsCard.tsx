@@ -3,6 +3,8 @@ import Image from "next/image";
 
 import {TopCreatorsTypes} from '@/types/homePage/homePage'
 
+import './topCreator.scss'
+
 
 
 const TopCreatorsCards: React.FC<TopCreatorsTypes> = ({style, srcImg,name}) => {
