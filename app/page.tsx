@@ -130,10 +130,12 @@ const Page: React.FC = () => {
       {/* section2 is started */}
       <div className=" container2 ">
         <div className="section2">
-          <h2 className="">Trending Collection</h2>
-          <h4 className="text-[1.5vw] font-light h-[12vh] max-md:text-[2.5vw]  ">
-            Checkout our weekly updated trending collection.
-          </h4>
+          <div className="section2-heading">
+            <h2 className="">Trending Collection</h2>
+            <h4>
+              Checkout our weekly updated trending collection.
+            </h4>
+          </div>
           <div className=" section2-cards">
             <TrendingCards
               // style="max-md:w-[42vw] max-md:h-[78vh]  "
