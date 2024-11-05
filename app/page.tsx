@@ -132,9 +132,7 @@ const Page: React.FC = () => {
         <div className="section2">
           <div className="section2-heading">
             <h2 className="">Trending Collection</h2>
-            <h4>
-              Checkout our weekly updated trending collection.
-            </h4>
+            <h4>Checkout our weekly updated trending collection.</h4>
           </div>
           <div className=" section2-cards">
             <TrendingCards
@@ -172,23 +170,17 @@ const Page: React.FC = () => {
       {/* section3 is started */}
       <div className=" container3">
         <div className="section3">
-          <div className=" grid grid-cols-[62vw_2fr] justify-center items-end   ">
-            <span className=" max-md:w-[50vw]  ">
-              <h1 className=" text-[2.5vw] font-semibold   max-md:text-[4vw] ">
-                Top Creators
-              </h1>
-              <p className=" text-[1.5vw] font-light max-md:text-[2.5vw]  ">
-                Checkout Top Rated Creators on the NFT Marketplace
-              </p>
-            </span>
-            <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[15vw] h-[7vh]  max-md:w-[25vw]  max-md:h-[9vh]  ">
-              <RocketSvg style="  h-[5vh] font-bold w-[1.2vw]  max-md:w-[3vw] " />
-              <button className="text-[1vw] font-medium  max-md:text-[2vw] ">
-                View Rankings
-              </button>
-            </span>
+          <div className="section3-heading-btn">
+            <div className="section3-heading">
+              <h1>Top Creators</h1>
+              <p>Checkout Top Rated Creators on the NFT Marketplace</p>
+            </div>
+            <div className="section3-btn">
+              <RocketSvg style="w-[20px] h-[20px]" />
+              <h3>View Rankings</h3>
+            </div>
           </div>
-          <div className=" mt-[10vh]  grid grid-cols-4 gap-y-[2vw] max-md:grid-cols-2    ">
+          <div className=" top-creators-card">
             <TopCreatorsCards srcImg={Img15} name="Keepitreal" />
             <TopCreatorsCards srcImg={Img16} name="DigiLab" />
             <TopCreatorsCards srcImg={Img17} name="GravityOne" />
@@ -215,7 +207,11 @@ const Page: React.FC = () => {
               srcImg={Img24}
               name="animakid"
             />
-            <TopCreatorsCards style="max-md:hidden" srcImg={Img25} name="Dotgu" />
+            <TopCreatorsCards
+              style="max-md:hidden"
+              srcImg={Img25}
+              name="Dotgu"
+            />
             <TopCreatorsCards
               style="max-md:hidden"
               srcImg={Img26}

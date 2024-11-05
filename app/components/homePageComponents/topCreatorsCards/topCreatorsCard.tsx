@@ -9,7 +9,7 @@ import './topCreator.scss'
 
 const TopCreatorsCards: React.FC<TopCreatorsTypes> = ({style, srcImg,name}) => {
   return (
-    <div className={`${style} rounded-[1vw] bg-[#3B3B3B] w-[18vw] h-[40vh] flex flex-col  items-center justify-evenly     max-md:w-[37vw] max-md:border max-md:flex-row max-md:h-[15vh]  max-md:rounded-[3vw] `} >
+    <div className={`${style} top-creators-cards rounded-[1vw] bg-[#3B3B3B] w-[18vw] h-[40vh] flex flex-col  items-center justify-evenly     max-md:w-[37vw] max-md:border max-md:flex-row max-md:h-[15vh]  max-md:rounded-[3vw] `} >
       <Image 
         src={srcImg!}
         alt="Img does note show"
