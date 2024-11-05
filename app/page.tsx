@@ -118,9 +118,7 @@ const Page: React.FC = () => {
                     alt="img2 does not show"
                     className="bg-[#3B3B3B] w-[24px] h-[24px]"
                   />
-                  <p>
-                    Animakid
-                  </p>
+                  <p>Animakid</p>
                 </div>
               </div>
             </div>
@@ -132,13 +130,11 @@ const Page: React.FC = () => {
       {/* section2 is started */}
       <div className=" container2 ">
         <div className="section2">
-          <h2 className="">
-            Trending Collection
-          </h2>
+          <h2 className="">Trending Collection</h2>
           <h4 className="text-[1.5vw] font-light h-[12vh] max-md:text-[2.5vw]  ">
             Checkout our weekly updated trending collection.
           </h4>
-          <div className=" grid grid-cols-3 gap-[5vw] justify-items-center    max-md:border   max-md:grid-cols-2 max-md:w-[90vw]  ">
+          <div className=" section2-cards">
             <TrendingCards
               // style="max-md:w-[42vw] max-md:h-[78vh]  "
               srcImg1={Img3}

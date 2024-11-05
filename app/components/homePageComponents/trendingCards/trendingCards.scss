@@ -1,0 +1,15 @@
+.trending-cards{
+    border: 1px solid;
+    flex-basis: 330px;
+    height: 525px;
+    .inner-cards{
+        border: 1px solid;
+        height: 525px;
+        .small-imgs{
+            border: 1px solid;
+            margin: 15px 0;
+            display: flex;
+            column-gap: 15px;
+        }
+    }
+}
