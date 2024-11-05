@@ -1,123 +1,144 @@
-.container1 {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .section1 {
+.main-page {
+    .container1 {
         border: 1px solid;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 30px;
-        width: 1050px;
-        margin: 80px 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-        .header-heading {
+        .section1 {
             border: 1px solid;
-            // text-align: left;
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            justify-content: space-evenly;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 30px;
+            width: 1050px;
+            margin: 80px 30px;
 
-            h1 {
+            .header-heading {
                 border: 1px solid;
-                font-size: 67px;
-                font-weight: 600;
-                line-height: 110%;
-                margin-bottom: 20px;
-            }
-
-            h3 {
-                font-size: 22px;
-                line-height: 160%;
-                font-weight: 400;
-                margin-bottom: 30px;
-            }
-
-            .button2 {
-                border-radius: 20px;
+                // text-align: left;
                 display: flex;
-                align-items: center;
-                justify-content: center;
-                background-color: #A259FF;
-                color: white;
-                padding: 19px 56px;
-                margin-bottom: 30px;
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-evenly;
 
-                button {
-                    font-size: 16px;
-                    line-height: 140%;
+                h1 {
+                    border: 1px solid;
+                    font-size: 67px;
                     font-weight: 600;
+                    line-height: 110%;
+                    margin-bottom: 20px;
                 }
-            }
 
-            .total-sales {
-                display: flex;
-                justify-content: space-between;
-                width: 100%;
+                h3 {
+                    font-size: 22px;
+                    line-height: 160%;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                }
 
-                div {
-                    h2 {
-                        font-size: 28px;
+                .button2 {
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #A259FF;
+                    color: white;
+                    padding: 19px 56px;
+                    margin-bottom: 30px;
+
+                    button {
+                        font-size: 16px;
                         line-height: 140%;
-                    }
-
-                    p {
-                        font-size: 23.99px;
-                        line-height: 160%;
-                    }
-                }
-            }
-        }
-
-        .header-card1 {
-            border: 1px solid;
-
-            .header-card {
-                // border: 1px solid;
-                background-color: #3B3B3B;
-                border-radius: 0 0 20px 20px;
-
-                // height: 95%;
-                .img1-div {
-                    width: 100%;
-                    img{
-                        width: 100%;
-                    }
-
-                }
-
-                .img1-bottom {
-                    background-color: #3B3B3B;
-                    margin: 22px 20px;
-
-                    h2 {
-                        background-color: #3B3B3B;
-                        font-size: 22px;
                         font-weight: 600;
-                        line-height: 140%;
                     }
+                }
+
+                .total-sales {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
 
                     div {
-                        background-color: #3B3B3B;
-                        margin-top: 10px;
-                        display: flex;
+                        h2 {
+                            font-size: 28px;
+                            line-height: 140%;
+                        }
 
                         p {
-                            background-color: #3B3B3B;
-                            font-size: 16px;
-                            font-weight: 400;
-                            margin-left: 12px;
-                            line-height: 140%;
+                            font-size: 23.99px;
+                            line-height: 160%;
                         }
                     }
                 }
-
             }
+
+            .header-card1 {
+                border: 1px solid;
+
+                .header-card {
+                    // border: 1px solid;
+                    background-color: #3B3B3B;
+                    border-radius: 0 0 20px 20px;
+
+                    // height: 95%;
+                    .img1-div {
+                        width: 100%;
+
+                        img {
+                            width: 100%;
+                        }
+
+                        //  pending
+
+                    }
+
+                    .img1-bottom {
+                        background-color: #3B3B3B;
+                        margin: 22px 20px;
+
+                        h2 {
+                            background-color: #3B3B3B;
+                            font-size: 22px;
+                            font-weight: 600;
+                            line-height: 140%;
+                        }
+
+                        div {
+                            background-color: #3B3B3B;
+                            margin-top: 10px;
+                            display: flex;
+
+                            p {
+                                background-color: #3B3B3B;
+                                font-size: 16px;
+                                font-weight: 400;
+                                margin-left: 12px;
+                                line-height: 140%;
+                            }
+                        }
+                    }
+
+                }
+            }
+
         }
 
     }
+
+.container2{
+    .section2{
+        h2{
+            border: 1px solid;
+            font-size: 38px;
+            font-weight: 600;
+            line-height: 120%;
+        }
+        h4{
+            font-size: 22px;
+            line-height: 160%;
+        }
+    }
+}
 
 }

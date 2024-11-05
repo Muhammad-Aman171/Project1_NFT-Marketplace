@@ -67,7 +67,7 @@ const spaceMono = Space_Mono({
 
 const Page: React.FC = () => {
   return (
-    <div className=" ">
+    <div className="main-page">
       {/* section1 is started */}
       <div className="container1">
         <section className="section1">
@@ -130,41 +130,43 @@ const Page: React.FC = () => {
       {/* section1 is completed */}
 
       {/* section2 is started */}
-      <div className="  my-[10vh] max-md:border ">
-        <h1 className="text-[2.5vw] font-semibold max-md:text-[4.5vw] ">
-          Trending Collection
-        </h1>
-        <p className="text-[1.5vw] font-light h-[12vh] max-md:text-[2.5vw]  ">
-          Checkout our weekly updated trending collection.
-        </p>
-        <div className=" grid grid-cols-3 gap-[5vw] justify-items-center    max-md:border   max-md:grid-cols-2 max-md:w-[90vw]  ">
-          <TrendingCards
-            style="max-md:w-[42vw] max-md:h-[78vh]  "
-            srcImg1={Img3}
-            srcImg2={Img6}
-            srcImg3={Img9}
-            srcImg4={Img12}
-            heading="DSGN Animals"
-            personName="MrFox"
-          />
-          <TrendingCards
-            style="max-md:w-[42vw]  max-md:h-[78vh] "
-            srcImg1={Img4}
-            srcImg2={Img7}
-            srcImg3={Img10}
-            srcImg4={Img13}
-            heading="Magic Mushrooms"
-            personName="Shroomie"
-          />
-          <TrendingCards
-            style="max-md:hidden  "
-            srcImg1={Img5}
-            srcImg2={Img8}
-            srcImg3={Img11}
-            srcImg4={Img14}
-            heading="Disco Machines"
-            personName="BeKind2Robots"
-          />
+      <div className=" container2 ">
+        <div className="section2">
+          <h2 className="">
+            Trending Collection
+          </h2>
+          <h4 className="text-[1.5vw] font-light h-[12vh] max-md:text-[2.5vw]  ">
+            Checkout our weekly updated trending collection.
+          </h4>
+          <div className=" grid grid-cols-3 gap-[5vw] justify-items-center    max-md:border   max-md:grid-cols-2 max-md:w-[90vw]  ">
+            <TrendingCards
+              // style="max-md:w-[42vw] max-md:h-[78vh]  "
+              srcImg1={Img3}
+              srcImg2={Img6}
+              srcImg3={Img9}
+              srcImg4={Img12}
+              heading="DSGN Animals"
+              personName="MrFox"
+            />
+            <TrendingCards
+              // style="max-md:w-[42vw]  max-md:h-[78vh] "
+              srcImg1={Img4}
+              srcImg2={Img7}
+              srcImg3={Img10}
+              srcImg4={Img13}
+              heading="Magic Mushrooms"
+              personName="Shroomie"
+            />
+            <TrendingCards
+              // style="max-md:hidden  "
+              srcImg1={Img5}
+              srcImg2={Img8}
+              srcImg3={Img11}
+              srcImg4={Img14}
+              heading="Disco Machines"
+              personName="BeKind2Robots"
+            />
+          </div>
         </div>
       </div>
       {/* section2 is completed */}

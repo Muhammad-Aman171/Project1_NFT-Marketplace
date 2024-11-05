@@ -4,6 +4,8 @@ import { Space_Mono } from 'next/font/google'
 
 import {TrendingCollectionTypes} from '@/types/homePage/homePage'
 
+import './trendingCards.scss'
+
 const spaceMono = Space_Mono({
   subsets: ["latin"],
   weight: "400",
