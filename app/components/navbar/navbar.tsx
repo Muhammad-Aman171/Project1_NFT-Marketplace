@@ -13,10 +13,10 @@ const spaceMone = Space_Mono({
 });
 const Navbar: React.FC = () => {
   return (
-    <div className=" main-div border border-white">
+    <div className=" main-div">
       <div className="navbar">
         <div className=" navbar-heading ">
-          <StoreSvg style="w-14" />
+          <StoreSvg style="w-[32px] h-[32px] " />
           <h1 className={`${spaceMone.className} `}>
             <Link href={"/"} className="font-bold">
               NFT Makrketplace
