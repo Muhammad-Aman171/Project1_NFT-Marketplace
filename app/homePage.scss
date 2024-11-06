@@ -214,4 +214,20 @@
             }
         }
     }
+
+    .container4{
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        .section4{
+            border: 1px solid;
+            flex-basis: 1050px;
+            h1{
+                font-size: 38px;
+                line-height: 120%;
+                font-weight: 600;
+            }
+
+        }
+    }
 }

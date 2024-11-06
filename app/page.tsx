@@ -187,53 +187,31 @@ const Page: React.FC = () => {
             <TopCreatorsCards srcImg={Img18} name="Juanie" />
             <TopCreatorsCards srcImg={Img19} name="BlueWhale" />
             <TopCreatorsCards srcImg={Img20} name="mr fox" />
-            <TopCreatorsCards
-              style="max-md:hidden"
-              srcImg={Img21}
-              name="Shroomie"
-            />
-            <TopCreatorsCards
-              style="max-md:hidden"
-              srcImg={Img22}
-              name="robotica"
-            />
-            <TopCreatorsCards
-              style="max-md:hidden"
-              srcImg={Img23}
-              name="RustyRobot"
-            />
-            <TopCreatorsCards
-              style="max-md:hidden"
-              srcImg={Img24}
-              name="animakid"
-            />
-            <TopCreatorsCards
-              style="max-md:hidden"
-              srcImg={Img25}
-              name="Dotgu"
-            />
-            <TopCreatorsCards
-              style="max-md:hidden"
-              srcImg={Img26}
-              name="Ghiblier"
-            />
+            <TopCreatorsCards srcImg={Img21} name="Shroomie" />
+            <TopCreatorsCards srcImg={Img22} name="robotica" />
+            <TopCreatorsCards srcImg={Img23} name="RustyRobot" />
+            <TopCreatorsCards srcImg={Img24} name="animakid" />
+            <TopCreatorsCards srcImg={Img25} name="Dotgu" />
+            <TopCreatorsCards srcImg={Img26} name="Ghiblier" />
           </div>
         </div>
       </div>
       {/* section3 is completed */}
 
       {/* section4 is started */}
-      <div className="  flex flex-col justify-between   h-[140vh] ">
-        <h1 className="text-[3vw] font-bold ">Browse Categories</h1>
-        <div className="grid grid-cols-4 gap-[2vw] ">
-          <BrowseCategories srcImg={Img27} name="Art" />
-          <BrowseCategories srcImg={Img28} name="Collectibles" />
-          <BrowseCategories srcImg={Img29} name="Music" />
-          <BrowseCategories srcImg={Img30} name="Photography" />
-          <BrowseCategories srcImg={Img31} name="Video" />
-          <BrowseCategories srcImg={Img32} name="Utility" />
-          <BrowseCategories srcImg={Img33} name="Sport" />
-          <BrowseCategories srcImg={Img34} name="Virtual Worlds" />
+      <div className="container4">
+        <div className="section4">
+          <h1>Browse Categories</h1>
+          <div className="grid grid-cols-4 gap-[2vw] ">
+            <BrowseCategories srcImg={Img27} name="Art" />
+            <BrowseCategories srcImg={Img28} name="Collectibles" />
+            <BrowseCategories srcImg={Img29} name="Music" />
+            <BrowseCategories srcImg={Img30} name="Photography" />
+            <BrowseCategories srcImg={Img31} name="Video" />
+            <BrowseCategories srcImg={Img32} name="Utility" />
+            <BrowseCategories srcImg={Img33} name="Sport" />
+            <BrowseCategories srcImg={Img34} name="Virtual Worlds" />
+          </div>
         </div>
       </div>
 
