@@ -202,7 +202,7 @@ const Page: React.FC = () => {
       <div className="container4">
         <div className="section4">
           <h1>Browse Categories</h1>
-          <div className="grid grid-cols-4 gap-[2vw] ">
+          <div className="section4-cards ">
             <BrowseCategories srcImg={Img27} name="Art" />
             <BrowseCategories srcImg={Img28} name="Collectibles" />
             <BrowseCategories srcImg={Img29} name="Music" />

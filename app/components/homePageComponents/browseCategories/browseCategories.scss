@@ -1,11 +1,15 @@
 .browse-categories{
-    border: 1px solid;
+    // border: 1px solid;
     flex-basis: 240px;
     height: 316px;
-    background-color: #3b3b33;
+    background-color: #3b3b3b;
+    border-radius: 20px;
     p{
         font-size: 22px;
-        background-color: #3b3b33;
+        line-height: 140%;
+        font-weight: 600;
+        margin: 20px 30px 25px;
+        background-color: #3b3b3b;
 
     }
 }
