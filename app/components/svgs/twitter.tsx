@@ -4,7 +4,7 @@ const TwitterSvg: React.FC = () => {
   return (
     <div>
       <svg
-        className="w-[2vw] bg-[#3B3B3B]  "
+        className="w-[32px] h-[32px] bg-[#3B3B3B]  "
         fill="#858584"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMidYMid"

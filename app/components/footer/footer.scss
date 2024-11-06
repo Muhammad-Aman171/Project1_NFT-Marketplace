@@ -3,24 +3,27 @@
     margin: 100px 0;
     display: flex;
     justify-content: center;
-
+    background-color: #3b3b3b;
     .inner-footer-div {
         border: 1px solid;
         display: flex;
         flex-basis: 990px;
         height: 200px;
-
+        background-color: #3b3b3b;
         .footer-row1 {
             border: 1px solid;
+            background-color: #3b3b3b;
             .footer-row1-heading{
                 border: 1px solid;
                 display: flex;
                 align-items: center;
+                background-color: #3b3b3b;
                 h1{
                     font-size: 22px;
                     margin-left: 12px;
                     line-height: 160%;
                     font-weight: 700;
+                    background-color: #3b3b3b;
                 }
             }
             p{
@@ -28,11 +31,19 @@
                 line-height: 140%;
                 font-weight: 400;
                 color: #cccccc;
+                background-color: #3b3b3b;
             }
             .footer-social-icons{
                 display: flex;
+                align-items: center;
+                column-gap: 10px;
+                background-color: #3b3b3b;
             }
         }
+
+
+
+
         .footer-row2 {
             border: 1px solid;
         }

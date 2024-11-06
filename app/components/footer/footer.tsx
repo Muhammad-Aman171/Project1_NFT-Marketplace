@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
           </div>
           <p>NFT marketplace UI created with Anima for Figma.</p>
           <p>Join our community</p>
-          <div className="footer-social-icons flex items-center gap-[1vw] bg-[#3B3B3B]  ">
+          <div className="footer-social-icons">
             <DiscordSvg />
             <YoutubeSvg />
             <TwitterSvg />
