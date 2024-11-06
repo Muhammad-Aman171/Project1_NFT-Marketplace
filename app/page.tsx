@@ -283,13 +283,15 @@ const Page: React.FC = () => {
         </div>
       </div>
 
-      <div className="rounded-[2vw] bg-[#3B3B3B] w-[80%] h-[70vh] mb-[20vh]  flex justify-evenly items-center ">
-        <Image
-          src={Img44}
-          alt="img does not show"
-          className="bg-[#3B3B3B] w-[35vw] h-[55vh] "
-        />
-        <JoinDigest />
+      <div className="container7  rounded-[2vw] bg-[#3B3B3B] w-[80%] h-[70vh] mb-[20vh]  flex justify-evenly items-center ">
+        <div className="section7">
+          <Image
+            src={Img44}
+            alt="img does not show"
+            className="bg-[#3B3B3B] w-[35vw] h-[55vh] "
+          />
+          <JoinDigest />
+        </div>
       </div>
     </div>
   );

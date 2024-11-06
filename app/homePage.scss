@@ -296,12 +296,15 @@
         .section6{
             border: 1px solid;
             flex-basis: 1050px;
+            margin: 80px 0;
             .section6-heading{
                 border: 1px solid;
+                margin-bottom: 48px;
                 h1{
                     font-size: 38px;
                     line-height: 120%;
                     font-weight: 600;
+                    margin-bottom: 10px;
                 }
                 p{
                     font-size: 22px;
@@ -313,7 +316,10 @@
                 border: 1px solid;
                 display: grid;
                 grid-template-columns: repeat(3,1fr);
+                column-gap: 30px;
             }
         }
     }
+
+    
 }
