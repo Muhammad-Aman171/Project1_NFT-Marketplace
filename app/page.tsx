@@ -257,29 +257,31 @@ const Page: React.FC = () => {
 
       {/* how its work section is started */}
 
-      <div className=" h-[100vh] flex flex-col justify-between w-[80%] ">
-        <div>
-          <h1 className="text-[4vw] font-semibold ">How It Works</h1>
-          <p className="text-[2.5vw] font-extralight ">
-            Find out how to get started
-          </p>
-        </div>
-        <div className="grid grid-cols-3 gap-[2vw]  max-md:gap-x-[10vw]   ">
-          <HowItWorks
-            srcImg={Img41}
-            heading="Setup Your wallet"
-            para="Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner."
-          />
-          <HowItWorks
-            srcImg={Img42}
-            heading="Create Collection"
-            para="Upload your work and setup your collection. Add a description, social links and floor price."
-          />
-          <HowItWorks
-            srcImg={Img43}
-            heading="Start Earning"
-            para="Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
-          />
+      <div className=" container6 h-[100vh] flex flex-col justify-between w-[80%] ">
+        <div className="section6" >
+          <div>
+            <h1 className="text-[4vw] font-semibold ">How It Works</h1>
+            <p className="text-[2.5vw] font-extralight ">
+              Find out how to get started
+            </p>
+          </div>
+          <div className="grid grid-cols-3 gap-[2vw]  max-md:gap-x-[10vw]   ">
+            <HowItWorks
+              srcImg={Img41}
+              heading="Setup Your wallet"
+              para="Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner."
+            />
+            <HowItWorks
+              srcImg={Img42}
+              heading="Create Collection"
+              para="Upload your work and setup your collection. Add a description, social links and floor price."
+            />
+            <HowItWorks
+              srcImg={Img43}
+              heading="Start Earning"
+              para="Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others."
+            />
+          </div>
         </div>
       </div>
 

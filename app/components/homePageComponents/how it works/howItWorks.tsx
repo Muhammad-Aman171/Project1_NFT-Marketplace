@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-
-
 import { HowItWorksTypes } from "@/types/homePage/homePage";
+
+import './howItWorks.scss'
 
 const HowItWorks: React.FC<HowItWorksTypes> = ({ srcImg, heading, para }) => {
   return (
