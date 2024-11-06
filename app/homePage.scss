@@ -321,5 +321,21 @@
         }
     }
 
-    
+    .container7{
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        .section7{
+            border: 1px solid;
+            border-radius: 20px;
+            flex-basis: 1050px;
+            background-color: #3B3B3B;
+            display: flex;
+            .img1{
+                border-radius: 20px;
+                background-color: #3B3B3B;
+            }
+        }
+
+    }
 }
