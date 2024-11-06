@@ -1,11 +1,11 @@
 .footer {
     border: 1px solid;
-    margin: 100px 0;
     display: flex;
     justify-content: center;
     background-color: #3b3b3b;
-
+    
     .inner-footer-div {
+        margin: 40px 0;
         border: 1px solid;
         display: grid;
         grid-template-columns: 1.5fr 1fr 2fr;
@@ -15,9 +15,11 @@
         .footer-row1 {
             border: 1px solid;
             background-color: #3b3b3b;
+
             .inner-row1-div {
                 background-color: #3b3b3b;
                 width: 250px;
+
                 .footer-row1-heading {
                     border: 1px solid;
                     display: flex;
@@ -78,9 +80,6 @@
                 margin-bottom: 20px;
             }
         }
-
-
-
 
         .footer-row3 {
             border: 1px solid;
