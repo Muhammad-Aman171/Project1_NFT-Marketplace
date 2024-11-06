@@ -20,22 +20,24 @@ const Footer: React.FC = () => {
     <div className="footer">
       <div className="inner-footer-div">
         <div className="footer-row1">
-          <div className="footer-row1-heading ">
-            <StoreSvg style="w-[32px] h-[32px] bg-[#3B3B3B]  " />
-            <h1 className={` ${spaceMono.className}`}>NFT Marketplace</h1>
-          </div>
-          <p>NFT marketplace UI created with Anima for Figma.</p>
-          <p>Join our community</p>
-          <div className="footer-social-icons">
-            <DiscordSvg />
-            <YoutubeSvg />
-            <TwitterSvg />
-            <InstagramSvg />
+          <div className="inner-row1-div">
+            <div className="footer-row1-heading ">
+              <StoreSvg style="w-[32px] h-[32px] bg-[#3B3B3B]  " />
+              <h1 className={` ${spaceMono.className}`}>NFT Marketplace</h1>
+            </div>
+            <p>NFT marketplace UI created with Anima for Figma.</p>
+            <p>Join our community</p>
+            <div className="footer-social-icons">
+              <DiscordSvg />
+              <YoutubeSvg />
+              <TwitterSvg />
+              <InstagramSvg />
+            </div>
           </div>
         </div>
 
         <div className="footer-row2">
-          <h1 className={` ${spaceMono.className} `}>Explore</h1>
+          <h1 className={` ${spaceMono.className}`}>Explore</h1>
           <p>Marketplace</p>
           <p>Rankings</p>
           <p>Connect a wallet</p>
