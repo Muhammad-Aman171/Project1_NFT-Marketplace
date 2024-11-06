@@ -333,7 +333,7 @@
             background-color: #3B3B3B;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            // align-items: center;
+            column-gap: 50px;
             margin: 40px 0 80px;
             .img1{
                 border: 1px solid white;
