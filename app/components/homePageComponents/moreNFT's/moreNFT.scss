@@ -1,0 +1,71 @@
+.more-nfts {
+    border: 1px solid;
+    flex-basis: 330px;
+    height: 465px;
+    background-color: #3b3b3b;
+    border-radius: 20px;
+
+    .more-nfts-img {
+        border: 1px solid;
+        background-color: #3b3b3b;
+
+    }
+
+    .more-nfts-bottom {
+        border: 1px solid;
+        margin: 20px 30px 25px;
+        background-color: #3b3b3b;
+
+        .more-nfts-bottom-heading {
+            background-color: #3B3B3B;
+            margin-bottom: 25px;
+
+            p {
+                font-size: 22px;
+                line-height: 140%;
+                background-color: #3B3B3B;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+
+            .more-nfts-bottom-img {
+                display: flex;
+                align-items: center;
+                background-color: #3B3B3B;
+
+                h4 {
+                    background-color: #3B3B3B;
+                    margin-left: 12px;
+                }
+            }
+
+        }
+
+        .more-nfts-bottom-prices {
+            border: 1px solid;
+            background-color: #3b3b3b;
+            display: flex;
+            justify-content: space-between;
+            div{
+                background-color: #3b3b3b;
+                P {
+                    color: #858584;
+                    font-size: 12px;
+                    line-height: 110%;
+                    font-weight: 400;
+                    margin-bottom: 8px;
+                    background-color: #3b3b3b;
+                }
+    
+                h3 {
+                    font-size: 18px;
+                    line-height: 140%;
+                    font-weight: 400;
+                    background-color: #3b3b3b;
+                }
+            }
+
+            
+        }
+    }
+}

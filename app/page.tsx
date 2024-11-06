@@ -229,7 +229,7 @@ const Page: React.FC = () => {
               <h3>See All</h3>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-[2vw]  max-md:grid-cols-2  max-md:gap-x-[12vw] ">
+          <div className="section5-cards ">
             <MoreNfts
               srcImg1={Img35}
               srcImg2={Img38}
