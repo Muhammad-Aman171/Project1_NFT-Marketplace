@@ -4,21 +4,25 @@
     display: flex;
     justify-content: center;
     background-color: #3b3b3b;
+
     .inner-footer-div {
         border: 1px solid;
         display: flex;
-        flex-basis: 990px;
+        width: 990px;
         height: 200px;
         background-color: #3b3b3b;
+
         .footer-row1 {
             border: 1px solid;
             background-color: #3b3b3b;
-            .footer-row1-heading{
+
+            .footer-row1-heading {
                 border: 1px solid;
                 display: flex;
                 align-items: center;
                 background-color: #3b3b3b;
-                h1{
+
+                h1 {
                     font-size: 22px;
                     margin-left: 12px;
                     line-height: 160%;
@@ -26,14 +30,16 @@
                     background-color: #3b3b3b;
                 }
             }
-            p{
+
+            p {
                 font-size: 16px;
                 line-height: 140%;
                 font-weight: 400;
                 color: #cccccc;
                 background-color: #3b3b3b;
             }
-            .footer-social-icons{
+
+            .footer-social-icons {
                 display: flex;
                 align-items: center;
                 column-gap: 10px;
@@ -46,9 +52,73 @@
 
         .footer-row2 {
             border: 1px solid;
+
+            h1 {
+                font-size: 22px;
+                line-height: 160%;
+                font-weight: 700;
+                background-color: #3b3b3b;
+            }
+
+            p {
+                color: #cccccc;
+                font-size: 16px;
+                line-height: 140%;
+                font-weight: 400;
+                background-color: #3b3b3b;
+            }
         }
+
+
+
+
         .footer-row3 {
             border: 1px solid;
+
+            h1 {
+                font-size: 22px;
+                line-height: 160%;
+                font-weight: 700;
+            }
+
+            p {
+                color: #cccccc;
+                font-size: 16px;
+                line-height: 140%;
+                font-weight: 400;
+                background-color: #3b3b3b;
+            }
+
+            div {
+                border-radius: 20px;
+                background-color: white;
+                display: flex;
+                justify-content: space-between;
+
+                input {
+                    border-radius: 20px;
+                    width: 100%;
+                    background-color: white;
+                    position: relative;
+                    padding: 19px 20px;
+                    z-index: 1;
+
+                    &::placeholder {
+                        font-size: 16px;
+                        line-height: 140%;
+                        color: #2b2b2b;
+                    }
+                }
+
+                button {
+                    border-radius: 20px;
+                    padding: 19px 50px;
+                    background-color: #A259FF;
+                    position: relative;
+                    // left: 11px;
+                    z-index: 2;
+                }
+            }
         }
     }
 }

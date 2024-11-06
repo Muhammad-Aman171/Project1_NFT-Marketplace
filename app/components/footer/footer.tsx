@@ -34,36 +34,19 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="footer-row2  h-[30vh] bg-[#3B3B3B] flex flex-col gap-[1.5vw] ">
-          <h1
-            className={` ${spaceMono.className} text-[2vw] font-semibold bg-[#3B3B3B] `}
-          >
-            Explore
-          </h1>
-          <p className="text-[#CCCCCC] bg-[#3B3B3B] ">Marketplace</p>
-          <p className="text-[#CCCCCC] bg-[#3B3B3B] ">Rankings</p>
-          <p className="text-[#CCCCCC] bg-[#3B3B3B] ">Connect a wallet</p>
+        <div className="footer-row2">
+          <h1 className={` ${spaceMono.className} `}>Explore</h1>
+          <p>Marketplace</p>
+          <p>Rankings</p>
+          <p>Connect a wallet</p>
         </div>
-        <div
-          className={`footer-row3  bg-[#3B3B3B] w-[30vw] h-[30vh] flex flex-col justify-between`}
-        >
-          <h1
-            className={`${spaceMono.className} bg-[#3B3B3B] text-[2vw]  font-semibold leading-[4vw] `}
-          >
-            Join our weekly digest
-          </h1>
-          <p className={` text-[#CCCCCC] bg-[hsl(0,0%,23%)] text-[1vw] `}>
-            Get exclusive promotions & updates straight to your inbox.
-          </p>
-          <div className=" bg-[#3B3B3B] w-[100%] h-[9vh] flex">
-            <input
-              className="rounded-[1vw] text-[1.2vw] bg-[#fff] h-[9vh] w-[50vw] outline-none placeholder:text-[2B2B2B] text-[black] pl-[1.5vw]  "
-              type="text"
-              placeholder="Enter your email here"
-            />
-            <button className="rounded-[1vw] bg-[#A259FF] h-[9vh] w-[30vw] relative right-[3vw]">
-              Subscribe
-            </button>
+
+        <div className={`footer-row3`}>
+          <h1 className={`${spaceMono.className}`}>Join our weekly digest</h1>
+          <p>Get exclusive promotions & updates straight to your inbox.</p>
+          <div>
+            <input type="text" placeholder="Enter yor email here" />
+            <button>Subscribe</button>
           </div>
         </div>
       </div>

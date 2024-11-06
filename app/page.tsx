@@ -283,7 +283,7 @@ const Page: React.FC = () => {
         </div>
       </div>
 
-      <div className="container7  ">
+      <div className="container7">
         <div className="section7">
           <Image src={Img44} alt="img does not show" className="img1" />
           <JoinDigest />
