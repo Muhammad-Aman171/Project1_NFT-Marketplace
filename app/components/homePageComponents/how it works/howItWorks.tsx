@@ -6,7 +6,7 @@ import './howItWorks.scss'
 
 const HowItWorks: React.FC<HowItWorksTypes> = ({ srcImg, heading, para }) => {
   return (
-    <div className="  h-[70vh] rounded-[1vw] bg-[#3B3B3B] text-center flex flex-col items-center justify-evenly  max-md:w-[30vw] ">
+    <div className="how-it-work  h-[70vh] rounded-[1vw] bg-[#3B3B3B] text-center flex flex-col items-center justify-evenly  max-md:w-[30vw] ">
       <Image src={srcImg!} alt="img does not show" className=" bg-[#3B3B3B]" />
       <h1 className=" bg-[#3B3B3B] text-[2vw] font-semibold ">
         {heading}

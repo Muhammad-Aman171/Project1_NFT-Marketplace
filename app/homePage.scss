@@ -287,4 +287,33 @@
             }
         }
     }
+
+    .container6{
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .section6{
+            border: 1px solid;
+            flex-basis: 1050px;
+            .section6-heading{
+                border: 1px solid;
+                h1{
+                    font-size: 38px;
+                    line-height: 120%;
+                    font-weight: 600;
+                }
+                p{
+                    font-size: 22px;
+                    line-height: 160%;
+                    font-weight: 400;
+                }
+            }
+            .section6-cards{
+                border: 1px solid;
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+            }
+        }
+    }
 }

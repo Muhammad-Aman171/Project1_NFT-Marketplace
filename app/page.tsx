@@ -257,15 +257,13 @@ const Page: React.FC = () => {
 
       {/* how its work section is started */}
 
-      <div className=" container6 h-[100vh] flex flex-col justify-between w-[80%] ">
-        <div className="section6" >
-          <div>
-            <h1 className="text-[4vw] font-semibold ">How It Works</h1>
-            <p className="text-[2.5vw] font-extralight ">
-              Find out how to get started
-            </p>
+      <div className=" container6">
+        <div className="section6">
+          <div className="section6-heading">
+            <h1>How It Works</h1>
+            <p>Find out how to get started</p>
           </div>
-          <div className="grid grid-cols-3 gap-[2vw]  max-md:gap-x-[10vw]   ">
+          <div className="section6-cards">
             <HowItWorks
               srcImg={Img41}
               heading="Setup Your wallet"
