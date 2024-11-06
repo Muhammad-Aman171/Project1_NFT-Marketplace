@@ -285,11 +285,7 @@ const Page: React.FC = () => {
 
       <div className="container7  ">
         <div className="section7">
-          <Image
-            src={Img44}
-            alt="img does not show"
-            className="img1"
-          />
+          <Image src={Img44} alt="img does not show" className="img1" />
           <JoinDigest />
         </div>
       </div>

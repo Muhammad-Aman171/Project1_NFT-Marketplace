@@ -329,11 +329,17 @@
             border: 1px solid;
             border-radius: 20px;
             flex-basis: 1050px;
+            height: 430px;
             background-color: #3B3B3B;
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            // align-items: center;
+            margin: 40px 0 80px;
             .img1{
+                border: 1px solid white;
                 border-radius: 20px;
                 background-color: #3B3B3B;
+                margin: 60px;
             }
         }
 
