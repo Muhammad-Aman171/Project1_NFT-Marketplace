@@ -217,43 +217,39 @@ const Page: React.FC = () => {
 
       {/* discover more nfts is started */}
 
-      <div className=" w-[80vw] h-[115vh]   flex flex-col justify-between ">
-        <div className=" flex justify-between items-center ">
-          <span>
-            <h1 className="text-[4vw] font-medium  max-md:text-[4.5vw] ">
-              Discover More NFTs
-            </h1>
-            <p className="text-[2.3vw] font-light  max-md:text-[2.7vw] ">
-              Explore new trending NFTs
-            </p>
-          </span>
-          <span className="rounded-[1vw] cursor-pointer border-[#A259FF] border-[0.2vw] flex items-center justify-evenly w-[10vw] h-[8vh]   max-md:w-[18vw] ">
-            <EyeSvg style="  h-[5vh] font-bold  w-[1.2vw]  max-md:w-[3vw] " />
-            <button className="text-[1vw] font-medium max-md:text-[2vw] ">
-              See All
-            </button>
-          </span>
-        </div>
-        <div className="grid grid-cols-3 gap-[2vw]  max-md:grid-cols-2  max-md:gap-x-[12vw] ">
-          <MoreNfts
-            srcImg1={Img35}
-            srcImg2={Img38}
-            name="Distant Galaxy"
-            imgName="MoonDancer"
-          />
-          <MoreNfts
-            srcImg1={Img36}
-            srcImg2={Img39}
-            name="Life On Edena"
-            imgName="NebulaKid"
-          />
-          <MoreNfts
-            style="max-md:hidden"
-            srcImg1={Img37}
-            srcImg2={Img40}
-            name="AstroFiction"
-            imgName="Spaceone"
-          />
+      <div className="container5 ">
+        <div className="section5">
+          <div className="section5-heading-btn flex justify-between items-center ">
+            <div className="section5-heading">
+              <h1>Discover More NFTs</h1>
+              <p>Explore new trending NFTs</p>
+            </div>
+            <div className="section5-btn  ">
+              <EyeSvg style="w-[20px] h-[20px] " />
+              <h3>See All</h3>
+            </div>
+          </div>
+          <div className="grid grid-cols-3 gap-[2vw]  max-md:grid-cols-2  max-md:gap-x-[12vw] ">
+            <MoreNfts
+              srcImg1={Img35}
+              srcImg2={Img38}
+              name="Distant Galaxy"
+              imgName="MoonDancer"
+            />
+            <MoreNfts
+              srcImg1={Img36}
+              srcImg2={Img39}
+              name="Life On Edena"
+              imgName="NebulaKid"
+            />
+            <MoreNfts
+              style="max-md:hidden"
+              srcImg1={Img37}
+              srcImg2={Img40}
+              name="AstroFiction"
+              imgName="Spaceone"
+            />
+          </div>
         </div>
       </div>
 
@@ -286,6 +282,7 @@ const Page: React.FC = () => {
           />
         </div>
       </div>
+
       <div className="rounded-[2vw] bg-[#3B3B3B] w-[80%] h-[70vh] mb-[20vh]  flex justify-evenly items-center ">
         <Image
           src={Img44}
