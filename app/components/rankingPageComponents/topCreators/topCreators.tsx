@@ -18,7 +18,7 @@ export type TopCreatorsTypes = {
 
 const TopCreators: React.FC<TopCreatorsTypes> = ({ srcImg, name, para }) => {
   return (
-    <div className="rounded-3xl  bg-[#3B3B3B] h-[13vh] w-[80vw] flex items-center  ">
+    <div className="rounded-3xl  bg-[#3B3B3B]  flex items-center  ">
       <div className=" rounded-2xl bg-[#3B3B3B] w-[40vw] h-[10vh] flex justify-around items-center">
         <span
           className={`${spaceMono.className}  rounded-[50%] w-[2vw] h-[4.5vh] flex justify-center items-center `}

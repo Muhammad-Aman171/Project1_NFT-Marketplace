@@ -38,59 +38,53 @@ const Ranking: React.FC = () => {
           <h1>Top Creators</h1>
           <p>Check out top ranking NFT artists on the NFT Marketplace.</p>
         </div>
-
-        <div className="my-[12vh] flex flex-col gap-[2vw] ">
-          <div className="border rounded-[1vw] border-[rgb(59,59,59)] h-[8vh] flex justify-between items-center ">
-            <span className=" w-[10vw] flex justify-around items-center ">
+        <div className="section2 my-[12vh] flex flex-col gap-[2vw] ">
+          <div className="ranking-page-crads-heading">
+            <div className="div1">
+              <p className={` ${spaceMono.className}`}>#</p>
+              <p className={` ${spaceMono.className}`}>Artist</p>
+            </div>
+            <div className="div2 ">
               <p
-                className={` ${spaceMono.className} text-[#858584] text-[1vw] `}
-              >
-                #
-              </p>
-              <p
-                className={` ${spaceMono.className} text-[#858584] text-[1vw] `}
-              >
-                Artist
-              </p>
-            </span>
-            <span className=" w-[45vw]  flex justify-around items-center ">
-              <p
-                className={`${spaceMono.className} text-[#858584] text-[1vw] `}
+                className={`${spaceMono.className} `}
               >
                 Change
               </p>
               <p
-                className={`${spaceMono.className} text-[#858584] text-[1vw] `}
+                className={`${spaceMono.className} `}
               >
                 NFTs Sold
               </p>
               <p
-                className={`${spaceMono.className} text-[#858584] text-[1vw] `}
+                className={`${spaceMono.className}`}
               >
                 Volume
               </p>
-            </span>
+            </div>
           </div>
-          <TopCreators srcImg={Img1} name="Jaydon Ekstrom Bothman" para="1" />
-          <TopCreators srcImg={Img2} name="Ruben Carder" para="2" />
-          <TopCreators srcImg={Img3} name="Alfredo Septimus" para="3" />
-          <TopCreators srcImg={Img4} name="Davis Franci" para="4" />
-          <TopCreators srcImg={Img5} name="Livia Rosser" para="5" />
-          <TopCreators srcImg={Img6} name="Kianna Donin" para="6" />
-          <TopCreators srcImg={Img7} name="Phillip Lipshutz" para="7" />
-          <TopCreators srcImg={Img8} name="Maria Rosser" para="8" />
-          <TopCreators srcImg={Img9} name="Kianna Stanton" para="9" />
-          <TopCreators srcImg={Img10} name="Angel Lubin" para="10" />
-          <TopCreators srcImg={Img11} name="Allison Torff" para="11" />
-          <TopCreators srcImg={Img12} name="Davis Workman" para="12" />
-          <TopCreators srcImg={Img13} name="Lindsey Lipshutz" para="13" />
-          <TopCreators srcImg={Img14} name="Randy Carder" para="14" />
-          <TopCreators srcImg={Img15} name="Lydia Culhane" para="15" />
-          <TopCreators srcImg={Img16} name="Rayna Bator" para="16" />
-          <TopCreators srcImg={Img17} name="Jocelyn Westervelt" para="17" />
-          <TopCreators srcImg={Img18} name="Marilyn Torff" para="18" />
-          <TopCreators srcImg={Img19} name="Skylar Levin" para="19" />
-          <TopCreators srcImg={Img20} name="Terry Dorwart" para="20" />
+
+          <div className="ranking-page-crads">
+            <TopCreators srcImg={Img1} name="Jaydon Ekstrom Bothman" para="1" />
+            <TopCreators srcImg={Img2} name="Ruben Carder" para="2" />
+            <TopCreators srcImg={Img3} name="Alfredo Septimus" para="3" />
+            <TopCreators srcImg={Img4} name="Davis Franci" para="4" />
+            <TopCreators srcImg={Img5} name="Livia Rosser" para="5" />
+            <TopCreators srcImg={Img6} name="Kianna Donin" para="6" />
+            <TopCreators srcImg={Img7} name="Phillip Lipshutz" para="7" />
+            <TopCreators srcImg={Img8} name="Maria Rosser" para="8" />
+            <TopCreators srcImg={Img9} name="Kianna Stanton" para="9" />
+            <TopCreators srcImg={Img10} name="Angel Lubin" para="10" />
+            <TopCreators srcImg={Img11} name="Allison Torff" para="11" />
+            <TopCreators srcImg={Img12} name="Davis Workman" para="12" />
+            <TopCreators srcImg={Img13} name="Lindsey Lipshutz" para="13" />
+            <TopCreators srcImg={Img14} name="Randy Carder" para="14" />
+            <TopCreators srcImg={Img15} name="Lydia Culhane" para="15" />
+            <TopCreators srcImg={Img16} name="Rayna Bator" para="16" />
+            <TopCreators srcImg={Img17} name="Jocelyn Westervelt" para="17" />
+            <TopCreators srcImg={Img18} name="Marilyn Torff" para="18" />
+            <TopCreators srcImg={Img19} name="Skylar Levin" para="19" />
+            <TopCreators srcImg={Img20} name="Terry Dorwart" para="20" />
+          </div>
         </div>
       </div>
     </div>
