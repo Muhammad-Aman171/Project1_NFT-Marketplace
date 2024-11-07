@@ -2,7 +2,7 @@ import React from "react";
 import SearchSvg from "../components/svgs/search";
 import MoreNfts from "../components/homePageComponents/moreNFT's/moreNfts";
 
-import './marketplace.scss'
+import "./marketplace.scss";
 
 import Img1 from "@/public/assets/market place website/1.png";
 import Img2 from "@/public/assets/market place website/2.png";
@@ -32,21 +32,18 @@ const Marketplace: React.FC = () => {
   return (
     <div className="marketplace">
       <div className="marketplace-inner-div">
-        <div className="marketplace-heading w-[80vw] h-[35vh] flex flex-col justify-between  ">
-          <h1 className="text-[4vw] ">Browse Marketplace</h1>
-          <p className="text-[1.7vw] ">
-            Browse through more than 50k NFTs on the NFT Marketplace.
-          </p>
-          <div className=" border-[.1vw] rounded-[1vw] w-[79vw] h-[9vh] border-[#3B3B3B] flex items-center">
-            <input
-              className="w-[80vw] ml-[2vw] h-[7vh] text-[1.5vw] text-[#858584] outline-none  "
-              type="text"
-              placeholder="Search your favourite NFTs"
-            />
-            <SearchSvg style="w-[4vw] h-[4vh] mr-[1vw] " />
+        <div className="marketplace-heading">
+          <div className="inner-marketplace-heading">
+            <h1>Browse Marketplace</h1>
+            <p>Browse through more than 50k NFTs on the NFT Marketplace.</p>
+          </div>
+          <div className="inner-marketplace-search">
+            <input type="text" placeholder="Search your favourite NFTs" />
+            <SearchSvg style="w-[24px] h-[24px] " />
           </div>
         </div>
-        <div className="marketplace-cards  grid grid-cols-3 my-[10vh] gap-[2vw]">
+
+        <div className="marketplace-cards">
           <MoreNfts
             srcImg1={Img1}
             name="Magic Mushroom 0325"
