@@ -45,21 +45,9 @@ const Ranking: React.FC = () => {
               <p className={` ${spaceMono.className}`}>Artist</p>
             </div>
             <div className="div2 ">
-              <p
-                className={`${spaceMono.className} `}
-              >
-                Change
-              </p>
-              <p
-                className={`${spaceMono.className} `}
-              >
-                NFTs Sold
-              </p>
-              <p
-                className={`${spaceMono.className}`}
-              >
-                Volume
-              </p>
+              <p className={`${spaceMono.className} `}>Change</p>
+              <p className={`${spaceMono.className} `}>NFTs Sold</p>
+              <p className={`${spaceMono.className}`}>Volume</p>
             </div>
           </div>
 

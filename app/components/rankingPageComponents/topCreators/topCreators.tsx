@@ -19,7 +19,7 @@ export type TopCreatorsTypes = {
 const TopCreators: React.FC<TopCreatorsTypes> = ({ srcImg, name, para }) => {
   return (
     <div className="rounded-3xl  bg-[#3B3B3B]  flex items-center  ">
-      <div className=" rounded-2xl bg-[#3B3B3B] w-[40vw] h-[10vh] flex justify-around items-center">
+      {/* <div className=" rounded-2xl bg-[#3B3B3B] w-[40vw] h-[10vh] flex justify-around items-center">
         <span
           className={`${spaceMono.className}  rounded-[50%] w-[2vw] h-[4.5vh] flex justify-center items-center `}
         >
@@ -42,7 +42,7 @@ const TopCreators: React.FC<TopCreatorsTypes> = ({ srcImg, name, para }) => {
         </p>
         <p className={`${spaceMono.className} bg-[#3B3B3B]`}>602</p>
         <p className={`${spaceMono.className} bg-[#3B3B3B]`}>12.4 ETH</p>
-      </div>
+      </div> */}
     </div>
   );
 };
