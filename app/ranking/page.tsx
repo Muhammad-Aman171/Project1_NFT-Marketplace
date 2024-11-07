@@ -38,11 +38,11 @@ const Ranking: React.FC = () => {
           <h1>Top Creators</h1>
           <p>Check out top ranking NFT artists on the NFT Marketplace.</p>
         </div>
-        <div className="section2 my-[12vh] flex flex-col gap-[2vw] ">
+        <div className="section2">
           <div className="ranking-page-crads-heading">
             <div className="div1">
               <p className={` ${spaceMono.className}`}>#</p>
-              <p className={` ${spaceMono.className}`}>Artist</p>
+              <p className={` ${spaceMono.className} ml-[20px]`}>Artist</p>
             </div>
             <div className="div2 ">
               <p className={`${spaceMono.className} `}>Change</p>

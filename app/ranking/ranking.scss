@@ -27,22 +27,28 @@
             .ranking-page-crads-heading{
                 border: 1px solid #858584;
                 border-radius: 20px;
-                padding: 12px 20px;
+                padding: 11px 20px;
                 display: grid;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr 1.2fr;
+                 column-gap: 60px;
+                 align-items: center;
                 p{
                     border: 1px solid;
                     color: #858584;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 140%;
-                }
-                .div1{
-                    display: flex;
                     
                 }
-                .div2{
+                .div1{
+                    border: 1px solid;
                     display: flex;
+
+                }
+                .div2{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    column-gap: 20px;
                 }
             }
         }
