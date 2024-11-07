@@ -1,0 +1,28 @@
+.ranking-page {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+
+    .inner-ranking-page {
+        border: 1px solid;
+        flex-basis: 1050px;
+
+        .section1 {
+            border: 1px solid;
+
+            h1 {
+                font-size: 51px;
+                line-height: 110%;
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 22px;
+                line-height: 160%;
+                font-weight: 400;
+            }
+        }
+    }
+
+}
