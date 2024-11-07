@@ -21,14 +21,8 @@ const TopCreators: React.FC<TopCreatorsTypes> = ({ srcImg, name, para }) => {
     <div className=" top-creators-cards  ">
       <div className="top-creators-cards-heading ">
         <h1 className={`${spaceMono.className} `}>{para}</h1>
-        <span>
-          <Image
-            className="bg-[#3B3B3B]"
-            src={srcImg!}
-            alt="img does not show"
-          />
-          <p>{name}</p>
-        </span>
+        <Image className="bg-[#3B3B3B]" src={srcImg!} alt="img does not show" />
+        <p>{name}</p>
       </div>
       <div className="top-creators-cards-details ">
         <p className={`${spaceMono.className} bg-[#3B3B3B] text-[#00AC4F] `}>

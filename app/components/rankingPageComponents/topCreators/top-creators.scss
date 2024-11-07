@@ -1,9 +1,43 @@
-.top-creators-cards{
-    border: 1px solid;
-    .top-creators-cards-heading{
-        border: 1px solid;
+.top-creators-cards {
+    // border: 1px solid;
+    border-radius: 20px;
+    background-color: #3b3b3b;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    padding: 12px 20px;
+    column-gap: 60px;
+
+    .top-creators-cards-heading {
+        display: grid;
+        grid-template-columns: .1fr .5fr 2.6fr;
+        column-gap: 20px;
+        align-items: center;
+        background-color: #3b3b3b;
+
+        h1 {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #3b3b3b;
+        }
+
+        p {
+            font-size: 22px;
+            line-height: 140%;
+            font-weight: 600;
+            background-color: #3b3b3b;
+        }
+
+
     }
-    .top-creators-cards-details{
-        border: 1px solid;
+
+    .top-creators-cards-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        align-items: center;
+        background-color: #3b3b3b;
     }
 }

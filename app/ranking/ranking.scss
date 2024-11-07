@@ -10,6 +10,7 @@
         .section1 {
             border: 1px solid;
             margin: 80px 0;
+
             h1 {
                 font-size: 51px;
                 line-height: 110%;
@@ -23,41 +24,46 @@
                 font-weight: 400;
             }
         }
-        .section2{
-            .ranking-page-crads-heading{
+
+        .section2 {
+            margin: 40px 0;
+            .ranking-page-crads-heading {
                 border: 1px solid #858584;
                 margin-bottom: 20px;
                 border-radius: 20px;
                 padding: 12px 20px;
                 display: grid;
                 grid-template-columns: 1fr 1.2fr;
-                 column-gap: 60px;
-                 align-items: center;
-                p{
+                column-gap: 60px;
+                align-items: center;
+
+                p {
                     border: 1px solid;
                     color: #858584;
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 140%;
-                    
                 }
-                .div1{
+
+                .div1 {
                     border: 1px solid;
                     display: flex;
-
+                    align-items: center;
                 }
-                .div2{
+
+                .div2 {
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
                     column-gap: 20px;
                 }
             }
 
-            
-            .ranking-page-crads{
+
+            .ranking-page-crads {
                 display: flex;
                 flex-direction: column;
                 row-gap: 20px;
+                
             }
         }
 
