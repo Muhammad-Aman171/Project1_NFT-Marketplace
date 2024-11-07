@@ -18,25 +18,19 @@ export type TopCreatorsTypes = {
 
 const TopCreators: React.FC<TopCreatorsTypes> = ({ srcImg, name, para }) => {
   return (
-    <div className="rounded-3xl  bg-[#3B3B3B]  flex items-center  ">
-      <div className=" rounded-2xl bg-[#3B3B3B] flex justify-around items-center">
-        <span
-          className={`${spaceMono.className}  rounded-[50%] w-[2vw] h-[4.5vh] flex justify-center items-center `}
-        >
-          {para}
-        </span>
-        <span className=" w-[85%] bg-[#3B3B3B] flex items-center">
+    <div className=" top-creators-cards  ">
+      <div className="top-creators-cards-heading ">
+        <h1 className={`${spaceMono.className} `}>{para}</h1>
+        <span>
           <Image
-            className="  bg-[#3B3B3B]"
+            className="bg-[#3B3B3B]"
             src={srcImg!}
             alt="img does not show"
           />
-          <p className="ml-[1.5vw] text-[1.8vw] font-semibold bg-[#3B3B3B]">
-            {name}
-          </p>
+          <p>{name}</p>
         </span>
       </div>
-      <div className=" bg-[#3B3B3B] flex justify-between items-center ">
+      <div className="top-creators-cards-details ">
         <p className={`${spaceMono.className} bg-[#3B3B3B] text-[#00AC4F] `}>
           +1.41%
         </p>
