@@ -28,9 +28,9 @@ const ConnectWallet: React.FC = () => {
               <Image
                 src={Img2}
                 alt="img does not show"
-                className="img2 bg-[#3B3B3B]  "
+                className="img2 "
               />
-              <h1 className="bg-[#3B3B3B] outline-none ml-[1vw] text-white text-[1.5vw] font-semibold ">
+              <h1>
                 {" "}
                 Metamask
               </h1>
@@ -39,9 +39,9 @@ const ConnectWallet: React.FC = () => {
               <Image
                 src={Img3}
                 alt="img does not show"
-                className="img2 bg-[#3B3B3B]  "
+                className="img2 "
               />
-              <h1 className="bg-[#3B3B3B] outline-none ml-[1vw] text-white text-[1.5vw] font-semibold ">
+              <h1>
                 {" "}
                 Wallet Connect
               </h1>
@@ -50,12 +50,9 @@ const ConnectWallet: React.FC = () => {
               <Image
                 src={Img4}
                 alt="img does not show"
-                className="img2 bg-[#3B3B3B]  "
+                className="img2"
               />
-              <h1 className="bg-[#3B3B3B] outline-none ml-[1vw] text-white text-[1.5vw] font-semibold ">
-                {" "}
-                Coinbase
-              </h1>
+              <h1>Coinbase</h1>
             </div>
           </div>
         </div>
