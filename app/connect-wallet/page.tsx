@@ -19,39 +19,21 @@ const ConnectWallet: React.FC = () => {
           <div className="connect-wallet-heading">
             <h1>Connect wallet</h1>
             <p>
-              Choose a wallet you want to connect. There are several wallet
+              Choose a wallet you want to connect. <br /> There are several wallet
               providers.
             </p>
           </div>
           <div className="connect-wallet-buttons">
             <div>
-              <Image
-                src={Img2}
-                alt="img does not show"
-                className="img2 "
-              />
-              <h1>
-                {" "}
-                Metamask
-              </h1>
+              <Image src={Img2} alt="img does not show" className="img2 " />
+              <h1> Metamask</h1>
             </div>
             <div>
-              <Image
-                src={Img3}
-                alt="img does not show"
-                className="img2 "
-              />
-              <h1>
-                {" "}
-                Wallet Connect
-              </h1>
+              <Image src={Img3} alt="img does not show" className="img2 " />
+              <h1> Wallet Connect</h1>
             </div>
             <div>
-              <Image
-                src={Img4}
-                alt="img does not show"
-                className="img2"
-              />
+              <Image src={Img4} alt="img does not show" className="img2" />
               <h1>Coinbase</h1>
             </div>
           </div>
