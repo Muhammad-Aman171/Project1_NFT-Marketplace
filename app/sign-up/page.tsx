@@ -6,6 +6,8 @@ import User2Svg from "../components/svgs/user2";
 import EmailSvg from "../components/svgs/email";
 import LockSvg from "../components/svgs/lockkey";
 
+import './sign-up.scss'
+
 const SignUp: React.FC = () => {
   return (
     <div className=" h-[130vh] w-[98.5vw] flex items-center justify-between  ">
