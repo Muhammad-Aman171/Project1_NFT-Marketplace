@@ -79,22 +79,16 @@ const Page: React.FC = () => {
             </h3>
             <div className="button2">
               <RocketSvg style=" h-[20px] w-[20px]   bg-[#A259FF] " />
-              <button className="">Get Started</button>
+              <button>Get Started</button>
             </div>
-            <div className=" total-sales ">
-              <div className=" text-[2vw] ">
-                <h2
-                  className={`${spaceMono.className} font-extrabold  max-md:text-[3vw]  `}
-                >
-                  240k+{" "}
-                </h2>
-                <p className="font-light text-[23.99px]">Total Sale</p>
+            <div className=" total-sales">
+              <div>
+                <h2 className={`${spaceMono.className}`}>240k+ </h2>
+                <p>Total Sale</p>
               </div>
               <div className="  text-[2vw] ">
-                <h2 className={`${spaceMono.className} max-md:text-[3vw]`}>
-                  100k+
-                </h2>
-                <p className="font-light text-[23.99px]">Auctions</p>
+                <h2 className={`${spaceMono.className} `}>100k+</h2>
+                <p>Auctions</p>
               </div>
               <div className="text-[2vw] ">
                 <h2 className={`${spaceMono.className} max-md:text-[3vw]`}>
