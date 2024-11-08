@@ -1,13 +1,13 @@
 .main-page {
     .container1 {
-         
+
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
 
         .section1 {
-             
+
             display: grid;
             grid-template-columns: 1fr 1fr;
             column-gap: 30px;
@@ -15,7 +15,7 @@
             margin: 80px 30px;
 
             .header-heading {
-                 
+
                 // text-align: left;
                 display: flex;
                 flex-direction: column;
@@ -23,7 +23,7 @@
                 justify-content: space-evenly;
 
                 h1 {
-                     
+
                     font-size: 67px;
                     font-weight: 600;
                     line-height: 110%;
@@ -74,7 +74,7 @@
             }
 
             .header-card1 {
-                 
+
 
                 .header-card {
                     //  
@@ -131,7 +131,7 @@
         justify-content: center;
 
         .section2 {
-             
+
             flex-basis: 1050px;
             margin: 80px 0;
 
@@ -139,7 +139,7 @@
                 margin: 0px 0 60px;
 
                 h2 {
-                     
+
                     font-size: 38px;
                     font-weight: 600;
                     line-height: 120%;
@@ -165,40 +165,46 @@
         }
     }
 
-    .container3{
-         
+    .container3 {
+
         display: flex;
         justify-content: center;
-        .section3{
-             
+
+        .section3 {
+
             flex-basis: 1050px;
             margin: 80px 0;
-            .section3-heading-btn{
-                 
+
+            .section3-heading-btn {
+
                 display: flex;
                 align-items: end;
                 justify-content: space-between;
                 margin: 0 0 60px;
-                .section3-heading{
-                    h1{
+
+                .section3-heading {
+                    h1 {
                         font-size: 38px;
                         line-height: 120%;
                         font-weight: 600;
                         margin-bottom: 10px;
                     }
-                    p{
+
+                    p {
                         font-size: 22px;
                         line-height: 160%;
                         font-weight: 400;
                     }
 
                 }
-                .section3-btn{
+
+                .section3-btn {
                     border: 2px solid #A259FF;
                     border-radius: 20px;
                     display: flex;
                     padding: 19px 50px;
-                    h3{
+
+                    h3 {
                         font-size: 16px;
                         line-height: 140%;
                         font-weight: 600;
@@ -206,8 +212,9 @@
                     }
                 }
             }
-            .top-creators-card{
-                 
+
+            .top-creators-card {
+
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 gap: 30px;
@@ -215,64 +222,73 @@
         }
     }
 
-    .container4{
-         
+    .container4 {
+
         display: flex;
         justify-content: center;
-        .section4{
-             
+
+        .section4 {
+
             flex-basis: 1050px;
             margin: 80px 0;
-            h1{
+
+            h1 {
                 font-size: 38px;
                 line-height: 120%;
                 font-weight: 600;
                 margin-bottom: 60px;
             }
-            .section4-cards{
+
+            .section4-cards {
                 display: grid;
-                grid-template-columns: repeat(4 , 1fr);
+                grid-template-columns: repeat(4, 1fr);
                 gap: 30px;
             }
 
         }
     }
 
-    .container5{
-         
+    .container5 {
+
         display: flex;
         justify-content: center;
+
         // align-items: center;
-        .section5{
-             
+        .section5 {
+
             flex-basis: 1050px;
             margin: 80px 0;
-            .section5-heading-btn{
-                 
+
+            .section5-heading-btn {
+
                 display: flex;
                 align-items: end;
                 justify-content: space-between;
                 margin: 0 0 60px;
-                .section5-heading{
-                    h1{
+
+                .section5-heading {
+                    h1 {
                         font-size: 38px;
                         line-height: 120%;
                         font-weight: 600;
                         margin-bottom: 10px;
                     }
-                    p{
+
+                    p {
                         font-size: 22px;
                         line-height: 160%;
                         font-weight: 400;
                     }
 
                 }
-                .section5-btn{
+
+                .section5-btn {
                     border: 2px solid #A259FF;
                     border-radius: 20px;
                     display: flex;
                     padding: 19px 50px;
-                    h3{
+
+                    h3 {
                         font-size: 16px;
                         line-height: 140%;
                         font-weight: 600;
@@ -280,53 +296,60 @@
                     }
                 }
             }
+
             .section5-cards {
                 display: grid;
-                grid-template-columns: repeat(3 , 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 column-gap: 30px;
             }
         }
     }
 
-    .container6{
-         
+    .container6 {
+
         display: flex;
         justify-content: center;
         align-items: center;
-        .section6{
-             
+
+        .section6 {
+
             flex-basis: 1050px;
             margin: 80px 0;
-            .section6-heading{
-                 
+
+            .section6-heading {
+
                 margin-bottom: 48px;
-                h1{
+
+                h1 {
                     font-size: 38px;
                     line-height: 120%;
                     font-weight: 600;
                     margin-bottom: 10px;
                 }
-                p{
+
+                p {
                     font-size: 22px;
                     line-height: 160%;
                     font-weight: 400;
                 }
             }
-            .section6-cards{
-                 
+
+            .section6-cards {
+
                 display: grid;
-                grid-template-columns: repeat(3,1fr);
+                grid-template-columns: repeat(3, 1fr);
                 column-gap: 30px;
             }
         }
     }
 
-    .container7{
-         
+    .container7 {
+
         display: flex;
         justify-content: center;
-        .section7{
-             
+
+        .section7 {
+
             border-radius: 20px;
             flex-basis: 1050px;
             background-color: #3B3B3B;
@@ -334,7 +357,8 @@
             grid-template-columns: 1fr 1fr;
             column-gap: 50px;
             margin: 40px 0 80px;
-            .img1{
+
+            .img1 {
                 border-radius: 20px;
                 background-color: #3B3B3B;
                 margin: 60px;

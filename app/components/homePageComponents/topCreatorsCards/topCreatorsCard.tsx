@@ -17,7 +17,7 @@ const TopCreatorsCards: React.FC<TopCreatorsTypes> = ({style, srcImg,name}) => {
           className="top-creators-img1"
         />
       </div>
-      <div className="top-creators-headings bg-[#3B3B3B]  flex flex-col items-center  max-md:items-start">
+      <div className="top-creators-headings">
         <h1 className=" ">{name}</h1>
         <p className="">Total Sales: <span className=" bg-[#3B3B3B] ">34.53 ETH</span> </p>
       </div>
