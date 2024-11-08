@@ -1,48 +1,56 @@
-.main-div{
+.main-div {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    .navbar{
+
+    .navbar {
         margin: 20px 30px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-basis: 1280px;
-        .navbar-heading{
+
+        .navbar-heading {
             display: flex;
             align-items: center;
-            h1{
+
+            h1 {
                 font-size: 22px;
                 line-height: 140%;
                 margin-left: 10px;
                 width: 260px;
             }
         }
-        .navbar-pages{
+
+        .navbar-pages {
             display: flex;
             flex-basis: 600px;
             margin-left: 50px;
-            ul{
+
+            ul {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 width: 100%;
-                li{
+
+                li {
                     font-size: 16px;
                     margin: 0 5px 0;
-                    .button1{
-                         
+
+                    .button1 {
+
                         border-radius: 20px;
-                        padding: 10px 20px ;
+                        padding: 10px 20px;
                         line-height: 140%;
                         display: flex;
                         align-items: center;
                         background-color: #A259FF;
-                        button{
+
+                        button {
                             font-weight: 600;
                             background-color: #A259FF;
-                            margin: 8px 15px ;
+                            margin: 8px 15px;
                         }
                     }
                 }
@@ -51,4 +59,3 @@
     }
 
 }
-
