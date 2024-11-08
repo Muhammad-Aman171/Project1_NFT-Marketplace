@@ -1,10 +1,8 @@
 .sign-up {
-    border: 1px solid;
     display: flex;
     justify-content: center;
 
     .inner-sign-up {
-        border: 1px solid;
         flex-basis: 1280px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -12,7 +10,6 @@
         place-items: center;
 
         .sign-up-img {
-            border: 1px solid;
             width: 100%;
             height: 100%;
 
@@ -23,15 +20,12 @@
         }
 
         .sign-up-div2 {
-            border: 1px solid;
             display: flex;
             flex-direction: column;
             align-items: start;
             width: 100%;
 
             .inner-sign-up-div2 {
-                border: 1px solid;
-
                 .sign-up-div2-heading {
                     h1 {
                         font-size: 51px;
@@ -62,12 +56,13 @@
                         display: flex;
                         align-items: center;
                         column-gap: 12px;
+
                         input {
                             background-color: white;
                             color: #2B2B2B;
                             outline: none;
                             padding: 0 69px 0 0;
-                            
+
                             &::placeholder {
                                 color: #2B2B2B;
                                 font-size: 16px;
@@ -77,13 +72,13 @@
                         }
                     }
                 }
-                .sign-up-button{
-                    border: 1px solid;
-                    button{
+
+                .sign-up-button {
+                    button {
                         background-color: #A259FF;
                         text-align: center;
                         padding: 12px 105px;
-                        font-size: 16px ;
+                        font-size: 16px;
                         line-height: 140%;
                         border-radius: 20px;
                     }
