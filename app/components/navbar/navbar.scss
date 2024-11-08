@@ -10,6 +10,9 @@
         justify-content: space-between;
         align-items: center;
         flex-basis: 1280px;
+        @media (max-width : 1015px) {
+            margin: 15px 50px;
+        }
 
         .navbar-heading {
             display: flex;
