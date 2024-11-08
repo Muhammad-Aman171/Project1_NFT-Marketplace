@@ -26,10 +26,10 @@ const Navbar: React.FC = () => {
         <div className="navbar-pages">
           <ul>
             <li>
-              <Link href={"/ranking"}>Rankings</Link>{" "}
+              <Link href={"/ranking"}>Marketplace </Link>{" "}
             </li>
             <li>
-              <Link href={"/marketplace"}>Marketplace </Link>
+              <Link href={"/marketplace"}>Rankings</Link>
             </li>
             <li>
               <Link href={"/connect-wallet"}>Connect a wallet </Link>
