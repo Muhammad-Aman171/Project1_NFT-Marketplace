@@ -24,21 +24,23 @@ const SignUp: React.FC = () => {
                 selling NFTs.
               </p>
             </div>
-            <div className="input-field ">
-              <User2Svg style="w-[20px] h-[20px]" />
-              <input type="text" placeholder="Username" />
-            </div>
-            <div className="input-field ">
-              <EmailSvg style="w-[20px] h-[20px] " />
-              <input type="emial" placeholder="Email Address" />
-            </div>
-            <div className="input-field ">
-              <LockSvg style="w-[20px] h-[20px]" />
-              <input type="password" placeholder="Password" />
-            </div>
-            <div className="input-field">
-              <LockSvg style="w-[20px] h-[20px] bg-white " />
-              <input type="password" placeholder="Confirm Password" />
+            <div className="sign-up-div2-fields">
+              <div className="input-field ">
+                <User2Svg style="w-[20px] h-[20px] bg-white " />
+                <input type="text" placeholder="Username" />
+              </div>
+              <div className="input-field ">
+                <EmailSvg style="w-[20px] h-[20px] bg-white  " />
+                <input type="emial" placeholder="Email Address" />
+              </div>
+              <div className="input-field ">
+                <LockSvg style="w-[20px] h-[20px] bg-white " />
+                <input type="password" placeholder="Password" />
+              </div>
+              <div className="input-field">
+                <LockSvg style="w-[20px] h-[20px] bg-white " />
+                <input type="password" placeholder="Confirm Password" />
+              </div>
             </div>
             <div className="sign-up-button">
               <button className="bg-[#A259FF] w-[25vw] h-[9vh] rounded-[1.7vw] text-[1.5vw] font-semibold ">
