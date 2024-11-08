@@ -43,9 +43,7 @@ const SignUp: React.FC = () => {
               </div>
             </div>
             <div className="sign-up-button">
-              <button className="bg-[#A259FF] w-[25vw] h-[9vh] rounded-[1.7vw] text-[1.5vw] font-semibold ">
-                Create account
-              </button>
+              <button>Create account</button>
             </div>
           </div>
         </div>

@@ -53,6 +53,7 @@
                     flex-direction: column;
                     align-items: start;
                     row-gap: 15px;
+                    margin-bottom: 30px;
 
                     .input-field {
                         background-color: white;
@@ -65,7 +66,7 @@
                             background-color: white;
                             color: #2B2B2B;
                             outline: none;
-                            padding: 0 58px 0 0;
+                            padding: 0 69px 0 0;
                             
                             &::placeholder {
                                 color: #2B2B2B;
@@ -74,6 +75,17 @@
                             }
 
                         }
+                    }
+                }
+                .sign-up-button{
+                    border: 1px solid;
+                    button{
+                        background-color: #A259FF;
+                        text-align: center;
+                        padding: 12px 105px;
+                        font-size: 16px ;
+                        line-height: 140%;
+                        border-radius: 20px;
                     }
                 }
 
