@@ -25,7 +25,6 @@
 
         .navbar-pages {
             display: flex;
-            // flex-basis: 600px;
             margin-left: 50px;
 
             ul {
@@ -54,6 +53,18 @@
                         }
                     }
                 }
+            }
+
+            @media (max-width : 1015px) {
+                display: none;
+            }
+        }
+
+        .menu {
+            display: none;
+            @media (max-width : 1015px) {
+                border: 1px solid;
+                display: block;
             }
         }
     }
