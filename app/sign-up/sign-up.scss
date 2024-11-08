@@ -1,0 +1,49 @@
+.sign-up {
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+
+    .inner-sign-up {
+        border: 1px solid;
+        flex-basis: 1280px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 60px;
+        place-items: center;
+        .sign-up-img {
+            border: 1px solid;
+            width: 100%;
+            height: 100%;
+            .img1{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .sign-up-div2 {
+            border: 1px solid;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            width: 100%;
+            .inner-sign-up-div2 {
+                border: 1px solid;
+                .sign-up-div2-heading{
+                    h1{
+                        font-size: 51px;
+                        line-height: 110%;
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                    }
+                    p{
+                        font-size: 22px;
+                        line-height: 160%;
+                        font-weight: 400;
+                        margin-bottom: 40px ;
+                    }
+                }
+            }
+        }
+    }
+
+}
