@@ -6,6 +6,7 @@ import "./navbar.scss";
 
 import StoreSvg from "../svgs/store";
 import UserSvg from "../svgs/user";
+import MenuSvg from "../svgs/menu";
 
 const spaceMone = Space_Mono({
   subsets: ["latin"],
@@ -43,6 +44,9 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
           </ul>
+        </div>
+        <div className="menu">
+          <MenuSvg />
         </div>
       </div>
     </div>
