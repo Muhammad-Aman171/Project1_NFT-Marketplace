@@ -55,19 +55,18 @@
                     row-gap: 15px;
 
                     .input-field {
-                        border: 1px solid red;
                         background-color: white;
                         border-radius: 20px;
                         padding: 12px 20px;
                         display: flex;
                         align-items: center;
                         column-gap: 12px;
-
                         input {
                             background-color: white;
                             color: #2B2B2B;
                             outline: none;
-
+                            padding: 0 58px 0 0;
+                            
                             &::placeholder {
                                 color: #2B2B2B;
                                 font-size: 16px;
