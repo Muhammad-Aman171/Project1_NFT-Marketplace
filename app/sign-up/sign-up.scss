@@ -90,7 +90,7 @@
                     }
                 }
 
-                @media (max-width : 834px) {
+                @media (max-width : 880px) {
                     border: 1px solid red;
                     width: 100%;
                     .sign-up-div2-heading{
@@ -103,8 +103,11 @@
                             border: 1px solid;
                             font-size: 16px;
                             width: 100%;
-                            // margin: 0;
                         }
+                    }
+                    .sign-up-div2-fields{
+                        
+
                     }
                 }
             }
