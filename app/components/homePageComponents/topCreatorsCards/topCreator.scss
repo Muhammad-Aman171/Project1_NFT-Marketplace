@@ -1,7 +1,6 @@
 .top-creators-cards{
     border-radius: 20px;
     flex-basis: 240px;
-    height: 240px;
     background-color: #3b3b3b;
     display: flex;
     align-items: center;
@@ -17,7 +16,6 @@
     .top-creators-headings{
         margin:0 0 20px ;
         h1{
-            border: 1px solid;
             font-size: 22px;
             font-weight: 600;
             line-height: 140%;
@@ -34,7 +32,27 @@
     }
 
     @media (max-width:1281px) {
-        border: 1px solid;
         flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        column-gap: 20px;
+        .top-creators-img{
+            .top-creators-img1{
+                width: 60px;
+                height: 60px;
+                margin: 0;
+            }
+        }
+        .top-creators-headings{
+            margin: 0;
+            h1{
+                text-align: start;
+            }
+            p{
+                span{
+                    margin-left: 10px;
+                }
+            }
+        }
     }
 }
