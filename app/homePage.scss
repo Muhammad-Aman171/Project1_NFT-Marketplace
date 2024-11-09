@@ -78,8 +78,6 @@
                 margin-bottom: 20px;
 
                 .img1-div {
-                    height: 400px;
-
                     img {
                         width: 100%;
                         height: 100%;
@@ -121,8 +119,9 @@
                 flex-basis: 690px;
 
                 .header-heading {
-                    display: flex;
+                    justify-content: space-between;
                     h1 {
+                        border: 1px solid;
                         font-size: 38px;
                         line-height: 120%;
                     }
