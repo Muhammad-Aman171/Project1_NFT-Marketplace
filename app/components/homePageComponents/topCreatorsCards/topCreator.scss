@@ -32,4 +32,9 @@
             color: #858584;
         }
     }
+
+    @media (max-width:1281px) {
+        border: 1px solid;
+        flex-direction: row;
+    }
 }

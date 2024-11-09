@@ -177,12 +177,12 @@ const Page: React.FC = () => {
             <TopCreatorsCards srcImg={Img18} name="Juanie" />
             <TopCreatorsCards srcImg={Img19} name="BlueWhale" />
             <TopCreatorsCards srcImg={Img20} name="mr fox" />
-            <TopCreatorsCards srcImg={Img21} name="Shroomie" />
-            <TopCreatorsCards srcImg={Img22} name="robotica" />
-            <TopCreatorsCards srcImg={Img23} name="RustyRobot" />
-            <TopCreatorsCards srcImg={Img24} name="animakid" />
-            <TopCreatorsCards srcImg={Img25} name="Dotgu" />
-            <TopCreatorsCards srcImg={Img26} name="Ghiblier" />
+            <TopCreatorsCards srcImg={Img21} name="Shroomie"  style="cards-end" />
+            <TopCreatorsCards srcImg={Img22} name="robotica"  style="cards-end" />
+            <TopCreatorsCards srcImg={Img23} name="RustyRobot"style="cards-end" />
+            <TopCreatorsCards srcImg={Img24} name="animakid"  style="cards-end" />
+            <TopCreatorsCards srcImg={Img25} name="Dotgu"     style="cards-end" />
+            <TopCreatorsCards srcImg={Img26} name="Ghiblier"  style="cards-end" />
           </div>
         </div>
       </div>

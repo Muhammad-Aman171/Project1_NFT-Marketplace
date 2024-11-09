@@ -285,7 +285,13 @@
                             line-height: 140%;
                         }
                     }
-
+                   
+                }
+                .top-creators-card {
+                    grid-template-columns: 1fr 1fr;
+                    .cards-end{
+                        display: none;
+                    }
                 }
             }
         }
