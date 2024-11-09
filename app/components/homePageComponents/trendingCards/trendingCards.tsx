@@ -27,7 +27,7 @@ const TrendingCards: React.FC<TrendingCollectionTypes> = ({
           <Image src={srcImg1!} alt="img1 does not show" />
         </div>
         <div className="small-imgs">
-          <div className="img2">
+          <div className="img">
             <Image src={srcImg2!} alt="img1 does not show" />
           </div>
           <div className="img3">
