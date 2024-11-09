@@ -24,14 +24,14 @@ const TrendingCards: React.FC<TrendingCollectionTypes> = ({
     <div className={`trending-cards ${style} `}>
       <div className="inner-cards">
         <div className="img1">
-          <Image src={srcImg1!} alt="img1 does not show" className="img1" />
+          <Image src={srcImg1!} alt="img1 does not show" />
         </div>
         <div className="small-imgs">
           <div className="img2">
-            <Image src={srcImg2!} alt="img1 does not show" className="img2" />
+            <Image src={srcImg2!} alt="img1 does not show" />
           </div>
           <div className="img3">
-            <Image src={srcImg3!} alt="img1 does not show" className="img3" />
+            <Image src={srcImg3!} alt="img1 does not show" />
           </div>
           <h1 className={` ${spaceMono.className}`}>1025+</h1>
         </div>
