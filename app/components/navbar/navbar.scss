@@ -10,9 +10,6 @@
         justify-content: space-between;
         align-items: center;
         flex-basis: 1280px;
-        @media (max-width : 1015px) {
-            margin: 15px 50px;
-        }
 
         .navbar-heading {
             display: flex;
@@ -58,14 +55,14 @@
                 }
             }
 
-            @media (max-width : 1055px) {
+            @media (max-width : 1280px) {
                 display: none;
             }
         }
 
         .menu {
             display: none;
-            @media (max-width : 1055px) {
+            @media (max-width : 1280px) {
                 // border: 1px solid;
                 display: block;
             }
