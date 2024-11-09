@@ -70,7 +70,6 @@
                     }
                 }
             }
-
             .header-card1 {
                 width: 100%;
                 background-color: #3B3B3B;
@@ -113,13 +112,14 @@
 
 
             }
-
             @media (max-width: 1281px) {
                 border: 1px solid;
                 flex-basis: 690px;
+                margin: 80px 72px;
 
                 .header-heading {
                     justify-content: space-between;
+
                     h1 {
                         border: 1px solid;
                         font-size: 38px;
@@ -135,8 +135,21 @@
                     .button2 {
                         padding: 19px 50px;
                     }
+                    .total-sales {
+                        div{
+                            h2{
+                                font-size: 22px ;
+                                line-height: 160%;
+                            }
+                            p{
+                                font-size: 16px ;
+                                line-height: 140%;
+                            }
+                        }
+                    }
                 }
             }
+
         }
 
     }
