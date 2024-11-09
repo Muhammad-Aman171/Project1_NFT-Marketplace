@@ -70,6 +70,7 @@
                     }
                 }
             }
+
             .header-card1 {
                 width: 100%;
                 background-color: #3B3B3B;
@@ -112,6 +113,7 @@
 
 
             }
+
             @media (max-width: 1281px) {
                 border: 1px solid;
                 flex-basis: 690px;
@@ -135,14 +137,16 @@
                     .button2 {
                         padding: 19px 50px;
                     }
+
                     .total-sales {
-                        div{
-                            h2{
-                                font-size: 22px ;
+                        div {
+                            h2 {
+                                font-size: 22px;
                                 line-height: 160%;
                             }
-                            p{
-                                font-size: 16px ;
+
+                            p {
+                                font-size: 16px;
                                 line-height: 140%;
                             }
                         }
@@ -185,12 +189,28 @@
                 grid-template-columns: 1fr 1fr 1fr;
                 column-gap: 30px;
 
-            }
-        }
 
-        @media (max-width: 1150px) {
-            .section2 {
-                border: 1px solid blue;
+            }
+
+            @media (max-width: 1281px) {
+                border: 1px solid;
+                flex-basis: 690px;
+                margin: 40px 72px;
+
+                .section2-heading{
+                    h2{
+                        font-size: 28px;
+                        line-height: 140%;
+                    }
+                    h4{
+                        font-size: 16px;
+                        line-height: 140%;
+                    }
+                }
+
+                .section2-cards {
+                    grid-template-columns: 1fr 1fr ;
+                }
             }
         }
     }
