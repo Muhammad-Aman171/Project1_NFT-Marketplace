@@ -1,19 +1,23 @@
-.trending-cards{
+.trending-cards {
     flex-basis: 330px;
     height: 525px;
-    .inner-cards{
+
+    .inner-cards {
         height: 525px;
-        p{
+
+        p {
             font-size: 22px;
             line-height: 140%;
             font-weight: 600;
             margin-bottom: 10px;
         }
-        .small-imgs{
+
+        .small-imgs {
             margin: 15px 0;
             display: flex;
             column-gap: 15px;
-            h1{
+
+            h1 {
                 border-radius: 20px;
                 background-color: #A259FF;
                 font-size: 22px;
@@ -25,10 +29,12 @@
                 justify-content: center;
             }
         }
-        .last-img{
+
+        .last-img {
             display: flex;
             align-items: center;
-            h6{
+
+            h6 {
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 140%;

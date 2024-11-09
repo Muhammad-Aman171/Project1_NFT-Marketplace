@@ -36,7 +36,7 @@ const TrendingCards: React.FC<TrendingCollectionTypes> = ({
           <h1 className={` ${spaceMono.className}`}>1025+</h1>
         </div>
         <p>{heading}</p>
-        <div className="last-img flex items-center ">
+        <div className="last-img">
           <Image src={srcImg4!} alt="img1 does not show" />
           <h6>{personName}</h6>
         </div>
