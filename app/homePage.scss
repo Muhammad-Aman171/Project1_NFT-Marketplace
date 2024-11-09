@@ -267,10 +267,26 @@
                 gap: 30px;
             }
 
-            @media (max-width: 1281px){
+            @media (max-width: 1281px) {
                 border: 1px solid;
                 flex-basis: 690px;
                 margin: 40px 72px;
+
+                .section3-heading-btn {
+                    .section3-heading {
+                        h1 {
+                            font-size: 28px;
+                            line-height: 140%;
+
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 140%;
+                        }
+                    }
+
+                }
             }
         }
     }
