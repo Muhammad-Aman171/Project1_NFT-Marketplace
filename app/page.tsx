@@ -144,7 +144,7 @@ const Page: React.FC = () => {
               personName="Shroomie"
             />
             <TrendingCards
-              // style="max-md:hidden  "
+              style="last-section2-cards"
               srcImg1={Img5}
               srcImg2={Img8}
               srcImg3={Img11}

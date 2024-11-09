@@ -210,6 +210,9 @@
 
                 .section2-cards {
                     grid-template-columns: 1fr 1fr ;
+                    .last-section2-cards{
+                        display: none;
+                    }
                 }
             }
         }
