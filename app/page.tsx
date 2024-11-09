@@ -100,20 +100,18 @@ const Page: React.FC = () => {
           </div>
 
           <div className="header-card1">
-            <div className="header-card">
-              <div className="img1-div">
-                <Image src={Img1} alt="img1 does not show" className="img1" />
-              </div>
-              <div className=" img1-bottom  ">
-                <h2>Space Walking</h2>
-                <div>
-                  <Image
-                    src={Img2}
-                    alt="img2 does not show"
-                    className="bg-[#3B3B3B] w-[24px] h-[24px]"
-                  />
-                  <p>Animakid</p>
-                </div>
+            <div className="img1-div">
+              <Image src={Img1} alt="img1 does not show" className="img1" />
+            </div>
+            <div className=" img1-bottom  ">
+              <h2>Space Walking</h2>
+              <div>
+                <Image
+                  src={Img2}
+                  alt="img2 does not show"
+                  className="bg-[#3B3B3B] w-[24px] h-[24px]"
+                />
+                <p>Animakid</p>
               </div>
             </div>
           </div>
