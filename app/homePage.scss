@@ -7,16 +7,11 @@
         align-items: center;
 
         .section1 {
-            border: 1px solid;
             display: grid;
             grid-template-columns: 1fr 1fr;
             column-gap: 30px;
             flex-basis: 1050px;
             margin: 80px 50px;
-
-            @media (max-width : 1015px) {
-                margin: 80px 72px;
-            }
 
             .header-heading {
                 border: 1px solid;
@@ -121,7 +116,20 @@
 
 
             }
-
+            @media (max-width: 1281px) {
+                border: 1px solid;
+                flex-basis: 690px;
+                .header-heading {
+                    h1{
+                        font-size: 38px;
+                        line-height: 120%;
+                    }
+                    h3{
+                        font-size: 16px;
+                        
+                    }
+                }
+            }
         }
 
     }
