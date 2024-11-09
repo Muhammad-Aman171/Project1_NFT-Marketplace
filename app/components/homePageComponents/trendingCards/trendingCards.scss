@@ -17,6 +17,17 @@
             display: flex;
             column-gap: 15px;
 
+            .img2{
+                border: 1px solid;
+                width: 100%;
+                height: 100%;
+            }
+            .img3{
+                border: 1px solid;
+                width: 100%;
+                height: 100%;
+            }
+
             h1 {
                 border-radius: 20px;
                 background-color: #A259FF;
@@ -33,6 +44,7 @@
         .last-img {
             display: flex;
             align-items: center;
+
 
             h6 {
                 font-size: 16px;
