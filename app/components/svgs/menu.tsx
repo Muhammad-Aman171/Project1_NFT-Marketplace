@@ -15,9 +15,9 @@ const MenuSvg: React.FC = () => {
             id="Vector"
             d="M5 17H13M5 12H19M5 7H13"
             stroke="#ffffff"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </g>
       </svg>
