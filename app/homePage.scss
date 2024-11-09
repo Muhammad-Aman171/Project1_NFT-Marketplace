@@ -153,14 +153,16 @@
             }
 
             .section2-cards {
-                // width: 1050px;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 column-gap: 30px;
-                // grid-row: inherit;
 
+            }
+        }
 
-
+        @media (max-width: 1150px) {
+            .section2 {
+                border: 1px solid blue;
             }
         }
     }
@@ -173,7 +175,7 @@
         .section3 {
 
             flex-basis: 1050px;
-            margin: 80px 0;
+            margin: 80px 50px;
 
             .section3-heading-btn {
 
@@ -230,7 +232,7 @@
         .section4 {
 
             flex-basis: 1050px;
-            margin: 80px 0;
+            margin: 80px 50px;
 
             h1 {
                 font-size: 38px;
@@ -257,7 +259,7 @@
         .section5 {
 
             flex-basis: 1050px;
-            margin: 80px 0;
+            margin: 80px 50px;
 
             .section5-heading-btn {
 
@@ -314,7 +316,7 @@
         .section6 {
 
             flex-basis: 1050px;
-            margin: 80px 0;
+            margin: 80px 50px;
 
             .section6-heading {
 
@@ -356,7 +358,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             column-gap: 50px;
-            margin: 40px 0 80px;
+            margin: 40px 50px 80px;
 
             .img1 {
                 border-radius: 20px;
