@@ -6,13 +6,15 @@ import './browseCategories.scss'
 const BrowseCategories: React.FC<BrowseCategoriesTypes> = ({srcImg,name}) => {
   return ( 
     <div className="browse-categories ">
-      <Image
-        src={srcImg!}
-        alt="img does not show"
-        
-      />
-
-      <p >{name}</p>
+      <div className="inner-browse-categories">
+        <Image
+          src={srcImg!}
+          alt="img does not show"
+          
+        />
+  
+        <p >{name}</p>
+      </div>
     </div>
   )
 }

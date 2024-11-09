@@ -285,11 +285,13 @@
                             line-height: 140%;
                         }
                     }
-                   
+
                 }
+
                 .top-creators-card {
                     grid-template-columns: 1fr 1fr;
-                    .cards-end{
+
+                    .cards-end {
                         display: none;
                     }
                 }
@@ -320,6 +322,15 @@
                 gap: 30px;
             }
 
+            @media (max-width:1281px) {
+                border: 1px solid;
+                flex-basis: 690px;
+                margin: 40px 72px;
+                h1{
+                    font-size: 28px;
+                    line-height: 140%;
+                }
+            }
         }
     }
 
