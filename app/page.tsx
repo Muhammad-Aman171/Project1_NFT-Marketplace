@@ -86,15 +86,13 @@ const Page: React.FC = () => {
                 <h2 className={`${spaceMono.className}`}>240k+ </h2>
                 <p>Total Sale</p>
               </div>
-              <div className="  text-[2vw] ">
+              <div>
                 <h2 className={`${spaceMono.className} `}>100k+</h2>
                 <p>Auctions</p>
               </div>
-              <div className="text-[2vw] ">
-                <h2 className={`${spaceMono.className} max-md:text-[3vw]`}>
-                  240k+
-                </h2>
-                <p className="font-light text-[23.99px]">Artists</p>
+              <div>
+                <h2 className={`${spaceMono.className} `}>240k+</h2>
+                <p>Artists</p>
               </div>
             </div>
           </div>
