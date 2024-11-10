@@ -45,6 +45,7 @@
     }
 
     @media (max-width  :1281px) {
+        border: 1px solid;
         margin: 40px 30px 40px 0px;
         h1{
             font-size: 28px;
@@ -55,6 +56,8 @@
             line-height: 140%;
         }
         div{
+            border-radius: 0;
+            border: 1px solid;
             flex-direction: column;
             background-color: #3b3b3b;
 
@@ -62,10 +65,12 @@
                 padding: 12px 20px;
                 margin-bottom: 16px;
                 &::placeholder{
+                    border: 1px solid;
                     font-size: 16px;
                 }
             }
             h5{
+                text-align: center;
                 padding: 12px 50px;
             }
         }

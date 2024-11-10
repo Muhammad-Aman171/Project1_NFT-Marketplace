@@ -177,12 +177,32 @@ const Page: React.FC = () => {
             <TopCreatorsCards srcImg={Img18} name="Juanie" />
             <TopCreatorsCards srcImg={Img19} name="BlueWhale" />
             <TopCreatorsCards srcImg={Img20} name="mr fox" />
-            <TopCreatorsCards srcImg={Img21} name="Shroomie"  style="cards-end" />
-            <TopCreatorsCards srcImg={Img22} name="robotica"  style="cards-end" />
-            <TopCreatorsCards srcImg={Img23} name="RustyRobot"style="cards-end" />
-            <TopCreatorsCards srcImg={Img24} name="animakid"  style="cards-end" />
-            <TopCreatorsCards srcImg={Img25} name="Dotgu"     style="cards-end" />
-            <TopCreatorsCards srcImg={Img26} name="Ghiblier"  style="cards-end" />
+            <TopCreatorsCards
+              srcImg={Img21}
+              name="Shroomie"
+              style="cards-end"
+            />
+            <TopCreatorsCards
+              srcImg={Img22}
+              name="robotica"
+              style="cards-end"
+            />
+            <TopCreatorsCards
+              srcImg={Img23}
+              name="RustyRobot"
+              style="cards-end"
+            />
+            <TopCreatorsCards
+              srcImg={Img24}
+              name="animakid"
+              style="cards-end"
+            />
+            <TopCreatorsCards srcImg={Img25} name="Dotgu" style="cards-end" />
+            <TopCreatorsCards
+              srcImg={Img26}
+              name="Ghiblier"
+              style="cards-end"
+            />
           </div>
         </div>
       </div>
@@ -207,7 +227,7 @@ const Page: React.FC = () => {
 
       {/* discover more nfts is started */}
 
-      <div className="container5 ">
+      <div className="container5">
         <div className="section5">
           <div className="section5-heading-btn flex justify-between items-center ">
             <div className="section5-heading">
@@ -275,7 +295,7 @@ const Page: React.FC = () => {
 
       <div className="container7">
         <div className="section7">
-          <Image src={Img44} alt="img does not show" className="img1" />
+          <div className="section7-img1"><Image src={Img44} alt="img does not show" className="img1" /></div>
           <JoinDigest />
         </div>
       </div>
