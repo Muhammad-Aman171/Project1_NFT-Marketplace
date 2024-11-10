@@ -5,8 +5,7 @@
     background-color: #3b3b3b;
 
     .inner-footer-div {
-        margin: 40px 0;
-
+        margin: 40px 50px;
         display: grid;
         grid-template-columns: 1.5fr 1fr 2fr;
         flex-basis: 990px;
@@ -114,9 +113,7 @@
                     border-radius: 20px;
                     width: 100%;
                     background-color: white;
-                    position: relative;
                     padding: 19px 20px;
-                    z-index: 1;
 
                     &::placeholder {
                         font-size: 16px;
@@ -129,11 +126,17 @@
                     border-radius: 20px;
                     padding: 19px 50px;
                     background-color: #A259FF;
-                    position: relative;
-                    // left: 11px;
-                    z-index: 2;
                 }
             }
         }
+        @media (max-width:1281px) {
+            border: 1px solid;
+            margin: 40px 72px;
+            display: flex;
+            flex-direction: column;
+            flex-basis: 690px;
+            
+        }
     }
+
 }
