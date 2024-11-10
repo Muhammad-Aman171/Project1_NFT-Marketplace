@@ -52,7 +52,7 @@ const Ranking: React.FC = () => {
           </div>
 
           <div className="ranking-page-crads">
-            <TopCreators srcImg={Img1} name="Jaydon Ekstrom Bothman" para="1" />
+            <TopCreators srcImg={Img1} name="Marcus Saris" para="1" />
             <TopCreators srcImg={Img2} name="Ruben Carder" para="2" />
             <TopCreators srcImg={Img3} name="Alfredo Septimus" para="3" />
             <TopCreators srcImg={Img4} name="Davis Franci" para="4" />
