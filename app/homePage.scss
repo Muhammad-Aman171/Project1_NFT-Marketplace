@@ -326,7 +326,8 @@
                 border: 1px solid;
                 flex-basis: 690px;
                 margin: 40px 72px;
-                h1{
+
+                h1 {
                     font-size: 28px;
                     line-height: 140%;
                 }
@@ -387,6 +388,28 @@
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 column-gap: 30px;
+            }
+
+            @media (max-width:1281px) {
+                border: 1px solid;
+
+                .section5-heading-btn {
+                    .section5-heading {
+                        h1 {
+                            font-size: 28px;
+                            line-height: 140%;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 140%;
+                        }
+                    }
+                }
+
+                .section5-cards {
+                    grid-template-columns: 1fr 1fr;
+                }
             }
         }
     }
