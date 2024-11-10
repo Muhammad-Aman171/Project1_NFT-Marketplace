@@ -1,14 +1,11 @@
 .ranking-page {
-    border: 1px solid;
     display: flex;
     justify-content: center;
 
     .inner-ranking-page {
-        border: 1px solid;
         flex-basis: 1050px;
-
+        margin: 0 72px;
         .section1 {
-            border: 1px solid;
             margin: 80px 0;
 
             h1 {
@@ -58,7 +55,6 @@
                 }
             }
 
-
             .ranking-page-crads {
                 display: flex;
                 flex-direction: column;
@@ -67,7 +63,28 @@
             }
         }
 
-
+        @media (max-width : 1281px) {
+            border: 1px solid blue;
+            flex-basis: 690px;
+            .section1{
+                margin: 40px 0;
+                h1{
+                    font-size: 38px;
+                    line-height: 120%;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 140%;
+                }
+            }
+            
+            .section2{
+                border: 1px solid;
+                .ranking-page-crads-heading{
+                    border: 1px solid;
+                }
+            }
+        }
 
 
     }
