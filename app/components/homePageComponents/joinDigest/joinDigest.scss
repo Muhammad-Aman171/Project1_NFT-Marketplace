@@ -1,5 +1,4 @@
 .join-digest {
-     
     background-color: #3B3B3B;
     margin: 79px 60px 79px 20px;
 
@@ -29,9 +28,7 @@
             border-radius: 20px;
             width: 100%;
             background-color: white;
-            position: relative;
             padding: 19px 20px;
-            z-index: 1;
 
             &::placeholder {
                 font-size: 16px;
@@ -44,8 +41,32 @@
             border-radius: 20px;
             padding: 19px 50px;
             background-color: #A259FF;
-            position: relative;
-            z-index: 2;
         }
+    }
+
+    @media (max-width  :1281px) {
+        h1{
+            font-size: 28px;
+            line-height: 140%;
+        }
+        p{
+            font-size: 16px;
+            line-height: 140%;
+        }
+        div{
+            flex-direction: column;
+            background-color: #3b3b3b;
+
+            input{
+                padding: 12px 20px;
+                &::placeholder{
+                    font-size: 16px;
+                }
+            }
+            h5{
+
+            }
+        }
+        
     }
 }
