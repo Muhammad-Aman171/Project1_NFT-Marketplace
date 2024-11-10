@@ -28,6 +28,7 @@
 
             .inner-sign-up-div2 {
                 margin: 50px 0;
+
                 .sign-up-div2-heading {
                     h1 {
                         font-size: 51px;
@@ -90,16 +91,18 @@
         }
 
         @media (max-width : 1281px) {
-            border: 1px solid red;
 
             .sign-up-div2 {
-                border: 1px solid;
-                .inner-sign-up-div2{
-                    border: 1px solid blue;
-                    .sign-up-div2-heading{
-                        h1{
+                .inner-sign-up-div2 {
+                    .sign-up-div2-heading {
+                        h1 {
                             font-size: 38px;
                             line-height: 120%;
+                        }
+
+                        p {
+                            font-size: 16px;
+                            line-height: 140%;
                         }
                     }
                 }
