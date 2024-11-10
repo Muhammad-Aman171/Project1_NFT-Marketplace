@@ -45,6 +45,7 @@
     }
 
     @media (max-width  :1281px) {
+        margin: 40px 30px 40px 0px;
         h1{
             font-size: 28px;
             line-height: 140%;
@@ -59,12 +60,13 @@
 
             input{
                 padding: 12px 20px;
+                margin-bottom: 16px;
                 &::placeholder{
                     font-size: 16px;
                 }
             }
             h5{
-
+                padding: 12px 50px;
             }
         }
         
