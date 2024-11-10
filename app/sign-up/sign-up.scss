@@ -1,6 +1,7 @@
 .sign-up {
     display: flex;
     justify-content: center;
+
     .inner-sign-up {
         border: 1px solid;
         flex-basis: 1280px;
@@ -26,10 +27,7 @@
             width: 100%;
 
             .inner-sign-up-div2 {
-                border: 1px solid;
                 margin: 50px 0;
-
-                
                 .sign-up-div2-heading {
                     h1 {
                         font-size: 51px;
@@ -88,28 +86,25 @@
                         border-radius: 20px;
                     }
                 }
+            }
+        }
 
-                @media (max-width : 880px) {
-                    border: 1px solid red;
-                    width: 100%;
+        @media (max-width : 1281px) {
+            border: 1px solid red;
+
+            .sign-up-div2 {
+                border: 1px solid;
+                .inner-sign-up-div2{
+                    border: 1px solid blue;
                     .sign-up-div2-heading{
-                        border: 1px solid;
                         h1{
                             font-size: 38px;
                             line-height: 120%;
                         }
-                        p{
-                            border: 1px solid;
-                            font-size: 16px;
-                            width: 100%;
-                        }
-                    }
-                    .sign-up-div2-fields{
-                        
-
                     }
                 }
             }
+
         }
     }
 

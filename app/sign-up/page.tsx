@@ -20,8 +20,8 @@ const SignUp: React.FC = () => {
             <div className="sign-up-div2-heading">
               <h1 className="text-[4vw] font-semibold  ">Create account</h1>
               <p className="text-[2vw] font-extralight w-[70%] ">
-                Welcome! enter your details and start <br /> creating, collecting and
-                selling NFTs.
+                Welcome! enter your details and start <br /> creating,
+                collecting and selling NFTs.
               </p>
             </div>
             <div className="sign-up-div2-fields">
