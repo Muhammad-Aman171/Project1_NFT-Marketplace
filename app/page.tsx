@@ -233,7 +233,7 @@ const Page: React.FC = () => {
               imgName="NebulaKid"
             />
             <MoreNfts
-              style="max-md:hidden"
+              style="last-section5-card"
               srcImg1={Img37}
               srcImg2={Img40}
               name="AstroFiction"

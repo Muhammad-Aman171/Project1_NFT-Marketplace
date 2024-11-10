@@ -410,6 +410,9 @@
                 .section5-cards {
                     grid-template-columns: 1fr 1fr;
                 }
+                .last-section5-card{
+                    display: none;
+                }
             }
         }
     }
