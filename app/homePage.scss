@@ -393,6 +393,8 @@
             @media (max-width:1281px) {
                 border: 1px solid;
                 flex-basis: 690px;
+                margin: 40px 72px;
+
                 .section5-heading-btn {
                     .section5-heading {
                         h1 {
@@ -410,7 +412,8 @@
                 .section5-cards {
                     grid-template-columns: 1fr 1fr;
                 }
-                .last-section5-card{
+
+                .last-section5-card {
                     display: none;
                 }
             }
@@ -451,6 +454,22 @@
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 column-gap: 30px;
+            }
+
+            @media (max-width:1281px) {
+                border: 1px solid;
+                flex-basis: 690px;
+                margin: 40px 72px;
+                .section6-heading{
+                    h1{
+                        font-size: 28px;
+                    line-height: 140%;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 140%;
+                    }
+                }
             }
         }
     }

@@ -33,5 +33,19 @@
             line-height: 140%;
             margin: 0 30px;
         }
+
+        @media (max-width: 1281px) {
+            h1 {
+                font-size: 16px;
+                line-height: 140%;
+            }
+
+            p {
+                // border: 1px solid;
+                font-size: 12px;
+                line-height: 140%;
+            }
+
+        }
     }
 }
