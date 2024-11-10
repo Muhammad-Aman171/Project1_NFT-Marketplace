@@ -97,24 +97,28 @@ const Marketplace: React.FC = () => {
             name="Sunset Dimension"
             srcImg2={Img20}
             imgName="Animakid"
+            style="middle-hidden-card"
           />
           <MoreNfts
             srcImg1={Img10}
             name="Desert Walk"
             srcImg2={Img21}
             imgName="Catch 22"
+            style="middle-hidden-card"
           />
           <MoreNfts
             srcImg1={Img11}
             name="IceCream Ape 0324"
             srcImg2={Img22}
             imgName="Ice Ape Club"
+            style="middle-hidden-card"
           />
           <MoreNfts
             srcImg1={Img12}
             name="Colorful Dog 0344"
             srcImg2={Img23}
             imgName="PuppyPower"
+            style="middle-hidden-card"
           />
         </div>
       </div>
