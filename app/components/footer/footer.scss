@@ -44,7 +44,6 @@
                     background-color: #3b3b3b;
                     margin-bottom: 20px;
                     text-align: start;
-                    // margin-right: 130px;
                 }
 
                 .footer-social-icons {
@@ -129,13 +128,22 @@
                 }
             }
         }
+
         @media (max-width:1281px) {
-            border: 1px solid;
             margin: 40px 72px;
             display: flex;
             flex-direction: column;
+            align-items: start;
             flex-basis: 690px;
-            
+            row-gap: 30px;
+
+            .footer-row1 {
+                .inner-row1-div {
+                    width: 100%;
+                }
+
+            }
+
         }
     }
 
