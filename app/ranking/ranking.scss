@@ -82,6 +82,14 @@
                 border: 1px solid;
                 .ranking-page-crads-heading{
                     border: 1px solid;
+                    .div2{
+                        border: 1px solid;
+                        grid-template-columns: 1fr 1fr;
+                        place-items: end;
+                        .middle-p{
+                            display: none;
+                        }
+                    }
                 }
             }
         }
