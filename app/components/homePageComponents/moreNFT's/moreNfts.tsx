@@ -20,7 +20,7 @@ const MoreNfts: React.FC<MoreNftsTypes> = ({
   return (
     <div className={`${style} more-nfts`}>
       <div className="more-nfts-img">
-        <Image src={srcImg1!} alt="img does not show" />
+        <Image src={srcImg1!} alt="img does not show" className="img1" />
       </div>
       <div className="more-nfts-bottom">
         <div className="more-nfts-bottom-heading">
