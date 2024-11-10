@@ -74,6 +74,9 @@
             }
             .marketplace-cards{
                 grid-template-columns: 1fr 1fr;
+                .middle-hidden-card{
+                    display: none;
+                }
             }
         }
     }
