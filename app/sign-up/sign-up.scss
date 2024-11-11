@@ -109,17 +109,27 @@
             }
 
         }
-        @media (max-width : 834px){
+
+        @media (max-width : 834px) {
             display: flex;
             flex-direction: column;
             flex-basis: 315px;
             margin: 0 30px;
-            .inner-sign-up-div2{
-                .sign-up-div2-fields{
-                    .input-field{
-                        input{
-                            padding: 0 39px 0 0 !important;
+
+            .inner-sign-up-div2 {
+                margin: 30px 0 !important;
+
+                .sign-up-div2-fields {
+                    .input-field {
+                        input {
+                            padding: 0 50px 0 0 !important;
                         }
+                    }
+                }
+
+                .sign-up-button {
+                    button {
+                        padding: 12px 95px !important;
                     }
                 }
             }
