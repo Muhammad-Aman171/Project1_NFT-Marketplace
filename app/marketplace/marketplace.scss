@@ -79,5 +79,20 @@
                 }
             }
         }
+        @media (max-width : 834px ){
+            flex-basis: 315px;
+            .marketplace-heading{
+                .inner-marketplace-heading{
+                    h1{
+                        border: 1px solid;
+                        font-size: 28px;
+                        line-height: 140%;
+                    }
+                }
+            }
+            .marketplace-cards{
+                grid-template-columns: 1fr;
+            }
+        }
     }
 }
