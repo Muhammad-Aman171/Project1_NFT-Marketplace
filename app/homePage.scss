@@ -111,8 +111,9 @@
 
             }
 
-            .button-total-sales{
+            .button-total-sales {
                 display: none;
+
                 .button2 {
                     border-radius: 20px;
                     display: flex;
@@ -187,20 +188,35 @@
                     }
                 }
             }
-            @media (max-width: 834px){
-                border: 1px solid;
+
+            @media (max-width: 834px) {
                 flex-basis: 315px;
                 display: flex;
                 flex-direction: column;
+                margin: 40px 30px;
 
-                .button-total-sales{
+                .button-total-sales {
                     display: block;
+
+                    div {
+                        h2 {
+                            font-size: 22px !important;
+                            line-height: 160% !important;
+                        }
+
+                        p {
+                            font-size: 16px !important;
+                            line-height: 140% !important;
+                        }
+                    }
                 }
+
                 .header-heading {
-                    .button2{
+                    .button2 {
                         display: none;
                     }
-                    .total-sales{
+
+                    .total-sales {
                         display: none;
                     }
                 }
