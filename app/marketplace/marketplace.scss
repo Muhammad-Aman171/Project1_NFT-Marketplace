@@ -1,14 +1,11 @@
 .marketplace {
-    border: 1px solid;
     display: flex;
     justify-content: center;
 
     .marketplace-inner-div {
-        border: 1px solid;
         flex-basis: 1050px;
 
         .marketplace-heading {
-            border: 1px solid;
             margin: 80px 5px;
 
             .inner-marketplace-heading {
@@ -50,7 +47,6 @@
         }
 
         .marketplace-cards {
-            border: 1px solid;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 30px;
@@ -81,10 +77,11 @@
         }
         @media (max-width : 834px ){
             flex-basis: 315px;
+            margin: 0 30px;
             .marketplace-heading{
+                margin: 40px 0;
                 .inner-marketplace-heading{
                     h1{
-                        border: 1px solid;
                         font-size: 28px;
                         line-height: 140%;
                     }
