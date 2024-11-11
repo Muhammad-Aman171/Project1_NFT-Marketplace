@@ -104,6 +104,18 @@
                     line-height: 140%;
                 }
             }
+            .section2{
+                .div2{
+                    border: 1px solid blue !important;
+                    display: flex !important;
+                    justify-content: end !important;
+                    .first-p{
+                        display: none;
+
+                    }
+
+                }
+            }
         }
     }
 

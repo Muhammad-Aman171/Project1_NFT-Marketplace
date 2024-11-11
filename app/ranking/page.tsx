@@ -45,9 +45,9 @@ const Ranking: React.FC = () => {
               <p className={` ${spaceMono.className} ml-[20px]`}>Artist</p>
             </div>
             <div className="div2 ">
-              <p className={`${spaceMono.className} `}>Change</p>
+              <p className={`${spaceMono.className} first-p `}>Change</p>
               <p className={`${spaceMono.className} middle-p `}>NFTs Sold</p>
-              <p className={`${spaceMono.className}`}>Volume</p>
+              <p className={`${spaceMono.className} `}>Volume</p>
             </div>
           </div>
 
