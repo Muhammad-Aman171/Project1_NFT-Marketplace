@@ -111,6 +111,45 @@
 
             }
 
+            .button-total-sales{
+                display: none;
+                .button2 {
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #A259FF;
+                    color: white;
+                    padding: 19px 56px;
+                    margin-bottom: 30px;
+
+                    button {
+                        font-size: 16px;
+                        line-height: 140%;
+                        font-weight: 600;
+                        margin-left: 12px;
+                    }
+                }
+
+                .total-sales {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    div {
+                        h2 {
+                            font-size: 28px;
+                            line-height: 140%;
+                        }
+
+                        p {
+                            font-size: 23.99px;
+                            line-height: 160%;
+                        }
+                    }
+                }
+            }
+
             @media (max-width: 1281px) {
                 flex-basis: 690px;
                 margin: 80px 72px;
@@ -153,6 +192,10 @@
                 flex-basis: 315px;
                 display: flex;
                 flex-direction: column;
+
+                .button-total-sales{
+                    display: block;
+                }
                 .header-heading {
                     .button2{
                         display: none;

@@ -115,7 +115,7 @@ const Page: React.FC = () => {
           </div>
 
           <div className="button-total-sales">
-          <div className="button2">
+            <div className="button2">
               <RocketSvg style=" h-[20px] w-[20px]   bg-[#A259FF] " />
               <button>Get Started</button>
             </div>
