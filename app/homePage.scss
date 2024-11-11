@@ -283,11 +283,13 @@
             }
 
             @media (max-width: 834px) {
-                border: 1px solid;
                 flex-basis: 315px;
-                .section2-cards{
+                margin: 0 30px;
+
+                .section2-cards {
                     grid-template-columns: 1fr;
-                    .middle-section2-cards{
+
+                    .middle-section2-cards {
                         display: none;
 
                     }
@@ -379,6 +381,11 @@
                         display: none;
                     }
                 }
+            }
+
+            @media (max-width: 834px) {
+                flex-basis: 315px;
+
             }
         }
     }
