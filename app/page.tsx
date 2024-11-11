@@ -156,7 +156,7 @@ const Page: React.FC = () => {
               personName="MrFox"
             />
             <TrendingCards
-              // style="max-md:w-[42vw]  max-md:h-[78vh] "
+              style="middle-section2-cards"
               srcImg1={Img4}
               srcImg2={Img7}
               srcImg3={Img10}
