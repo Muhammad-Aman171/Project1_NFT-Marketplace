@@ -351,6 +351,22 @@
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 gap: 30px;
+
+                .section3-btn {
+                    display: none !important;
+                    border: 2px solid #A259FF;
+                    border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    padding: 19px 50px;
+
+                    h3 {
+                        font-size: 16px;
+                        line-height: 140%;
+                        font-weight: 600;
+                        margin-left: 12px;
+                    }
+                }
             }
 
             @media (max-width: 1281px) {
@@ -376,7 +392,6 @@
 
                 .top-creators-card {
                     grid-template-columns: 1fr 1fr;
-
                     .cards-end {
                         display: none;
                     }
@@ -385,7 +400,18 @@
 
             @media (max-width: 834px) {
                 flex-basis: 315px;
+                margin: 40px 30px;
 
+                .section3-heading-btn {
+                    .section3-btn {
+                        display: none;
+                    }
+                }
+
+                .top-creators-card {
+                    display: flex;
+                    flex-direction: column;
+                }
             }
         }
     }

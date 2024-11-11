@@ -198,6 +198,10 @@ const Page: React.FC = () => {
             <TopCreatorsCards srcImg={Img18} name="Juanie" />
             <TopCreatorsCards srcImg={Img19} name="BlueWhale" />
             <TopCreatorsCards srcImg={Img20} name="mr fox" />
+            <div className="section3-btn">
+              <RocketSvg style="w-[20px] h-[20px]" />
+              <h3>View Rankings</h3>
+            </div>
             <TopCreatorsCards
               srcImg={Img21}
               name="Shroomie"
