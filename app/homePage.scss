@@ -370,7 +370,6 @@
             }
 
             @media (max-width: 1281px) {
-                border: 1px solid;
                 flex-basis: 690px;
                 margin: 40px 72px;
 
@@ -392,6 +391,7 @@
 
                 .top-creators-card {
                     grid-template-columns: 1fr 1fr;
+
                     .cards-end {
                         display: none;
                     }
@@ -411,6 +411,11 @@
                 .top-creators-card {
                     display: flex;
                     flex-direction: column;
+
+                    .section3-btn {
+                        display: flex !important;
+
+                    }
                 }
             }
         }
@@ -440,13 +445,22 @@
             }
 
             @media (max-width:1281px) {
-                border: 1px solid;
                 flex-basis: 690px;
                 margin: 40px 72px;
 
                 h1 {
                     font-size: 28px;
                     line-height: 140%;
+                }
+            }
+            @media (max-width:834px){
+                border: 1px solid;
+                flex-basis: 315px;
+                margin: 40px 30px ;
+                .section4-cards{
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+
                 }
             }
         }
