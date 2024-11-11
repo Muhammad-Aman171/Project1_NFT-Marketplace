@@ -113,6 +113,27 @@ const Page: React.FC = () => {
               </div>
             </div>
           </div>
+
+          <div className="button-total-sales">
+          <div className="button2">
+              <RocketSvg style=" h-[20px] w-[20px]   bg-[#A259FF] " />
+              <button>Get Started</button>
+            </div>
+            <div className=" total-sales">
+              <div>
+                <h2 className={`${spaceMono.className}`}>240k+ </h2>
+                <p>Total Sale</p>
+              </div>
+              <div>
+                <h2 className={`${spaceMono.className} `}>100k+</h2>
+                <p>Auctions</p>
+              </div>
+              <div>
+                <h2 className={`${spaceMono.className} `}>240k+</h2>
+                <p>Artists</p>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
       {/* section1 is completed */}

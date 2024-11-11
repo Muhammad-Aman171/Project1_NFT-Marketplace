@@ -148,7 +148,20 @@
                     }
                 }
             }
-
+            @media (max-width: 834px){
+                border: 1px solid;
+                flex-basis: 315px;
+                display: flex;
+                flex-direction: column;
+                .header-heading {
+                    .button2{
+                        display: none;
+                    }
+                    .total-sales{
+                        display: none;
+                    }
+                }
+            }
         }
 
     }
