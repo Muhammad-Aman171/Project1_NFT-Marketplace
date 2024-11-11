@@ -453,11 +453,12 @@
                     line-height: 140%;
                 }
             }
-            @media (max-width:834px){
-                border: 1px solid;
+
+            @media (max-width:834px) {
                 flex-basis: 315px;
-                margin: 40px 30px ;
-                .section4-cards{
+                margin: 40px 30px;
+
+                .section4-cards {
                     grid-template-columns: 1fr 1fr;
                     gap: 20px;
 
@@ -471,7 +472,6 @@
         display: flex;
         justify-content: center;
 
-        // align-items: center;
         .section5 {
 
             flex-basis: 1050px;
@@ -519,6 +519,21 @@
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 column-gap: 30px;
+
+                .section5-btn {
+                    display: none !important;
+                    border: 2px solid #A259FF;
+                    border-radius: 20px;
+                    display: flex;
+                    padding: 19px 50px;
+
+                    h3 {
+                        font-size: 16px;
+                        line-height: 140%;
+                        font-weight: 600;
+                        margin-left: 12px;
+                    }
+                }
             }
 
             @media (max-width:1281px) {
@@ -547,6 +562,29 @@
                 .last-section5-card {
                     display: none;
                 }
+            }
+
+            @media (max-width:834px) {
+                flex-basis: 315px;
+                margin: 40px 30px;
+
+                .section5-heading-btn {
+                    .section5-btn {
+                        display: none;
+                    }
+                }
+
+                .section5-cards {
+                    grid-template-columns: 1fr;
+                    row-gap: 20px;
+
+                    .section5-btn {
+                        display: flex !important;
+                        justify-content: center;
+                        margin-top: 20px;
+                    }
+                }
+
             }
         }
     }
@@ -602,6 +640,13 @@
                         font-size: 16px;
                         line-height: 140%;
                     }
+                }
+            }
+            @media (max-width:834px){
+                flex-basis: 315px;
+
+                .section6-cards {
+                    grid-template-columns: 1fr;
                 }
             }
         }

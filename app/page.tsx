@@ -284,6 +284,11 @@ const Page: React.FC = () => {
               name="AstroFiction"
               imgName="Spaceone"
             />
+
+            <div className="section5-btn  ">
+              <EyeSvg style="w-[20px] h-[20px] " />
+              <h3>See All</h3>
+            </div>
           </div>
         </div>
       </div>
