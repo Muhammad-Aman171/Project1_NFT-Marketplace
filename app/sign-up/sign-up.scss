@@ -109,6 +109,12 @@
             }
 
         }
+        @media (max-width : 834px){
+            display: flex;
+            flex-direction: column;
+            flex-basis: 315px;
+            margin: 0 30px;
+        }
     }
 
 }
