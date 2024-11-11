@@ -50,5 +50,9 @@
             }
 
         }
+        @media (max-width: 834px){
+            display: flex;
+            flex-direction: row;
+        }
     }
 }
