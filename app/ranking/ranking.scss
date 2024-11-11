@@ -3,6 +3,7 @@
     justify-content: center;
 
     .inner-ranking-page {
+        border: 1px solid;
         flex-basis: 1050px;
         margin: 0 72px;
         .section1 {
@@ -78,7 +79,6 @@
             }
             
             .section2{
-                border: 1px solid;
                 .ranking-page-crads-heading{
                     border: 1px solid;
                     .div2{
@@ -95,6 +95,15 @@
 
         @media (max-width : 834px){
             flex-basis: 315px;
+            margin: 0 !important;
+            .section1{
+                margin:  30px;
+                border: 1px solid;
+                h1{
+                    font-size: 28px;
+                    line-height: 140%;
+                }
+            }
         }
     }
 
