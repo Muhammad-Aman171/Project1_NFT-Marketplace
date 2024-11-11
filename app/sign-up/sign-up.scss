@@ -114,6 +114,15 @@
             flex-direction: column;
             flex-basis: 315px;
             margin: 0 30px;
+            .inner-sign-up-div2{
+                .sign-up-div2-fields{
+                    .input-field{
+                        input{
+                            padding: 0 39px 0 0 !important;
+                        }
+                    }
+                }
+            }
         }
     }
 
