@@ -54,7 +54,7 @@ const Ranking: React.FC = () => {
           <div className="ranking-page-crads">
             <TopCreators srcImg={Img1} name="Marcus Saris" para="1" />
             <TopCreators srcImg={Img2} name="Ruben Carder" para="2" />
-            <TopCreators srcImg={Img3} name="Alfredo Septimus" para="3" />
+            <TopCreators srcImg={Img3} name="Kianna Donin" para="3" />
             <TopCreators srcImg={Img4} name="Davis Franci" para="4" />
             <TopCreators srcImg={Img5} name="Livia Rosser" para="5" />
             <TopCreators srcImg={Img6} name="Kianna Donin" para="6" />
@@ -64,11 +64,11 @@ const Ranking: React.FC = () => {
             <TopCreators srcImg={Img10} name="Angel Lubin" para="10" />
             <TopCreators srcImg={Img11} name="Allison Torff" para="11" />
             <TopCreators srcImg={Img12} name="Davis Workman" para="12" />
-            <TopCreators srcImg={Img13} name="Lindsey Lipshutz" para="13" />
+            <TopCreators srcImg={Img13} name="Kianna Donin" para="13" />
             <TopCreators srcImg={Img14} name="Randy Carder" para="14" />
             <TopCreators srcImg={Img15} name="Lydia Culhane" para="15" />
             <TopCreators srcImg={Img16} name="Rayna Bator" para="16" />
-            <TopCreators srcImg={Img17} name="Jocelyn Westervelt" para="17" />
+            <TopCreators srcImg={Img17} name="Randy Carder" para="17" />
             <TopCreators srcImg={Img18} name="Marilyn Torff" para="18" />
             <TopCreators srcImg={Img19} name="Skylar Levin" para="19" />
             <TopCreators srcImg={Img20} name="Terry Dorwart" para="20" />

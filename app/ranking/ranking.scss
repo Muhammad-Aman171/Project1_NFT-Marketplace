@@ -3,7 +3,6 @@
     justify-content: center;
 
     .inner-ranking-page {
-        border: 1px solid;
         flex-basis: 1050px;
         margin: 0 72px;
         .section1 {
@@ -36,7 +35,6 @@
                 align-items: center;
 
                 p {
-                    border: 1px solid;
                     color: #858584;
                     font-size: 16px;
                     font-weight: 400;
@@ -44,7 +42,6 @@
                 }
 
                 .div1 {
-                    border: 1px solid;
                     display: flex;
                     align-items: center;
                 }
@@ -80,9 +77,7 @@
             
             .section2{
                 .ranking-page-crads-heading{
-                    border: 1px solid;
                     .div2{
-                        border: 1px solid;
                         grid-template-columns: 1fr 1fr;
                         place-items: end;
                         .middle-p{
@@ -95,18 +90,17 @@
 
         @media (max-width : 834px){
             flex-basis: 315px;
-            margin: 0 !important;
+            margin: 30px;
             .section1{
-                margin:  30px;
-                border: 1px solid;
+                margin:  0px;
                 h1{
                     font-size: 28px;
                     line-height: 140%;
+                    margin-bottom: 10px;
                 }
             }
             .section2{
                 .div2{
-                    border: 1px solid blue !important;
                     display: flex !important;
                     justify-content: end !important;
                     .first-p{
