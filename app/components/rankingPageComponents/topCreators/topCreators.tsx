@@ -25,7 +25,7 @@ const TopCreators: React.FC<TopCreatorsTypes> = ({ srcImg, name, para }) => {
         <p>{name}</p>
       </div>
       <div className="top-creators-cards-details ">
-        <p className={`${spaceMono.className} bg-[#3B3B3B] text-[#00AC4F] `}>
+        <p className={`${spaceMono.className} first-p bg-[#3B3B3B] text-[#00AC4F] `}>
           +1.41%
         </p>
         <p className={`${spaceMono.className} middle-p bg-[#3B3B3B]`}>602</p>

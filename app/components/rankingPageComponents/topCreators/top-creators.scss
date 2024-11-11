@@ -66,5 +66,13 @@
                 font-size: 16px     ;
             }
         }
+        .top-creators-cards-details{
+            border: 1px solid;
+            grid-template-columns: 1fr;
+            width: 50px;
+            .first-p{
+                display: none;
+            }
+        }
     }
 }
