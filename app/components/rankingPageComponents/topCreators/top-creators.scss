@@ -44,7 +44,6 @@
 
         .top-creators-cards-heading {
             p {
-                border: 1px solid;
                 margin-right: -40px;
                 font-size: 22px;
             }
@@ -60,17 +59,34 @@
         }
     }
 
-    @media (max-width : 834px ) {
-        .top-creators-cards-heading{
-            p{
-                font-size: 16px     ;
+    @media (max-width : 834px) {
+        display: grid;
+        grid-template-columns: 1fr .2fr;
+
+        .top-creators-cards-heading {
+            display: flex;
+            column-gap: 10px;
+
+            h1 {
+                font-size: 12px;
+            }
+
+            .img1 {
+                width: 24px;
+                height: 24px;
+            }
+
+            p {
+                font-size: 16px;
             }
         }
-        .top-creators-cards-details{
-            border: 1px solid;
+
+        .top-creators-cards-details {
             grid-template-columns: 1fr;
-            width: 50px;
-            .first-p{
+            width: 65px;
+            font-size: 12px;
+
+            .first-p {
                 display: none;
             }
         }
