@@ -61,8 +61,9 @@
 
         @media (max-width: 834px) {
             border: 1px solid;
-            display: flex;
-            flex-direction: row;
+            display: grid;
+            // flex-direction: row;
+            grid-template-columns: 1fr 1.4fr;
             column-gap: 20px;
             .how-img1 {
                 border: 1px solid;
