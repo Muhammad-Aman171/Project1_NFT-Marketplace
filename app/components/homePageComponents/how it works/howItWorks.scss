@@ -12,29 +12,33 @@
 
         .how-img1 {
             margin: 10px 25px 20px;
+
             .img1 {
                 background-color: #3b3b3b;
             }
         }
 
+        .how-it-work-heading {
+            border: 1px solid;
+            h1 {
+                background-color: #3b3b3b;
+                font-size: 22px;
+                line-height: 140%;
+                font-weight: 600;
+                margin: 0 30px 10px;
+            }
 
-
-        h1 {
-            background-color: #3b3b3b;
-            font-size: 22px;
-            line-height: 140%;
-            font-weight: 600;
-            margin: 0 30px 10px;
+            p {
+                background-color: #3b3b3b;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 140%;
+                margin: 0 30px 30px;
+            }
         }
 
-        p {
-            background-color: #3b3b3b;
-            text-align: center;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 140%;
-            margin: 0 30px 30px;
-        }
+
 
         @media (max-width: 1281px) {
             h1 {
@@ -50,7 +54,8 @@
             }
 
         }
-        @media (max-width: 834px){
+
+        @media (max-width: 834px) {
             display: flex;
             flex-direction: row;
         }
