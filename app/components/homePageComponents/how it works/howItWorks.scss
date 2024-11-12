@@ -60,22 +60,17 @@
         }
 
         @media (max-width: 834px) {
-            border: 1px solid;
             display: grid;
-            // flex-direction: row;
             grid-template-columns: 1fr 1.4fr;
             column-gap: 20px;
             .how-img1 {
-                border: 1px solid;
                 margin: 28px 0 28px 20px;
             }
 
             .how-it-work-heading {
-                border: 1px solid;
                 text-align: start;
                 margin: 20px 20px 20px 0;
                 h1 {
-                    border: 1px solid;
                     font-size: 16px;
                     line-height: 140%;
                     margin: 0 0 10px;
@@ -83,10 +78,8 @@
                 
                 p {
                     text-align: start;
-                    border: 1px solid;
                     font-size: 12px;
                     line-height: 140%;
-                    // margin: 0 20px 30px;
                     margin: 0;
                 }
             }
