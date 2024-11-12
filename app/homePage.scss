@@ -626,7 +626,6 @@
             }
 
             @media (max-width:1281px) {
-                border: 1px solid;
                 flex-basis: 690px;
                 margin: 40px 72px;
 
@@ -645,7 +644,7 @@
 
             @media (max-width:834px) {
                 flex-basis: 315px;
-                margin: 20px 10px;
+                margin:40px 5px 40px 5px;
 
                 .section6-cards {
                     grid-template-columns: 1fr;
