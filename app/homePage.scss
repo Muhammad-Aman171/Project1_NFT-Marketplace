@@ -401,6 +401,7 @@
             @media (max-width: 834px) {
                 flex-basis: 315px;
                 margin: 40px 5px 40px 5px;
+
                 .section3-heading-btn {
                     .section3-btn {
                         display: none;
@@ -455,8 +456,7 @@
 
             @media (max-width:834px) {
                 flex-basis: 315px;
-                margin: 40px 30px;
-
+                margin: 40px 5px 40px 5px;
                 .section4-cards {
                     grid-template-columns: 1fr 1fr;
                     gap: 20px;
