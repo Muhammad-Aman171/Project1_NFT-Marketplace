@@ -44,36 +44,42 @@
         }
     }
 
-    @media (max-width  :1281px) {
-        border: 1px solid;
+    @media (max-width :1281px) {
         margin: 40px 30px 40px 0px;
-        h1{
+
+        h1 {
             font-size: 28px;
             line-height: 140%;
         }
-        p{
+
+        p {
             font-size: 16px;
             line-height: 140%;
         }
-        div{
+
+        div {
             border-radius: 0;
-            border: 1px solid;
             flex-direction: column;
             background-color: #3b3b3b;
 
-            input{
+            input {
                 padding: 12px 20px;
                 margin-bottom: 16px;
-                &::placeholder{
-                    border: 1px solid;
+
+                &::placeholder {
                     font-size: 16px;
                 }
             }
-            h5{
+
+            h5 {
                 text-align: center;
                 padding: 12px 50px;
             }
         }
-        
+
+    }
+
+    @media (max-width :834px) {
+        border: 1px solid;
     }
 }
