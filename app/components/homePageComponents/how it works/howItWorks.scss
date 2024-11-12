@@ -63,12 +63,10 @@
             border: 1px solid;
             display: flex;
             flex-direction: row;
-
+            column-gap: 20px;
             .how-img1 {
                 border: 1px solid;
-                margin: 28px 20px;
-                width: 100px;
-                height: 100px;
+                margin: 28px 0 28px 20px;
             }
 
             .how-it-work-heading {
