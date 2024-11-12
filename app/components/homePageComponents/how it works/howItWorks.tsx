@@ -7,7 +7,7 @@ import "./howItWorks.scss";
 const HowItWorks: React.FC<HowItWorksTypes> = ({ srcImg, heading, para }) => {
   return (
     <div className="how-it-work ">
-      <div>
+      <div className="inner-how-it-work">
         <div className="how-img1"><Image src={srcImg!} alt="img does not show" className=" img1" /></div>
        <div className=" how-it-work-heading" >
           <h1>{heading}</h1>

@@ -3,7 +3,7 @@
     flex-basis: 330px;
     background-color: #3b3b3b;
 
-    div {
+    .inner-how-it-work {
         border-radius: 20px;
         background-color: #3b3b3b;
         display: flex;
@@ -19,6 +19,7 @@
         }
 
         .how-it-work-heading {
+            background-color: #3b3b3b;
 
             h1 {
                 background-color: #3b3b3b;
@@ -59,16 +60,20 @@
         }
 
         @media (max-width: 834px) {
-            // display: flex;
+            border: 1px solid;
+            display: flex;
+            flex-direction: row;
+            row-gap: 20px;
 
             .how-it-work-heading {
+
+
                 h1 {
                     font-size: 16px;
                     line-height: 140%;
                 }
 
                 p {
-                    // border: 1px solid;
                     font-size: 12px;
                     line-height: 140%;
                     margin: 0 20px 30px;
