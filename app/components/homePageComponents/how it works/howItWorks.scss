@@ -63,22 +63,25 @@
             border: 1px solid;
             display: flex;
             flex-direction: row;
-            row-gap: 20px;
 
-            .how-img1{
+            .how-img1 {
                 border: 1px solid;
             }
+
             .how-it-work-heading {
                 border: 1px solid;
+
                 h1 {
+                    border: 1px solid;
                     font-size: 16px;
                     line-height: 140%;
                 }
 
                 p {
+                    border: 1px solid;
                     font-size: 12px;
                     line-height: 140%;
-                    margin: 0 20px 30px;
+                    // margin: 0 20px 30px;
                 }
             }
         }
